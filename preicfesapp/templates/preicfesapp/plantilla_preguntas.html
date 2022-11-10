@@ -1,0 +1,39 @@
+{% extends 'preicfesapp/base.html' %}
+
+{% block content %}
+{% if preguntas %}
+    <div class="w-4/5 mx-auto">
+      <form action="{% url 'preicfesapp:revisar' quiz.id %}" method="post">
+        {% csrf_token %}
+        {% for pregunta in preguntas %}
+        <section class="mt-6 border-b-2">
+          <p class="text-xl">{{ pregunta.texto }}</p>
+          {% if pregunta.imagen %}
+            <img src="{{ pregunta.imagen.url }}"/>
+            <p class="text-xl">{{ pregunta.contexto }}</p>
+          {% endif %}
+          <!-- <div class="flex flex-wrap gap-1"> -->
+          <div {% if pregunta.respuestas_tienen_imagen %}class="flex flex-wrap gap-1"{% endif %}>
+            {% for opcion in pregunta.opciones.all %}
+            <div {% if opcion.imagen %}class="flex border-2 border-gray-200"{% endif %}>
+              <input type="radio" id="opcion{{ opcion.pk }}" name="pregunta{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{opcion.pk }}">
+              {% if opcion.imagen %}
+              <label for="opcion{{ opcion.pk }}"></label>
+              <img class="mr-6" src="{{ opcion.imagen.url }}" alt=""/>
+              {% else %}
+                <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto }}</label>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </section>
+        {% endfor %}
+        <div class="text-center my-6">
+          <input type="submit" value="Enviar" class="mt-4 text-white bg-blue-600 hover:bg-blue-800 text-lg font-medium rounded-lg px-5 focus:ring-4 focus:ring-blue-300 px-4"/>
+        </div>
+      </form>
+    </div>
+{% else %}
+    <p>No hay preguntas</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="description" content="Preicfes app">
+  <meta name="keywords" content="Icfes, preicfes"> 
+  <meta name="author" content="Leonardo Martinez">
+  <link rel="stylesheet" href="{% static 'css/output.css' %}">
+</head>
+<body>
+  <header class="bg-slate-500">
+    <h1 class="text-gray-200 text-4xl text-center">Preicfes 2023</h1>
+  </header>
+  <section class="mx-4">
+    <p><a href="{% url 'preicfesapp:index' %}" class="text-blue-500 font-bold">Ver cuestionarios</a></p>
+  </section>
+  <section class="w-4/5 mx-auto">
+    <p>
+      El Examen de Estado de la Educación Media, Saber 11°, es un instrumento de evaluación estandarizada 
+      que mide oficialmente la calidad de la educación formal impartida a quienes terminan el nivel de 
+      educación media.
+      Saber 11° está compuesto por cinco pruebas: Lectura Crítica, Matemáticas, Sociales y Ciudadanas, 
+      Ciencias Naturales e Inglés. Si quieres conocer información sobre estas pruebas te invitamos a 
+      consultar las infografías disponibles al final de esta sección.
+    </p>
+  </section>
+</body>
+</html>

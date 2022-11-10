@@ -1,0 +1,7 @@
+node_modules/
+.env
+media/
+db.sqlite3
+preicfesapp/__pycache__/
+preicfesapp/migrations/__pycache__/
+bestpreicfes/__pycache__/

@@ -1,0 +1,15 @@
+{% extends 'preicfesapp/base.html' %}
+
+{% block content %}
+<section class="w-4/5 mx-auto">
+  <h1 class="text-gray-800 text-2xl">Exámenes disponibles:</h1>
+  <ul>
+    <li><a href="{% url 'preicfesapp:prueba' 'ciencias' %}">Ciencias Naturales</a></li>
+    <li><a href="{% url 'preicfesapp:prueba' 'matematicas' %}">Matemáticas</a></li>
+    <li><a href="{% url 'preicfesapp:prueba' 'lectura' %}">Lectura Crítica</a></li>
+    <li><a href="{% url 'preicfesapp:prueba' 'ingles' %}">Inglés</a></li>
+    <li><a href="{% url 'preicfesapp:prueba' 'sociales' %}">Ciencias Sociales y Ciudadanas</a></li>
+  </ul>
+</section>
+{% include "preicfesapp/footer.html" %}
+{% endblock %}
