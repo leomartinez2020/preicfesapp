@@ -1,0 +1,28 @@
+ctx Los combustibles fósiles comprenden todas las fuentes de energía derivadas de recursos finitos como el carbón, el gas natural y el petróleo crudo. Además de ser recursos finitos, su uso contribuye en gran medida al cambio climático. Es por esto que el cambio o transición a las energías alternativas (solar y eólica, entre otras) es de vital importancia. En Colombia, se ha determinado que la Guajira es una región óptima para la generación de energía alternativa y requiere de dichas tecnologías, pues esta región cuenta con una cobertura energética del 58,8 %. Al respecto, en la Guajira hay cerca de 81.960 viviendas sin servicio energético, de las cuales 77.154 son rurales; y en algunos lugares la cobertura del servicio es solo del 5,63 %.
+txt Teniendo en cuenta la información brindada, para las comunidades de la región, ¿cuál es una ventaja de reemplazar las energías fósiles por energías alternativas?
+A. Se incrementará la cobertura en la región, permitiendo ofrecer energía eléctrica a las comunidades
+que en estos momentos no cuentan con el servicio.
+B. Se podrá evaluar la diferencia entre el suministro de energía eléctrica a partir de combustibles fósiles
+y fuentes alternativas para determinar cuál es la mejor.
+C. La cobertura de energía eléctrica en la región se mantendrá, por lo cual las personas que son beneficiarias
+actualmente seguirán disfrutando del servicio.
+D. Las comunidades de la región tendrán la oportunidad de conocer y aprender sobre tecnologías nuevas que no habían visto antes en su territorio.
+
+txt Para el uso adecuado de la energía solar, se utilizan paneles solares conectados a la red eléctrica. Estos se ubican en los techos de las viviendas de manera inclinada, buscando que reciban los rayos solares. Teniendo en cuenta que en esa región los vientos tienen una gran velocidad, ¿cuál es la forma de instalación adecuada del panel solar para evitar peligros?
+A. Se debe evitar ponerlo en una posición muy inclinada en la que reciba directamente los rayos solares.
+B. Se debe poner en una base asegurada al techo, que permita su inclinación pero que evite el arrastre del viento.
+C. Se debe cubrir el panel solar para que no se deteriore rápidamente y se pueda extender su vida útil.
+D. Se debe desconectar el panel solar periódicamente, para evitar que haya cortocircuito y así extender su vida útil.
+
+txt Pedro está estudiando si la energía eólica se puede utilizar en un determinado punto de la Guajira, y encuentra que la velocidad mínima del viento para que esta funcione es de 5 m/s. Él tiene la hipótesis de que en ese lugar la velocidad oscila entre 8 m/s y 11 m/s durante todo el año. ¿Qué diseño experimental permite analizar la hipótesis de Pedro?
+A. Se debe evaluar la velocidad del viento una sola vez en varios puntos de la Guajira.
+B. Se debe instalar un molino de viento en el punto y determinar si funciona o no.
+C. Se debe evaluar la velocidad del viento varias veces al día durante un solo día.
+D. Se debe evaluar la velocidad del viento varias veces al día durante diferentes épocas del año.
+
+ctx Antes de 1850, se creía que la evolución de los seres vivos se daba por la capacidad de cada individuo para cambiar, en respuesta a las nuevas condiciones del medio. Por ejemplo, las jirafas primitivas tenían el cuello corto, pero, para reducir la competencia por el alimento, alargaron su cuello para tomar las hojas que estaban en la parte alta de los árboles. En 1859, se planteó que cada jirafa no podía alargar su cuello, sino que las jirafas que tuvieran cuellos un poco más largos eran las que sobrevivían, se reproducían y heredaban esa característica a su descendencia.
+txt Con base en lo anterior, ¿cuál de los siguientes aspectos pudo dar evidencia para cambiar la idea sobre la evolución de las jirafas?
+A. Se realizó una serie metódica de observaciones a varias generaciones de jirafas.
+B. Se fotografió a un grupo de jirafas de cuello largo comiendo hojas de las copas en 1859.
+C. Se hicieron disecciones de una pareja de jirafas para estudiar sus órganos.
+D. Se comparó el ADN de un grupo de jirafas primitivas con el de un grupo de jirafas actuales.

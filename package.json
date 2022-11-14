@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/input.css -o ./preicfesapp/static/css/output.css"
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./preicfesapp/static/css/output.css",
+    "build:prod": "npx tailwindcss -i ./src/input.css -o ./static/css/output.css"
   },
   "keywords": [],
   "author": "",

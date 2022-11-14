@@ -6,15 +6,19 @@
       <form action="{% url 'preicfesapp:revisar' quiz.id %}" method="post">
         {% csrf_token %}
         {% for pregunta in preguntas %}
-        <section class="mt-6 border-b-2">
-          <p class="text-xl">{{ pregunta.texto }}</p>
-          {% if pregunta.imagen %}
-            <img src="{{ pregunta.imagen.url }}"/>
+        <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+          {% if pregunta.contexto %}
             <p class="text-xl">{{ pregunta.contexto }}</p>
           {% endif %}
+          {% if pregunta.imagen %}
+            <img src="{{ pregunta.imagen.url }}"/>
+          {% endif %}
+          {% autoescape off %}
+          <p class="text-xl">{{ pregunta.texto }}</p>
+          {% endautoescape %}
           <!-- <div class="flex flex-wrap gap-1"> -->
           <div {% if pregunta.respuestas_tienen_imagen %}class="flex flex-wrap gap-1"{% endif %}>
-            {% for opcion in pregunta.opciones.all %}
+            {% for opcion in pregunta.respuesta_set.all %}
             <div {% if opcion.imagen %}class="flex border-2 border-gray-200"{% endif %}>
               <input type="radio" id="opcion{{ opcion.pk }}" name="pregunta{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{opcion.pk }}">
               {% if opcion.imagen %}

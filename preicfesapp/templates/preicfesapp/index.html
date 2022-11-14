@@ -1,30 +1,59 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <meta name="description" content="Preicfes app">
-  <meta name="keywords" content="Icfes, preicfes"> 
-  <meta name="author" content="Leonardo Martinez">
-  <link rel="stylesheet" href="{% static 'css/output.css' %}">
-</head>
-<body>
-  <header class="bg-slate-500">
-    <h1 class="text-gray-200 text-4xl text-center">Preicfes 2023</h1>
-  </header>
-  <section class="mx-4">
+{% extends 'preicfesapp/base.html' %}
+
+{% block content %}
+  <section class="w-4/5 mx-auto mt-6">
     <p><a href="{% url 'preicfesapp:index' %}" class="text-blue-500 font-bold">Ver cuestionarios</a></p>
   </section>
   <section class="w-4/5 mx-auto">
     <p>
-      El Examen de Estado de la Educación Media, Saber 11°, es un instrumento de evaluación estandarizada 
-      que mide oficialmente la calidad de la educación formal impartida a quienes terminan el nivel de 
-      educación media.
-      Saber 11° está compuesto por cinco pruebas: Lectura Crítica, Matemáticas, Sociales y Ciudadanas, 
-      Ciencias Naturales e Inglés. Si quieres conocer información sobre estas pruebas te invitamos a 
-      consultar las infografías disponibles al final de esta sección.
+      El Examen de Estado de la Educación Media, ICFES SABER 11°, que aplica el Instituto Colombiano 
+      para la Evaluación de la Educación (ICFES)
+      es un instrumento estandarizado para la evaluación externa, que conjuntamente con los
+      exámenes que se aplican en los grados 5°, 9° y al finalizar el pregrado, hace parte de los
+      instrumentos que conforman el Sistema Nacional de Evaluación. 
+      Está compuesto por cinco pruebas: Lectura Crítica, Matemáticas, Sociales y Ciudadanas,
+      Ciencias Naturales e Inglés.
+    </p>
+    <p>
+      Tiene por objetivos:
+    </p>
+    <p>
+      a) Comprobar el grado de desarrollo de las competencias de los estudiantes que están
+      por finalizar el grado undécimo de la educación media.
+    </p>
+    <p>
+      b) Proporcionar elementos al estudiante para la realización de su autoevaluación y el
+      desarrollo de su proyecto de vida.
+    </p>
+    <p>
+      c) Proporcionar a las instituciones educativas información pertinente sobre las
+      competencias de los aspirantes a ingresar a programas de educación superior, así
+      como sobre las de quienes son admitidos, que sirva como base para el diseño de
+      programas de nivelación académica y prevención de la deserción en este nivel.
+    </p>
+    <p>
+      d) Monitorear la calidad de la educación de los establecimientos educativos del país, con
+      fundamento en los estándares básicos de competencias y los referentes de calidad
+      emitidos por el Ministerio de Educación Nacional.
+    </p>
+    <p>
+      e) Proporcionar información para el establecimiento de indicadores de valor agregado,
+      tanto de la educación media como de la educación superior.
+    </p>
+    <p>
+      f) Servir como fuente de información para la construcción de indicadores de calidad de
+      la educación, así como para el ejercicio de la inspección y vigilancia del servicio
+      público educativo.
+    </p>
+    <p>
+      g) Proporcionar información a los establecimientos educativos que ofrecen educación
+      media para el ejercicio de la autoevaluación y para que realicen la consolidación o
+      reorientación de sus prácticas pedagógicas.
+    </p>
+    <p>
+      h) Ofrecer información que sirva como referente estratégico para el establecimiento de
+      políticas educativas nacionales, territoriales e institucionales.
     </p>
   </section>
-</body>
-</html>
+{% include "preicfesapp/footer.html" %}
+{% endblock %}

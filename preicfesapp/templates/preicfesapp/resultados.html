@@ -6,20 +6,22 @@
   <p class="text-xl text-gray-800 font-bold mb-4">{{ quiz.titulo }} (Quiz # {{ quiz.pk }})</p>
   {% for item in datos %}
     <div class="border-solid border-b-2 border-gray-300 mb-4 px-2 {% if item.1.texto == item.2.texto %} bg-green-300 {% else %} bg-red-300 {% endif %}">
-      <p class="text-xl text-gray-700">Pregunta: {{ item.0.texto }} {% if item.0.contexto %} {{ item.0.contexto }} {% endif %}</p>
+      {% autoescape off %}
+      <p class="text-xl text-gray-700"><span class="underline">Pregunta</span>: {{ item.0.texto }} {% if item.0.contexto %} {{ item.0.contexto }} {% endif %}</p>
+      {% endautoescape %}
       {% if item.1.imagen %}
-        <p class="text-xl text-gray-700">Tu respuesta:</p>
+        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>:</p>
         <img src="{{ item.1.imagen.url }}" alt="">
       {% else %}
-        <p class="text-xl text-gray-700">Tu respuesta: {{ item.1.texto }}</p>
+        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>: {{ item.1.texto }}</p>
       {% endif %}
       {% if item.2.imagen %}
-        <p class="text-xl text-gray-700">Respuesta correcta:</p>
+        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>:</p>
         <img src="{{ item.2.imagen.url }}" alt="">
       {% else %}
-        <p class="text-xl text-gray-700">Respuesta correcta: {{ item.2.texto }}</p>
+        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>: {{ item.2.texto }}</p>
       {% endif %}
-      <p class="text-xl text-gray-700">Explicación: {{ item.0.explicacion }}</p>
+      <p class="text-xl text-gray-700"><span class="underline">Explicación</span>: {% if item.0.explicacion %}{{ item.0.explicacion }}{% endif %}</p>
     </div>
   {% endfor %}
 </section>

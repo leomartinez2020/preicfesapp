@@ -1,0 +1,4 @@
+Se produciría una cadena de ARNm doble como la molécula de ADN.
+El ribosoma no podría entrar al núcleo a leer la información del ADN. 
+Los aminoácidos no podrían unirse al ARNt en el citoplasma.
+Se unirían aminoácidos que no corresponden con la secuencia de ADN
