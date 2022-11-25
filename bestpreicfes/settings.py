@@ -39,6 +39,8 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
+    'saber11.apps.Saber11Config',
     'preicfesapp.apps.PreicfesappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -126,17 +130,23 @@ USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+#STATICFILES_DIRS = [
+#    BASE_DIR / "static",
+#]
 
-MEDIA_ROOT = ''
-MEDIA_URL = ''
+#MEDIA_ROOT = ''
+#MEDIA_URL = ''
 
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-#MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 100
+}
+

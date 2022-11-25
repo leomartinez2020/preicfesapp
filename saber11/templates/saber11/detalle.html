@@ -1,0 +1,61 @@
+{% extends 'saber11/base.html' %}
+
+{% block content %}
+<section>
+  <h1 class="text-xl text-center">{{ colegio.nombre }}</h1>
+  <div class="h-96">
+    <canvas id="myChart"></canvas>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  var ciencias = "{{colegio.ciencias|escapejs}}";
+  var matematicas = "{{colegio.matematicas|escapejs}}";
+  var ingles = "{{colegio.ingles|escapejs}}";
+  var sociales = "{{colegio.sociales|escapejs}}";
+  var lectura = "{{colegio.lectura|escapejs}}";
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Ciencias', 'Matemáticas', 'Inglés', 'Sociales', 'Lectura'],
+      datasets: [{
+        label: 'Resultado',
+        categoryPercentage: 0.9,
+        barPercentage: 0.6,
+        //barThickness: 10,
+        data: [ciencias, matematicas, ingles, sociales, lectura],
+        fill: false,
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 159, 64, 0.2)',
+          'rgba(255, 205, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+        ],
+        borderColor: [
+          'rgb(255, 99, 132)',
+          'rgb(255, 159, 64)',
+          'rgb(255, 205, 86)',
+          'rgb(75, 192, 192)',
+          'rgb(54, 162, 235)',
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+</script>
+{% endblock %}

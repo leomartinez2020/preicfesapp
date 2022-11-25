@@ -1,0 +1,41 @@
+id,texto,imagen,es_correcta,pregunta_id
+1,"Se incrementará la cobertura en la región, permitiendo ofrecer energía eléctrica a las comunidades","",1,4
+2,"Se podrá evaluar la diferencia entre el suministro de energía eléctrica a partir de combustibles fósiles
+","",0,4
+3,"La cobertura de energía eléctrica en la región se mantendrá, por lo cual las personas que son beneficiarias
+","",0,4
+4,"Las comunidades de la región tendrán la oportunidad de conocer y aprender sobre tecnologías nuevas que no habían visto antes en su territorio.
+","",0,4
+5,"Se debe evitar ponerlo en una posición muy inclinada en la que reciba directamente los rayos solares.
+","",0,5
+6,"Se debe poner en una base asegurada al techo, que permita su inclinación pero que evite el arrastre del viento.","",1,5
+7,"Se debe cubrir el panel solar para que no se deteriore rápidamente y se pueda extender su vida útil.
+","",0,5
+8,"Se debe desconectar el panel solar periódicamente, para evitar que haya cortocircuito y así extender su vida útil.
+","",0,5
+9,"Se debe evaluar la velocidad del viento una sola vez en varios puntos de la Guajira.
+","",0,6
+10,"Se debe instalar un molino de viento en el punto y determinar si funciona o no.
+","",0,6
+11,"Se debe evaluar la velocidad del viento varias veces al día durante un solo día.
+","",0,6
+12,"Se debe evaluar la velocidad del viento varias veces al día durante diferentes épocas del año.","",1,6
+13,"Se realizó una serie metódica de observaciones a varias generaciones de jirafas.","",1,7
+14,"Se fotografió a un grupo de jirafas de cuello largo comiendo hojas de las copas en 1859.
+","",0,7
+15,"Se hicieron disecciones de una pareja de jirafas para estudiar sus órganos.
+","",0,7
+16,"Se comparó el ADN de un grupo de jirafas primitivas con el de un grupo de jirafas actuales.
+","",0,7
+17,/media/picfes-1-op1.png,/media/picfes-1-op1.png,0,2
+18,/media/picfes-1-op2.png,/media/picfes-1-op2.png,1,2
+19,/media/picfes-1-op3.png,/media/picfes-1-op3.png,0,2
+20,/media/picfes-1-op4.png,/media/picfes-1-op4.png,0,2
+21,"Se produciría una cadena de ARNm doble como la molécula de ADN.","",0,1
+22,"El ribosoma no podría entrar al núcleo a leer la información del ADN.","",0,1
+23,"Los aminoácidos no podrían unirse al ARNt en el citoplasma.","",0,1
+24,"Se unirían aminoácidos que no corresponden con la secuencia de ADN","",1,1
+25,/media/org-1-resp-A.png,/media/org-1-resp-A.png,0,3
+26,/media/org-1-resp-B.png,/media/org-1-resp-B.png,0,3
+27,/media/org-1-resp-C.png,/media/org-1-resp-C.png,0,3
+28,/media/org-1-resp-D.png,/media/org-1-resp-D.png,1,3

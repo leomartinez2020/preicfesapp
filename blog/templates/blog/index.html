@@ -1,0 +1,10 @@
+{% extends 'preicfesapp/base.html' %}
+
+{% block content%}
+  <section class="pt-24">
+    <h1>Últimas entradas de blog</h1>
+    {% for post in posts %}
+      <h2><a href="{}">{{ post.titulo }}</a></h2>
+    {% endfor %}
+  </section>
+{% endblock %}

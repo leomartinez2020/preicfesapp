@@ -1,0 +1,1115 @@
+id,codigo,nombre,departamento_id
+1,41244,"Elías",1
+2,11001,"Bogotá D.C.",2
+3,52838,"Túquerres",3
+4,17042,Anserma,4
+5,23555,"Planeta Rica",5
+6,41518,Paicol,1
+7,27001,"Quibdó",6
+8,20011,Aguachica,7
+9,5001,"Medellín",8
+10,41615,Rivera,1
+11,41668,"San Agustín",1
+12,66170,Dosquebradas,9
+13,54001,"Cúcuta",10
+14,8001,Barranquilla,11
+15,13442,"María La Baja",12
+16,17001,Manizales,4
+17,15804,"Tibaná",13
+18,15248,"El Espino",13
+19,5887,Yarumal,8
+20,52215,"Córdoba",3
+21,44001,Riohacha,14
+22,25386,"La Mesa",15
+23,41885,"Yaguará",1
+24,19450,Mercaderes,16
+25,15104,"Boyacá",13
+26,68547,Piedecuesta,17
+27,20013,"Agustín Codazzi",7
+28,13001,"Cartagena De Indias",12
+29,68276,Floridablanca,17
+30,5585,"Puerto Nare",8
+31,5411,Liborina,8
+32,41078,Baraya,1
+33,41016,Aipe,1
+34,23672,"San Antero",5
+35,19142,Caloto,16
+36,25580,"Pulí",15
+37,19001,"Popayán",16
+38,52540,Policarpa,3
+39,52560,"Potosí",3
+40,5579,"Puerto Berrío",8
+41,41001,Neiva,1
+42,20001,Valledupar,7
+43,13549,Pinillos,12
+44,13650,"San Fernando",12
+45,70001,Sincelejo,18
+46,68001,Bucaramanga,17
+47,20045,Becerril,7
+48,20400,"La Jagua De Ibirico",7
+49,20517,Pailitas,7
+50,76130,Candelaria,19
+51,15469,"Moniquirá",13
+52,25123,Cachipay,15
+53,41551,Pitalito,1
+54,15001,Tunja,13
+55,17614,Riosucio,4
+56,13244,"El Carmen De Bolívar",12
+57,66001,Pereira,9
+58,15176,"Chiquinquirá",13
+59,76109,Buenaventura,19
+60,47001,"Santa Marta",20
+61,13212,"Córdoba",12
+62,76111,"Guadalajara De Buga",19
+63,17380,"La Dorada",4
+64,25754,Soacha,15
+65,76001,Cali,19
+66,15238,Duitama,13
+67,44430,Maicao,14
+68,19392,"La Sierra",16
+69,25214,Cota,15
+70,8606,"Repelón",11
+71,63001,Armenia,21
+72,25168,"Chaguaní",15
+73,50001,Villavicencio,22
+74,15516,Paipa,13
+75,47570,Puebloviejo,20
+76,47189,"Ciénaga",20
+77,18150,"Cartagena Del Chairá",23
+78,25899,"Zipaquirá",15
+79,20710,"San Alberto",7
+80,47551,Pivijay,20
+81,68755,Socorro,17
+82,15632,"Saboyá",13
+83,25612,Ricaurte,15
+84,5837,Turbo,8
+85,52835,"San Andrés De Tumaco",3
+86,68255,"El Playón",17
+87,5890,"Yolombó",8
+88,41013,Agrado,1
+89,5360,"Itagüí",8
+90,15507,Otanche,13
+91,50226,Cumaral,22
+92,13654,"San Jacinto",12
+93,15325,"Guayatá",13
+94,17446,Marulanda,4
+95,25430,Madrid,15
+96,25269,"Facatativá",15
+97,13688,"Santa Rosa Del Sur",12
+98,54810,"Tibú",10
+99,76834,"Tuluá",19
+100,52411,Linares,3
+101,47960,"Zapayán",20
+102,68895,Zapatoca,17
+103,15759,Sogamoso,13
+104,17513,"Pácora",4
+105,13657,"San Juan Nepomuceno",12
+106,15180,Chiscas,13
+107,15572,"Puerto Boyacá",13
+108,68307,"Girón",17
+109,76845,Ulloa,19
+110,50318,Guamal,22
+111,52612,Ricaurte,3
+112,15500,"Oicatá",13
+113,70742,"San Luis De Sincé",18
+114,41548,Pital,1
+115,68418,"Los Santos",17
+116,73870,Villahermosa,24
+117,5266,Envigado,8
+118,73200,Coello,24
+119,86569,"Puerto Caicedo",25
+120,76275,Florida,19
+121,44378,Hatonuevo,14
+122,47245,"El Banco",20
+123,25307,Girardot,15
+124,76892,Yumbo,19
+125,8758,Soledad,11
+126,25290,"Fusagasugá",15
+127,85001,Yopal,26
+128,73319,Guamo,24
+129,23079,Buenavista,5
+130,70508,Ovejas,18
+131,70670,"Sampués",18
+132,5088,Bello,8
+133,81065,Arauquita,27
+134,54874,"Villa Del Rosario",10
+135,68190,Cimitarra,17
+136,85230,"Orocué",26
+137,44279,Fonseca,14
+138,50577,"Puerto Lleras",22
+139,52110,Buesaco,3
+140,47545,"Pijiño Del Carmen",20
+141,73001,"Ibagué",24
+142,5034,Andes,8
+143,41524,Palermo,1
+144,13430,"Magangué",12
+145,52083,"Belén",3
+146,52788,Tangua,3
+147,50711,Vistahermosa,22
+148,18592,"Puerto Rico",23
+149,63594,Quimbaya,21
+150,5250,"El Bagre",8
+151,5120,"Cáceres",8
+152,50287,Fuentedeoro,22
+153,68121,Cabrera,17
+154,19821,"Toribío",16
+155,8573,"Puerto Colombia",11
+156,5670,"San Roque",8
+157,5282,Fredonia,8
+158,86001,Mocoa,25
+159,70473,Morroa,18
+160,18001,Florencia,23
+161,52001,Pasto,3
+162,52356,Ipiales,3
+163,66400,"La Virginia",9
+164,23466,"Montelíbano",5
+165,52786,Taminango,3
+166,44078,Barrancas,14
+167,5490,"Necoclí",8
+168,68079,Barichara,17
+169,70215,Corozal,18
+170,52405,Leiva,3
+171,54128,"Cáchira",10
+172,85250,"Paz De Ariporo",26
+173,54498,"Ocaña",10
+174,52227,Cumbal,3
+175,52256,"El Rosario",3
+176,73483,Natagaima,24
+177,70708,"San Marcos",18
+178,5440,Marinilla,8
+179,73504,Ortega,24
+180,15380,"La Capilla",13
+181,13468,"Mompós",12
+182,5615,Rionegro,8
+183,25175,"Chía",15
+184,68397,"La Paz",17
+185,73349,Honda,24
+186,5792,Tarso,8
+187,76122,Caicedonia,19
+188,15322,Guateque,13
+189,25799,Tenjo,15
+190,50606,Restrepo,22
+191,19548,"Piendamó - Tunía",16
+192,25839,"Ubalá",15
+193,15778,Sutatenza,13
+194,25736,"Sesquilé",15
+195,54405,"Los Patios",10
+196,54518,Pamplona,10
+197,73678,"San Luis",24
+198,23162,"Cereté",5
+199,25286,Funza,15
+200,5129,Caldas,8
+201,73275,Flandes,24
+202,81001,Arauca,27
+203,20310,"González",7
+204,85125,"Hato Corozal",26
+205,19130,"Cajibío",16
+206,19256,"El Tambo",16
+207,17442,Marmato,4
+208,5690,"Santo Domingo",8
+209,23586,"Purísima De La Concepción",5
+210,5284,Frontino,8
+211,13052,Arjona,12
+212,23001,"Montería",5
+213,76248,"El Cerrito",19
+214,25154,"Carmen De Carupa",15
+215,50150,"Castilla La Nueva",22
+216,86568,"Puerto Asís",25
+217,73585,"Purificación",24
+218,5318,Guarne,8
+219,25377,"La Calera",15
+220,15407,"Villa De Leyva",13
+221,25099,"Bojacá",15
+222,25781,Sutatausa,15
+223,25817,"Tocancipá",15
+224,5101,"Ciudad Bolívar",8
+225,19760,Sotara,16
+226,13248,"El Guamo",12
+227,19075,Balboa,16
+228,15842,"Úmbita",13
+229,5051,Arboletes,8
+230,76520,Palmira,19
+231,23807,Tierralta,5
+232,81736,Saravena,27
+233,81794,Tame,27
+234,13473,Morales,12
+235,23686,"San Pelayo",5
+236,13062,Arroyohondo,12
+237,19807,"Timbío",16
+238,23419,"Los Córdobas",5
+239,5873,"Vigía Del Fuerte",8
+240,5607,Retiro,8
+241,23500,"Moñitos",5
+242,23815,"Tuchín",5
+243,25372,"Junín",15
+244,5642,Salgar,8
+245,70823,"Tolú Viejo",18
+246,91001,Leticia,28
+247,19137,Caldono,16
+248,5591,"Puerto Triunfo",8
+249,19585,"Puracé",16
+250,19743,Silvia,16
+251,68020,Albania,17
+252,8296,Galapa,11
+253,5125,Caicedo,8
+254,73854,"Valle De San Juan",24
+255,8549,"Piojó",11
+256,52233,Cumbitara,3
+257,66594,"Quinchía",9
+258,95001,"San José Del Guaviare",29
+259,97001,"Mitú",30
+260,19355,"Inzá",16
+261,20750,"San Diego",7
+262,66456,"Mistrató",9
+263,17541,Pensilvania,4
+264,23350,"La Apartada",5
+265,5858,"Vegachí",8
+266,17388,"La Merced",4
+267,25769,Subachoque,15
+268,17777,"Supía",4
+269,23417,Lorica,5
+270,20178,"Chiriguaná",7
+271,5240,"Ebéjico",8
+272,5040,"Anorí",8
+273,50568,"Puerto Gaitán",22
+274,68720,"Santa Helena Del Opón",17
+275,13140,Calamar,12
+276,76869,Vijes,19
+277,68406,Lebrija,17
+278,70771,Sucre,18
+279,73408,"Lérida",24
+280,5237,"Donmatías",8
+281,76041,Ansermanuevo,19
+282,66045,"Apía",9
+283,70418,"Los Palmitos",18
+284,88001,"San Andrés",31
+285,70235,Galeras,18
+286,52287,Funes,3
+287,52390,"La Tola",3
+288,70820,"Santiago De Tolú",18
+289,5234,Dabeiba,8
+290,41006,Acevedo,1
+291,68770,Suaita,17
+292,5631,Sabaneta,8
+293,5400,"La Unión",8
+294,41298,"Garzón",1
+295,5380,"La Estrella",8
+296,68679,"San Gil",17
+297,25843,"Villa De San Diego De Ubaté",15
+298,25740,"Sibaté",15
+299,5045,"Apartadó",8
+300,52720,Sapuyes,3
+301,44650,"San Juan Del Cesar",14
+302,5368,"Jericó",8
+303,41807,"Timaná",1
+304,68682,"San Joaquín",17
+305,8433,Malambo,11
+306,8421,Luruaco,11
+307,68432,"Málaga",17
+308,19473,Morales,16
+309,63302,"Génova",21
+310,25473,Mosquera,15
+311,19698,"Santander De Quilichao",16
+312,25758,"Sopó",15
+313,19532,"Patía",16
+314,5308,Girardota,8
+315,52490,"Olaya Herrera",3
+316,25653,"San Cayetano",15
+317,86573,"Puerto Leguízamo",25
+318,99773,Cumaribo,32
+319,73168,Chaparral,24
+320,23580,"Puerto Libertador",5
+321,19573,"Puerto Tejada",16
+322,73067,Ataco,24
+323,13836,Turbaco,12
+324,94001,"Inírida",33
+325,15212,Coper,13
+326,54800,Teorama,10
+327,17662,"Samaná",4
+328,47720,"Santa Bárbara De Pinto",20
+329,15047,Aquitania,13
+330,19212,Corinto,16
+331,70429,Majagual,18
+332,19824,"Totoró",16
+333,25260,"El Rosal",15
+334,20787,Tamalameque,7
+335,20770,"San Martín",7
+336,73283,Fresno,24
+337,20238,"El Copey",7
+338,68468,Molagavita,17
+339,20175,Chimichagua,7
+340,17433,Manzanares,4
+341,85440,Villanueva,26
+342,73675,"San Antonio",24
+343,54520,Pamplonita,10
+344,17873,"Villamaría",4
+345,52323,"Gualmatán",3
+346,47798,Tenerife,20
+347,76606,Restrepo,19
+348,27495,"Nuquí",6
+349,5138,"Cañasgordas",8
+350,73449,Melgar,24
+351,52506,Ospina,3
+352,15480,Muzo,13
+353,19517,"Páez",16
+354,23570,"Pueblo Nuevo",5
+355,68861,"Vélez",17
+356,19455,Miranda,16
+357,13030,"Altos Del Rosario",12
+358,76622,Roldanillo,19
+359,5030,"Amagá",8
+360,76823,Toro,19
+361,85162,Monterrey,26
+362,41530,Palestina,1
+363,5756,"Sonsón",8
+364,44090,Dibulla,14
+365,73268,Espinal,24
+366,25658,"San Francisco",15
+367,20443,"Manaure Balcón Del Cesar",7
+368,27077,"Bajo Baudó",6
+369,8638,Sabanalarga,11
+370,15681,"San Pablo De Borbur",13
+371,5142,"Caracolí",8
+372,23574,"Puerto Escondido",5
+373,68132,California,17
+374,44847,Uribia,14
+375,41396,"La Plata",1
+376,86757,"San Miguel",25
+377,23855,Valencia,5
+378,27372,"Juradó",6
+379,27099,"Bojayá",6
+380,50350,"La Macarena",22
+381,15600,"Ráquira",13
+382,13667,"San Martín De Loba",12
+383,54820,Toledo,10
+384,27800,"Unguía",6
+385,20383,"La Gloria",7
+386,73152,Casabianca,24
+387,5847,Urrao,8
+388,25524,Pandi,15
+389,13744,"Simití",12
+390,15455,Miraflores,13
+391,85010,Aguazul,26
+392,15837,Tuta,13
+393,54398,"La Playa",10
+394,47555,Plato,20
+395,41132,Campoalegre,1
+396,5659,"San Juan De Urabá",8
+397,5044,"Anzá",8
+398,5501,Olaya,8
+399,47707,"Santa Ana",20
+400,52079,Barbacoas,3
+401,27025,"Alto Baudó",6
+402,25875,Villeta,15
+403,47980,"Zona Bananera",20
+404,20570,"Pueblo Bello",7
+405,52399,"La Unión",3
+406,41359,Isnos,1
+407,13074,"Barranco De Loba",12
+408,8137,"Campo De La Cruz",11
+409,13006,"Achí",12
+410,25772,Suesca,15
+411,27050,Atrato,6
+412,5172,"Chigorodó",8
+413,50370,Uribe,22
+414,27450,"Medio San Juan",6
+415,27413,"Lloró",6
+416,5031,Amalfi,8
+417,18256,"El Paujíl",23
+418,5660,"San Luis",8
+419,25785,Tabio,15
+420,66075,Balboa,9
+421,47660,"Sabanas De San Ángel",20
+422,25293,"Gachalá",15
+423,5647,"San Andrés De Cuerquía",8
+424,68101,"Bolívar",17
+425,8436,"Manatí",11
+426,8675,"Santa Lucía",11
+427,52699,Santacruz,3
+428,54003,"Ábrego",10
+429,23660,"Sahagún",5
+430,17088,"Belalcázar",4
+431,27361,Istmina,6
+432,76147,Cartago,19
+433,68229,"Curití",17
+434,20250,"El Paso",7
+435,73217,Coyaima,24
+436,68615,Rionegro,17
+437,68655,"Sabana De Torres",17
+438,13042,Arenal,12
+439,5002,Abejorral,8
+440,76670,"San Pedro",19
+441,50006,"Acacías",22
+442,17013,Aguadas,4
+443,17174,"Chinchiná",4
+444,18756,Solano,23
+445,50450,"Puerto Concordia",22
+446,5113,"Buriticá",8
+447,50110,"Barranca De Upía",22
+448,5154,Caucasia,8
+449,41020,Algeciras,1
+450,76895,Zarzal,19
+451,23670,"San Andrés De Sotavento",5
+452,52687,"San Lorenzo",3
+453,25572,"Puerto Salgar",15
+454,27615,Riosucio,6
+455,41306,Gigante,1
+456,17495,Norcasia,4
+457,18753,"San Vicente Del Caguán",23
+458,68689,"San Vicente De Chucurí",17
+459,44035,Albania,14
+460,5861,Venecia,8
+461,5761,"Sopetrán",8
+462,23675,"San Bernardo Del Viento",5
+463,47288,"Fundación",20
+464,25181,"Choachí",15
+465,25594,Quetame,15
+466,25322,Guasca,15
+467,15861,Ventaquemada,13
+468,15189,"Ciénega",13
+469,76616,"Riofrío",19
+470,27160,"Cértegui",6
+471,5093,Betulia,8
+472,5628,Sabanalarga,8
+473,5467,Montebello,8
+474,70702,"San Juan De Betulia",18
+475,27425,"Medio Atrato",6
+476,25339,"Gutiérrez",15
+477,44560,Manaure,14
+478,20550,Pelaya,7
+479,15377,Labranzagrande,13
+480,19364,"Jambaló",16
+481,19110,"Buenos Aires",16
+482,5055,Argelia,8
+483,13838,"Turbaná",12
+484,50573,"Puerto López",22
+485,68077,Barbosa,17
+486,5789,"Támesis",8
+487,63190,Circasia,21
+488,5895,Zaragoza,8
+489,99624,"Santa Rosalía",32
+490,8685,"Santo Tomás",11
+491,73616,Rioblanco,24
+492,63401,"La Tebaida",21
+493,27580,"Río Iró",6
+494,25402,"La Vega",15
+495,68092,Betulia,17
+496,66682,"Santa Rosa De Cabal",9
+497,47268,"El Retén",20
+498,23300,Cotorra,5
+499,25823,"Topaipí",15
+500,85139,"Maní",26
+501,73671,"Saldaña",24
+502,25407,Lenguazaque,15
+503,25183,"Chocontá",15
+504,25053,"Arbeláez",15
+505,63130,"Calarcá",21
+506,8520,"Palmar De Varela",11
+507,63212,"Córdoba",21
+508,68669,"San Andrés",17
+509,86571,"Puerto Guzmán",25
+510,27787,"Tadó",6
+511,76863,Versalles,19
+512,27810,"Unión Panamericana",6
+513,25224,"Cucunubá",15
+514,41349,Hobo,1
+515,66318,"Guática",9
+516,52435,Mallama,3
+517,18029,Albania,23
+518,66088,"Belén De Umbría",9
+519,5604,Remedios,8
+520,8372,"Juan De Acosta",11
+521,85410,Tauramena,26
+522,19397,"La Vega",16
+523,47745,Sitionuevo,20
+524,25743,Silvania,15
+525,25035,Anapoima,15
+526,76377,"La Cumbre",19
+527,86760,Santiago,25
+528,66572,"Pueblo Rico",9
+529,73411,"Líbano",24
+530,8078,Baranoa,11
+531,25777,"Supatá",15
+532,86320,Orito,25
+533,5148,"El Carmen De Viboral",8
+534,5134,Campamento,8
+535,25288,"Fúquene",15
+536,41872,Villavieja,1
+537,73622,Roncesvalles,24
+538,54347,"Herrán",10
+539,68081,Barrancabermeja,17
+540,54385,"La Esperanza",10
+541,25148,"Caparrapí",15
+542,18205,Curillo,23
+543,47058,"Ariguaní",20
+544,85430,Trinidad,26
+545,68500,Oiba,17
+546,25518,Paime,15
+547,17867,Victoria,4
+548,76364,"Jamundí",19
+549,91798,"Tarapacá",28
+550,68575,"Puerto Wilches",17
+551,19100,"Bolívar",16
+552,54344,"Hacarí",10
+553,25535,Pasca,15
+554,86865,"Valle Del Guamuez",25
+555,5665,"San Pedro De Urabá",8
+556,86219,"Colón",25
+557,25506,Venecia,15
+558,73236,Dolores,24
+559,17653,Salamina,4
+560,73555,Planadas,24
+561,19693,"San Sebastián",16
+562,76243,"El Águila",19
+563,76250,"El Dovio",19
+564,15087,"Belén",13
+565,47053,Aracataca,20
+566,25793,Tausa,15
+567,25328,"Guayabal De Síquima",15
+568,47703,"San Zenón",20
+569,41357,"Íquira",1
+570,19318,"Guapí",16
+571,91669,"Puerto Santander",28
+572,73624,Rovira,24
+573,52473,Mosquera,3
+574,52224,"Cuaspúd",3
+575,15814,Toca,13
+576,15097,Boavita,13
+577,52317,Guachucal,3
+578,70678,"San Benito Abad",18
+579,52573,Puerres,3
+580,15518,Pajarito,13
+581,13760,Soplaviento,12
+582,15317,Guacamayas,13
+583,15232,"Chíquiza",13
+584,25649,"San Bernardo",15
+585,68318,Guaca,17
+586,5212,Copacabana,8
+587,23678,"San Carlos",5
+588,52381,"La Florida",3
+589,47258,"El Piñón",20
+590,47318,Guamal,20
+591,52203,"Colón",3
+592,23182,"Chinú",5
+593,15599,"Ramiriquí",13
+594,15183,Chita,13
+595,13490,"Norosí",12
+596,41676,"Santa María",1
+597,15466,"Monguí",13
+598,15476,Motavita,13
+599,15494,"Nuevo Colón",13
+600,76233,Dagua,19
+601,5059,Armenia,8
+602,19622,Rosas,16
+603,5361,Ituango,8
+604,13188,Cicuco,12
+605,5264,"Entrerríos",8
+606,76736,Sevilla,19
+607,47205,Concordia,20
+608,13440,Margarita,12
+609,70713,"San Onofre",18
+610,95025,"El Retorno",29
+611,85263,Pore,26
+612,68013,Aguada,17
+613,68176,Chima,17
+614,76400,"La Unión",19
+615,73352,Icononzo,24
+616,68385,"Landázuri",17
+617,54206,"Convención",10
+618,52678,Samaniego,3
+619,5313,Granada,8
+620,73030,Ambalema,24
+621,85225,"Nunchía",26
+622,52378,"La Cruz",3
+623,70221,"Coveñas",18
+624,76828,Trujillo,19
+625,70523,Palmito,18
+626,73443,"San Sebastián De Mariquita",24
+627,5209,Concordia,8
+628,13647,"San Estanislao",12
+629,15776,"Sutamarchán",13
+630,20621,"La Paz",7
+631,63690,Salento,21
+632,15686,Santana,13
+633,15187,"Chivatá",13
+634,52207,"Consacá",3
+635,41770,Suaza,1
+636,17877,Viterbo,4
+637,13670,"San Pablo",12
+638,25295,"Gachancipá",15
+639,5697,"El Santuario",8
+640,13780,"Talaigua Nuevo",12
+641,81220,"Cravo Norte",27
+642,13222,Clemencia,12
+643,25126,"Cajicá",15
+644,13673,"Santa Catalina",12
+645,81300,Fortul,27
+646,15531,Pauna,13
+647,19022,Almaguer,16
+648,20295,Gamarra,7
+649,20060,Bosconia,7
+650,5674,"San Vicente Ferrer",8
+651,5656,"San Jerónimo",8
+652,91407,"La Pedrera",28
+653,5649,"San Carlos",8
+654,5686,"Santa Rosa De Osos",8
+655,52036,"Ancuyá",3
+656,76246,"El Cairo",19
+657,68245,"El Guacamayo",17
+658,50313,Granada,22
+659,50325,"Mapiripán",22
+660,23189,"Ciénaga De Oro",5
+661,23090,Canalete,5
+662,13433,Mahates,12
+663,70124,Caimito,18
+664,76497,Obando,19
+665,68780,"Suratá",17
+666,76100,"Bolívar",19
+667,15621,"Rondón",13
+668,5658,"San José De La Montaña",8
+669,66440,Marsella,9
+670,5364,"Jardín",8
+671,25279,"Fómeque",15
+672,73861,Venadillo,24
+673,25873,"Villapinzón",15
+674,25745,Simijaca,15
+675,76306,Ginebra,19
+676,73770,"Suárez",24
+677,13683,"Santa Rosa",12
+678,15403,"La Uvita",13
+679,85400,"Támara",26
+680,25885,"Yacopí",15
+681,25335,Guayabetal,15
+682,52694,"San Pedro De Cartago",3
+683,25718,Sasaima,15
+684,23464,Momil,5
+685,41791,Tarqui,1
+686,5480,"Mutatá",8
+687,73026,Alvarado,24
+688,52418,"Los Andes",3
+689,27250,"El Litoral Del San Juan",6
+690,25312,Granada,15
+691,19418,"López De Micay",16
+692,68147,Capitanejo,17
+693,50689,"San Martín",22
+694,5664,"San Pedro De Los Milagros",8
+695,41378,"La Argentina",1
+696,95015,Calamar,29
+697,19300,"Guachené",16
+698,5543,Peque,8
+699,13580,Regidor,12
+700,86885,"Villagarzón",25
+701,5790,"Tarazá",8
+702,15542,Pesca,13
+703,25178,Chipaque,15
+704,18610,"San José Del Fragua",23
+705,76563,Pradera,19
+706,19533,Piamonte,16
+707,52320,Guaitarilla,3
+708,68327,"Güepsa",17
+709,5667,"San Rafael",8
+710,68152,"Carcasí",17
+711,5856,"Valparaíso",8
+712,5147,Carepa,8
+713,27491,"Nóvita",6
+714,8560,Ponedera,11
+715,15790,Tasco,13
+716,54051,Arboledas,10
+717,25095,Bituima,15
+718,68296,"Galán",17
+719,68773,Sucre,17
+720,76113,Bugalagrande,19
+721,18460,"Milán",23
+722,20614,"Río De Oro",7
+723,25398,"La Peña",15
+724,15667,"San Luis De Gaceno",13
+725,41319,Guadalupe,1
+726,5885,"Yalí",8
+727,99524,"La Primavera",32
+728,25592,Quebradanegra,15
+729,15236,Chivor,13
+730,76126,Calima,19
+731,25807,Tibirita,15
+732,5483,"Nariño",8
+733,5036,"Angelópolis",8
+734,5541,"Peñol",8
+735,47541,Pedraza,20
+736,27245,"El Carmen De Atrato",6
+737,23068,Ayapel,5
+738,25596,Quipile,15
+739,5893,"Yondó",8
+740,25530,Paratebueno,15
+741,25151,"Cáqueza",15
+742,5376,"La Ceja",8
+743,17444,Marquetalia,4
+744,5652,"San Francisco",8
+745,15162,Cerinza,13
+746,15442,"Maripí",13
+747,25245,"El Colegio",15
+748,18247,"El Doncello",23
+749,25662,"San Juan De Rioseco",15
+750,25086,"Beltrán",15
+751,73873,Villarrica,24
+752,25326,Guatavita,15
+753,18860,"Valparaíso",23
+754,81591,"Puerto Rondón",27
+755,76403,"La Victoria",19
+756,54261,"El Zulia",10
+757,25871,"Villagómez",15
+758,15244,"El Cocuy",13
+759,47605,Remolino,20
+760,50245,"El Calvario",22
+761,41483,"Nátaga",1
+762,94883,"San Felipe",33
+763,73347,Herveo,24
+764,5197,"Cocorná",8
+765,73226,Cunday,24
+766,44420,"La Jagua Del Pilar",14
+767,17272,Filadelfia,4
+768,54377,Labateca,10
+769,25368,"Jerusalén",15
+770,54720,Sardinata,10
+771,85015,"Chámeza",26
+772,73547,Piedras,24
+773,54599,Ragonvalia,10
+774,25317,"Guachetá",15
+775,85315,"Sácama",26
+776,25513,Pacho,15
+777,54660,Salazar,10
+778,25805,Tibacuy,15
+779,5679,"Santa Bárbara",8
+780,15879,"Viracachá",13
+781,86755,"San Francisco",25
+782,25815,Tocaima,15
+783,19701,"Santa Rosa",16
+784,54553,"Puerto Santander",10
+785,68320,Guadalupe,17
+786,25200,Cogua,15
+787,41503,Oporapa,1
+788,52250,"El Charco",3
+789,25867,"Vianí",15
+790,8770,Suan,11
+791,68573,"Puerto Parra",17
+792,52260,"El Tambo",3
+793,52520,"Francisco Pizarro",3
+794,5021,"Alejandría",8
+795,13600,"Río Viejo",12
+796,41799,Tello,1
+797,15135,Campohermoso,13
+798,15172,Chinavita,13
+799,52696,"Santa Bárbara",3
+800,15299,Garagoa,13
+801,15580,"Quípama",13
+802,25426,"Machetá",15
+803,52385,"La Llanada",3
+804,52051,Arboleda,3
+805,17486,Neira,4
+806,15664,"San José De Pare",13
+807,15296,"Gámeza",13
+808,5042,"Santa Fé De Antioquia",8
+809,13894,Zambrano,12
+810,5347,Heliconia,8
+811,13873,Villanueva,12
+812,5310,"Gómez Plata",8
+813,68160,"Cepitá",17
+814,70717,"San Pedro",18
+815,85325,"San Luis De Palenque",26
+816,52683,"Sandoná",3
+817,68235,"El Carmen De Chucurí",17
+818,5079,Barbosa,8
+819,86749,Sibundoy,25
+820,18094,"Belén De Los Andaquíes",23
+821,73124,Cajamarca,24
+822,68572,"Puente Nacional",17
+823,5736,Segovia,8
+824,13810,Tiquisio,12
+825,15464,Mongua,13
+826,19785,Sucre,16
+827,17616,Risaralda,4
+828,27073,"Bagadó",6
+829,13300,"Hatillo De Loba",12
+830,76036,"Andalucía",19
+831,5038,Angostura,8
+832,68051,Aratoca,17
+833,5107,"Briceño",8
+834,73270,Falan,24
+835,5150,Carolina,8
+836,20228,"Curumaní",7
+837,99001,"Puerto Carreño",32
+838,44855,Urumita,14
+839,15755,"Socotá",13
+840,5190,Cisneros,8
+841,18785,Solita,23
+842,88564,Providencia,31
+843,41206,Colombia,1
+844,5495,"Nechí",8
+845,70233,"El Roble",18
+846,50270,"El Dorado",22
+847,27150,"Carmen Del Darién",6
+848,27745,"Sipí",6
+849,27075,"Bahía Solano",6
+850,52585,Pupiales,3
+851,76054,Argelia,19
+852,15693,"Santa Rosa De Viterbo",13
+853,25019,"Albán",15
+854,8832,"Tubará",11
+855,52354,"Imués",3
+856,25645,"San Antonio Del Tequendama",15
+857,23682,"San José De Uré",5
+858,44098,"Distracción",14
+859,5425,Maceo,8
+860,13655,"San Jacinto Del Cauca",12
+861,19780,"Suárez",16
+862,68464,Mogotes,17
+863,73686,"Santa Isabel",24
+864,47692,"San Sebastián De Buenavista",20
+865,68344,Hato,17
+866,8141,Candelaria,11
+867,15806,Tibasosa,13
+868,27205,Condoto,6
+869,52019,"Albán",3
+870,27006,"Acandí",6
+871,27086,"Belén De Bajirá",6
+872,25841,Ubaque,15
+873,25320,Guaduas,15
+874,50330,Mesetas,22
+875,17524,Palestina,4
+876,44874,Villanueva,14
+877,17665,"San José",4
+878,41660,Saladoblanco,1
+879,15764,"Soracá",13
+880,15761,Somondoco,13
+881,68167,"Charalá",17
+882,66687,Santuario,9
+883,27135,"El Cantón Del San Pablo",6
+884,5091,Betania,8
+885,27600,"Río Quito",6
+886,50680,"San Carlos De Guaroa",22
+887,25438,Medina,15
+888,5809,"Titiribí",8
+889,5576,Pueblorrico,8
+890,25486,"Nemocón",15
+891,25489,Nimaima,15
+892,63111,Buenavista,21
+893,68498,Ocamonte,17
+894,25878,"Viotá",15
+895,68533,"Páramo",17
+896,25258,"El Peñón",15
+897,54099,Bochalema,10
+898,85136,"La Salina",26
+899,25297,"Gachetá",15
+900,68444,Matanza,17
+901,68522,Palmar,17
+902,25436,Manta,15
+903,68217,Coromoro,17
+904,8558,Polonuevo,11
+905,25324,"Guataquí",15
+906,68211,"Contratación",17
+907,94663,Mapiripana,33
+908,15092,"Betéitiva",13
+909,25001,"Agua De Dios",15
+910,8634,Sabanagrande,11
+911,15646,"Samacá",13
+912,68179,"Chipatá",17
+913,15810,Tipacoque,13
+914,41801,Teruel,1
+915,15720,Sativanorte,13
+916,15723,Sativasur,13
+917,15522,Panqueba,13
+918,15537,"Paz De Río",13
+919,68820,Tona,17
+920,15511,Pachavita,13
+921,15839,"Tutazá",13
+922,15897,Zetaquira,13
+923,15204,"Cómbita",13
+924,15109,Buenavista,13
+925,15514,"Páez",13
+926,52621,"Roberto Payán",3
+927,27430,"Medio Baudó",6
+928,52480,"Nariño",3
+929,91540,"Puerto Nariño",28
+930,54871,"Villa Caro",10
+931,68705,"Santa Bárbara",17
+932,68855,"Valle De San José",17
+933,68872,Villanueva,17
+934,15753,"Soatá",13
+935,15215,Corrales,13
+936,41797,Tesalia,1
+937,13268,"El Peñón",12
+938,15676,"San Miguel De Sema",13
+939,70265,Guaranda,18
+940,68266,Enciso,17
+941,5315,Guadalupe,8
+942,5086,Belmira,8
+943,70110,Buenavista,18
+944,52885,Yacuanquer,3
+945,47460,"Nueva Granada",20
+946,25779,Susa,15
+947,17050,Aranzazu,4
+948,52693,"San Pablo",3
+949,19050,Argelia,16
+950,52240,"Chachagüí",3
+951,15491,Nobsa,13
+952,50590,"Puerto Rico",22
+953,52210,Contadero,3
+954,15533,Paya,13
+955,52258,"El Tablón De Gómez",3
+956,15223,"Cubará",13
+957,23168,"Chimá",5
+958,76890,Yotoco,19
+959,47170,Chivolo,20
+960,52352,Iles,3
+961,66383,"La Celia",9
+962,25491,Nocaima,15
+963,73461,Murillo,24
+964,5306,Giraldo,8
+965,19809,"Timbiquí",16
+966,63272,Filandia,21
+967,15226,"Cuítiva",13
+968,5206,"Concepción",8
+969,68370,"Jordán",17
+970,25299,Gama,15
+971,19845,"Villa Rica",16
+972,15185,Chitaraque,13
+973,76318,"Guacarí",19
+974,68502,Onzaga,17
+975,15638,"Sáchica",13
+976,54174,"Chitagá",10
+977,25845,Une,15
+978,13458,Montecristo,12
+979,25488,Nilo,15
+980,68684,"San José De Miranda",17
+981,54673,"San Cayetano",10
+982,15673,"San Mateo",13
+983,68264,Encino,17
+984,95200,Miraflores,29
+985,68298,"Gámbita",17
+986,68745,Simacota,17
+987,54172,"Chinácota",10
+988,25851,"Útica",15
+989,68250,"El Peñón",17
+990,25599,Apulo,15
+991,15368,"Jericó",13
+992,15051,Arcabuco,13
+993,15550,Pisba,13
+994,25281,Fosca,15
+995,15835,"Turmequé",13
+996,70204,"Colosó",18
+997,15218,"Covarachía",13
+998,15224,Cucaita,13
+999,15757,Socha,13
+1000,25797,Tena,15
+1001,68377,"La Belleza",17
+1002,73563,Prado,24
+1003,15362,Iza,13
+1004,15367,Jenesano,13
+1005,13160,Cantagallo,12
+1006,50124,Cabuyaro,22
+1007,50223,Cubarral,22
+1008,20032,Astrea,7
+1009,25862,Vergara,15
+1010,76020,"Alcalá",19
+1011,63470,Montenegro,21
+1012,52254,"El Peñol",3
+1013,15131,Caldas,13
+1014,63548,Pijao,21
+1015,5854,Valdivia,8
+1016,27660,"San José Del Palmar",6
+1017,13620,"San Cristóbal",12
+1018,5390,"La Pintada",8
+1019,97511,Pacoa,30
+1020,8849,"Usiacurí",11
+1021,91460,"Mirití - Paraná",28
+1022,25483,"Nariño",15
+1023,25120,Cabrera,15
+1024,68207,"Concepción",17
+1025,25040,Anolaima,15
+1026,54743,Silos,10
+1027,15740,Siachoque,13
+1028,25898,"Zipacón",15
+1029,68169,Charta,17
+1030,54670,"San Calixto",10
+1031,91405,"La Chorrera",28
+1032,85300,Sabanalarga,26
+1033,19513,Padilla,16
+1034,44110,"El Molino",14
+1035,41026,Altamira,1
+1036,15696,"Santa Sofía",13
+1037,15820,"Tópaga",13
+1038,15832,"Tununguá",13
+1039,15090,Berbeo,13
+1040,54223,Cucutilla,10
+1041,15763,"Sotaquirá",13
+1042,73043,"Anzoátegui",24
+1043,50400,"Lejanías",22
+1044,50683,"San Juan De Arama",22
+1045,54245,"El Carmen",10
+1046,15401,"La Victoria",13
+1047,15816,"Togüí",13
+1048,50251,"El Castillo",22
+1049,70400,"La Unión",18
+1050,5321,"Guatapé",8
+1051,68867,Vetas,17
+1052,52685,"San Bernardo",3
+1053,73055,Armero,24
+1054,25394,"La Palma",15
+1055,5353,Hispania,8
+1056,73148,"Carmen De Apicalá",24
+1057,68524,"Palmas Del Socorro",17
+1058,68209,Confines,17
+1059,70230,"Chalán",18
+1060,15272,Firavitoba,13
+1061,73024,Alpujarra,24
+1062,94343,"Barranco Minas",33
+1063,47675,Salamina,20
+1064,68162,Cerrito,17
+1065,68271,"Florián",17
+1066,18410,"La Montañita",23
+1067,54680,Santiago,10
+1068,54109,Bucarasica,10
+1069,15425,Macanal,13
+1070,15022,Almeida,13
+1071,54418,Lourdes,10
+1072,68673,"San Benito",17
+1073,52427,"Magüí",3
+1074,5819,Toledo,8
+1075,47161,"Cerro De San Antonio",20
+1076,15106,"Briceño",13
+1077,15762,Sora,13
+1078,5145,Caramanta,8
+1079,50686,"San Juanito",22
+1080,18479,Morelia,23
+1081,47030,Algarrobo,20
+1082,15293,"Gachantivá",13
+1083,52565,Providencia,3
+1084,15690,"Santa María",13
+1085,52022,Aldana,3
+1086,15276,Floresta,13
+1087,68425,Macaravita,17
+1088,54313,Gramalote,10
+1089,5842,Uramita,8
+1090,91263,"El Encanto",28
+1091,15808,"Tinjacá",13
+1092,97889,"Yavaraté",30
+1093,54250,"El Tarra",10
+1094,15822,Tota,13
+1095,73520,Palocabildo,24
+1096,15332,"Güicán De La Sierra",13
+1097,68322,"Guapotá",17
+1098,68324,"Guavatá",17
+1099,68368,"Jesús María",17
+1100,94888,Morichal,33
+1101,94887,"Pana Pana",33
+1102,85279,Recetor,26
+1103,15798,Tenza,13
+1104,68549,Pinchote,17
+1105,15774,"Susacón",13
+1106,5004,"Abriaquí",8
+1107,54480,Mutiscua,10
+1108,68686,"San Miguel",17
+1109,19290,Florencia,16
+1110,15114,"Busbanzá",13
+1111,5475,"Murindó",8
+1112,54239,Durania,10
+1113,54125,"Cácota",10
+1114,15660,"San Eduardo",13

@@ -4,16 +4,19 @@ from django.shortcuts import render
 
 from .models import Pregunta, Respuesta, Quiz
 
-def index(request):
-    return render(request, 'preicfesapp/main.html')
+def main(request):
+    quiz_ciencias = Quiz.objects.filter(categoria='ciencias')
+    context= {'ciencias': quiz_ciencias}
+    return render(request, 'preicfesapp/main.html', context)
 
-def prueba(request, categoria):
-    quiz = Quiz.objects.get(categoria=categoria)
-    preguntas = Pregunta.objects.filter(categoria=categoria)
+def prueba(request, pk):
+    quiz = Quiz.objects.get(pk=pk)
+    #preguntas = Pregunta.objects.filter(categoria=categoria)
+    preguntas = quiz.pregunta_set.all()
     # Mezclar aleatoriamente las preguntas
     preguntas = list(preguntas)
     shuffle(preguntas)
-    context = {'preguntas': preguntas, 'categoria': categoria, 'quiz': quiz}
+    context = {'preguntas': preguntas, 'quiz': quiz}
     return render(request, 'preicfesapp/plantilla_preguntas.html', context)
 
 def revisar(request, quiz_id):

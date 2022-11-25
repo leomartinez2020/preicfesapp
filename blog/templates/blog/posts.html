@@ -1,0 +1,25 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content%}
+
+<section class="pt-64">
+  <h1 class="text-4xl text-center mb-4">Publicaciones</h1>
+  {% for post in posts %}
+  <article class="max-w-3xl mx-auto bg-white overflow-hidden shadow-md rounded-lg mb-12 border-b-2">
+    <img class="w-full h-64 object-cover" src="{{ post.imagen.url }}" alt="{{ post.titulo }}"/>
+    <!-- <img class="w-full h-64 object-cover" src="{% static 'images/study-fountain-pen.jpg' %}" alt="{{ post.titulo }}"/> -->
+    <div class="p-6">
+      <div class="">
+        {% for etiqueta in post.etiquetas.all %}
+         <span class="text-blue-600 text-xs">{{ etiqueta.nombre }}</span>
+        {% endfor %}
+        <a class="block text-gray-800 font-semibold text-2xl mt-2 hover:text-gray-600 hover:underline" href="{{ post.get_absolute_url }}">{{ post.titulo }}</a>
+        <div class="text-sm text-gray-600 mt-2">{{ post.contenido | safe | truncatewords:10 }}</div>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</section>
+
+{% endblock %}
