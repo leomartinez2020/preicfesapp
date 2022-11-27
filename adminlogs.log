@@ -1,0 +1,18 @@
+INFO:root:{'titulo': 'Como aprender con el método de Feynman', 'info': '', 'slug': 'como-aprender-con-el-metodo-de-feynman', 'contenido': '<p class="text-lg">La siguiente cita es atribuida a Albert Einstein:</p>\r\n\r\n<blockquote class="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 ">\r\n    <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">\r\n"Si no puedes explicarlo de forma simple, entonces no lo entiendes lo suficiente"\r\n</p></blockquote>\r\n\r\n<p class="text-lg">\r\n  O dicho de otra forma, si lo puedes explicar es porque realmente lo entiendes. Y un famoso físico y  educador estadounidense llamado Richard Feynman aplicaba esta idea.\r\n</p>', 'fue_publicado': False, 'etiquetas': <QuerySet [<Etiqueta: método de estudio>]>, 'imagen': <ImageFieldFile: media/audiolibro.jpg>}
+INFO:root:<p class="text-lg">La siguiente cita es atribuida a Albert Einstein:</p>
+
+<blockquote class="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 ">
+    <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+"Si no puedes explicarlo de forma simple, entonces no lo entiendes lo suficiente"
+</p></blockquote>
+
+<p class="text-lg">
+  O dicho de otra forma, si lo puedes explicar es porque realmente lo entiendes. Y un famoso físico y  educador estadounidense llamado Richard Feynman aplicaba esta idea. Richard Feynman recibió el premio Nobel de física por su investigación acerca de las partículas subatómicas.
+</p>
+INFO:root:.
+INFO:root:/templates/blog
+INFO:root:/home/ubuntu
+INFO:root:/home/ubuntu/saas/bestpreicfes/blog/templates/blog/sandbox.html
+INFO:root:Content copied...
+INFO:root:Content copied...
+INFO:root:Content copied...
