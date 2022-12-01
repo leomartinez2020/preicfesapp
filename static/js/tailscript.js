@@ -1,5 +1,5 @@
 // Does Tailwind stuff like create hamburger menu
-console.log('Checking out if it works...');
+// console.log('Checking out if it works...');
 var dropdownButton = document.getElementById('dropdown');
 var dropdownMenu = document.getElementById('dropmenu');
 if (dropdownMenu) {

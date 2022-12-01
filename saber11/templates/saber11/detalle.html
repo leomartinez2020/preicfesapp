@@ -1,9 +1,12 @@
 {% extends 'saber11/base.html' %}
 
+{% block title %}{{ colegio.nombre }}{% endblock %}
+
 {% block content %}
-<section>
-  <h1 class="text-xl text-center">{{ colegio.nombre }}</h1>
-  <div class="h-96">
+<section class="pt-32">
+  <h1 class="text-xl text-center">{{ colegio.nombre }} - {{ colegio.ubicacion }}</h1>
+  <!-- <div class="h-96 mx-auto w-2/3"> -->
+  <div class="h-5/6 mx-auto w-2/3">
     <canvas id="myChart"></canvas>
   </div>
 </section>
@@ -16,18 +19,19 @@
   var ingles = "{{colegio.ingles|escapejs}}";
   var sociales = "{{colegio.sociales|escapejs}}";
   var lectura = "{{colegio.lectura|escapejs}}";
+  var promedio = "{{colegio.promponderado|escapejs}}";
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Ciencias', 'Matemáticas', 'Inglés', 'Sociales', 'Lectura'],
+      labels: ['Ciencias', 'Matemáticas', 'Inglés', 'Sociales', 'Lectura', 'Promedio'],
       datasets: [{
-        label: 'Resultado',
+        label: 'Resultados 2021',
         categoryPercentage: 0.9,
         barPercentage: 0.6,
         //barThickness: 10,
-        data: [ciencias, matematicas, ingles, sociales, lectura],
+        data: [ciencias, matematicas, ingles, sociales, lectura, promedio],
         fill: false,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
@@ -35,6 +39,7 @@
           'rgba(255, 205, 86, 0.2)',
           'rgba(75, 192, 192, 0.2)',
           'rgba(54, 162, 235, 0.2)',
+          'rgb(192, 192, 192, 0.5)',
         ],
         borderColor: [
           'rgb(255, 99, 132)',
@@ -42,8 +47,9 @@
           'rgb(255, 205, 86)',
           'rgb(75, 192, 192)',
           'rgb(54, 162, 235)',
+          'rgb(105, 105, 105)',
         ],
-        borderWidth: 1
+        borderWidth: 2
       }]
     },
     options: {

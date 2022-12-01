@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Colegio
+from .models import Colegio, Departamento
 
 class ColegioSerializer(serializers.ModelSerializer):
     class Meta:
@@ -12,3 +12,11 @@ class ColegioSerializer(serializers.ModelSerializer):
             'lectura', 'promponderado',
             'puntajeglobal', 'periodo',
         ]
+
+
+class DepartamentoSerializer(serializers.ModelSerializer):
+    municipio_set = serializers.StringRelatedField(many=True)
+
+    class Meta:
+        model = Departamento
+        fields = ['nombre', 'municipio_set']

@@ -3,6 +3,8 @@
 {% load misfiltros %}
 
 {% block content %}
+
+{% if colegios %}
 <div class="overflow-x-auto relative mt-16">
     <table class="table-auto w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-400 dark:bg-gray-700 dark:text-gray-400">
@@ -32,7 +34,7 @@
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
             {% endif %}
                 <th scope="row" class="py-4 px-6 font-medium text-gray-500 dark:text-white hover:text-gray-900">
-                    <a id="{{ colegio.pk }}" onclick="myFunction(this)" href="{% url 'saber11:detalle' colegio.slug colegio.pk %}">{{ forloop.counter | sumapag:page_obj.number }}) {{ colegio.nombre }}</a>
+                    <a id="{{ colegio.pk }}" onclick="myFunction(this)" href="{% url 'saber11:detalle' colegio.slug colegio.pk %}">{{ forloop.counter }}) {{ colegio.nombre }}</a>
                 </th>
                 <td class="py-4 px-6">
                     {{ colegio.promponderado | floatformat:1 }}
@@ -52,21 +54,14 @@
     </table>
 </div>
 
-<div class="ml-4 mt-4 p-2">
-  <span class="text-gray-200">
-      {% if page_obj.has_previous %}
-          <span class="border2 bg-slate-500 px-2 rounded border-slate-500"><a href="?page=1">&laquo; Inicio</a></span>
-          <span class="border2 bg-slate-500 px-2 rounded border-slate-500"><a href="?page={{ page_obj.previous_page_number }}">Anterior</a></span>
-      {% endif %}
+<section class="mt-40 mx-auto w-2/3">
+<h1 class="text-xl text-blue-500">Buscar colegio</h1>
+<form action="{% url 'saber11:search' %}" method="get">
+    <!-- <div class="mb-4 border-2">{{ form.as_table }}</div> -->
+    <div class="border-2" >{{ form2.as_table }}</div>
+    <input class="text-white p-2 border-2 rounded-md bg-blue-300 hover:bg-blue-500" type="submit" value="Buscar">
+</form>
+</section>
 
-      <span class="text-base text-gray-700">
-          Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
-      </span>
-
-      {% if page_obj.has_next %}
-          <span class="border2 bg-slate-500 px-2 rounded border-slate-500"><a href="?page={{ page_obj.next_page_number }}">Siguiente</a></span>
-          <span class="border2 bg-slate-500 px-2 rounded border-slate-500"><a href="?page={{ page_obj.paginator.num_pages }}">Último &raquo;</a></span>
-      {% endif %}
-  </span>
-</div>
+{% endif %}
 {% endblock %}

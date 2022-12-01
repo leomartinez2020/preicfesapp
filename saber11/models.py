@@ -12,6 +12,8 @@ class Departamento(models.Model):
 class Municipio(models.Model):
     codigo = models.CharField(max_length=50)
     nombre = models.CharField(max_length=100, blank=True, null=True)
+    # TODO: use related_name
+    #departamento = models.ForeignKey(Departamento, related_name='departamentos', on_delete=models.CASCADE)
     departamento = models.ForeignKey(Departamento, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -49,6 +51,7 @@ class Colegio(models.Model):
     def __str__(self):
         return self.nombre
 
+    # TODO agregar Meta ordering de acuerdo a promponderado
     def save(self, *args, **kwargs):
         try:
             suma = (self.matematicas + self.sociales + self.ciencias + self.lectura) * 3

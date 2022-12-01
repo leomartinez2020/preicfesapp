@@ -1,18 +1,545 @@
-INFO:root:{'titulo': 'Como aprender con el método de Feynman', 'info': '', 'slug': 'como-aprender-con-el-metodo-de-feynman', 'contenido': '<p class="text-lg">La siguiente cita es atribuida a Albert Einstein:</p>\r\n\r\n<blockquote class="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 ">\r\n    <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">\r\n"Si no puedes explicarlo de forma simple, entonces no lo entiendes lo suficiente"\r\n</p></blockquote>\r\n\r\n<p class="text-lg">\r\n  O dicho de otra forma, si lo puedes explicar es porque realmente lo entiendes. Y un famoso físico y  educador estadounidense llamado Richard Feynman aplicaba esta idea.\r\n</p>', 'fue_publicado': False, 'etiquetas': <QuerySet [<Etiqueta: método de estudio>]>, 'imagen': <ImageFieldFile: media/audiolibro.jpg>}
-INFO:root:<p class="text-lg">La siguiente cita es atribuida a Albert Einstein:</p>
 
-<blockquote class="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 ">
-    <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
-"Si no puedes explicarlo de forma simple, entonces no lo entiendes lo suficiente"
-</p></blockquote>
+INFO:root:processing request
+INFO:root:<WSGIRequest: GET '/lista-colegios/search/?csrfmiddlewaretoken=sNkXwwticmefNsSKJov1qQEbE0En2AUQTTLD17Nv1aWykaV5mzeSfO3JKnF22QRi&departamento=16&municipio=Mercaderes'>
+INFO:root:processing request
+INFO:root:<QueryDict: {'csrfmiddlewaretoken': ['sNkXwwticmefNsSKJov1qQEbE0En2AUQTTLD17Nv1aWykaV5mzeSfO3JKnF22QRi'], 'departamento': ['16'], 'municipio': ['Mercaderes']}>
+INFO:root:processing request
+INFO:root:<QueryDict: {'csrfmiddlewaretoken': ['vs2sGsVI56eb4yLwDGPOhRSuoKLAjSQ1Wyt8b3fVUUWuBgORgRyF6Ph2u7Mfj8Nt'], 'departamento': ['17'], 'municipio': ['Piedecuesta']}>
+INFO:root:processing request
+INFO:root:<QueryDict: {'csrfmiddlewaretoken': ['TwSvc17J9M0ntLv2GH47QuCi2YoMIlkDkCjbHCrWYAIG0tynjSNYFs1Q8lprIBh5'], 'departamento': ['16'], 'municipio': ['Mercaderes']}>
+2022-11-30 20:32:05,740 processing request
+2022-11-30 20:32:05,741 Mercaderes
+2022-11-30 20:32:05,741 16
+2022-11-30 20:36:00,069 processing request
+2022-11-30 20:36:00,148 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Mercaderes'
 
-<p class="text-lg">
-  O dicho de otra forma, si lo puedes explicar es porque realmente lo entiendes. Y un famoso físico y  educador estadounidense llamado Richard Feynman aplicaba esta idea. Richard Feynman recibió el premio Nobel de física por su investigación acerca de las partículas subatómicas.
-</p>
-INFO:root:.
-INFO:root:/templates/blog
-INFO:root:/home/ubuntu
-INFO:root:/home/ubuntu/saas/bestpreicfes/blog/templates/blog/sandbox.html
-INFO:root:Content copied...
-INFO:root:Content copied...
-INFO:root:Content copied...
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 21, in search
+    colegio = Colegio.objects.get(ubicacion=municipio).first()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Mercaderes'.
+2022-11-30 20:36:30,605 processing request
+2022-11-30 20:36:30,651 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Mercaderes'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 21, in search
+    colegio = Colegio.objects.filter(ubicacion=municipio).first()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Mercaderes'.
+2022-11-30 20:36:41,783 processing request
+2022-11-30 20:36:41,830 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Guateque'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 21, in search
+    colegio = Colegio.objects.filter(ubicacion=municipio).first()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Guateque'.
+2022-11-30 20:39:02,854 processing request
+2022-11-30 20:39:02,859 Barranquilla
+2022-11-30 20:39:02,859 INSTITUCION EDUCATIVA DISTRITAL CALIXTO ALVAREZ - SEDE PRINCIPAL
+2022-11-30 20:40:10,698 processing request
+2022-11-30 20:40:10,723 Pacoa
+2022-11-30 20:40:10,723 COLEGIO DEPARTAMENTAL DE PIEDRA ÑI 
+2022-11-30 20:40:42,952 processing request
+2022-11-30 20:40:42,957 Solita
+2022-11-30 20:40:42,957 CAMPOLEJANO
+2022-11-30 20:41:33,124 processing request
+2022-11-30 20:41:33,127 San Gil
+2022-11-30 20:41:33,127 INSTITUCION EDUCATIVA VERSALLES
+2022-11-30 20:41:50,394 Cumaribo
+2022-11-30 20:41:50,394 I.E. INTERNADO EL SEJAL - SEDE PRINCIPAL
+2022-11-30 20:48:26,551 La Mesa
+2022-11-30 20:48:26,554 Colegios en La Mesa: 12
+2022-11-30 20:49:25,294 Sabanalarga
+2022-11-30 20:49:25,298 Colegios en Sabanalarga: 29
+2022-11-30 20:54:09,071 Funza
+2022-11-30 20:54:09,075 Colegios en Funza: 32
+2022-11-30 20:56:05,005 Funza
+2022-11-30 20:56:05,009 Colegios en Funza: 32
+2022-11-30 20:56:14,581 Rivera
+2022-11-30 20:56:14,584 Colegios en Rivera: 8
+2022-11-30 20:56:42,882 Piojó
+2022-11-30 20:56:42,884 Colegios en Piojó: 2
+2022-11-30 20:59:49,096 Piojó
+2022-11-30 20:59:49,100 Colegios en Piojó: 2
+2022-11-30 21:00:25,505 Piojó
+2022-11-30 21:00:25,508 Colegios en Piojó: 2
+2022-11-30 21:00:32,294 Mercaderes
+2022-11-30 21:00:32,296 Colegios en Mercaderes: 6
+2022-11-30 21:00:44,996 Anserma
+2022-11-30 21:00:44,998 Colegios en Anserma: 14
+2022-11-30 21:07:04,335 Buenavista
+2022-11-30 21:07:04,338 Colegios en Buenavista: 16
+2022-11-30 21:07:23,757 Aguachica
+2022-11-30 21:07:23,759 Colegios en Aguachica: 26
+2022-11-30 21:07:45,856 Ubalá
+2022-11-30 21:07:45,858 Colegios en Ubalá: 6
+2022-11-30 21:08:48,602 Yarumal
+2022-11-30 21:08:48,606 Colegios en Yarumal: 15
+2022-11-30 21:10:29,177 Soledad
+2022-11-30 21:10:29,179 Colegios en Soledad: 144
+2022-11-30 21:12:44,409 Baranoa
+2022-11-30 21:12:44,413 Colegios en Baranoa: 10
+2022-11-30 21:13:44,090 Aguadas
+2022-11-30 21:13:44,092 Colegios en Aguadas: 12
+2022-11-30 21:18:27,632 Ricaurte
+2022-11-30 21:18:27,636 Colegios en Ricaurte: 8
+2022-11-30 21:18:47,648 Barranquilla
+2022-11-30 21:18:47,651 Colegios en Barranquilla: 344
+2022-11-30 21:20:02,456 Morales
+2022-11-30 21:20:02,458 Colegios en Morales: 32
+2022-11-30 21:20:37,912 Elías
+2022-11-30 21:20:37,914 Colegios en Elías: 2
+2022-11-30 21:26:34,632 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'municipio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 20, in search
+    municipio = request.GET['municipio']
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'municipio'
+2022-11-30 21:27:13,126 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'municipio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 20, in search
+    municipio = request.GET['municipio']
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'municipio'
+2022-11-30 21:30:43,037 El Molino
+2022-11-30 21:30:43,040 Colegios en El Molino: 2
+2022-11-30 21:31:13,402 Mapiripana
+2022-11-30 21:31:13,404 Colegios en Mapiripana: 2
+2022-11-30 22:44:15,424 Piedecuesta
+2022-11-30 22:44:15,427 Colegios en Piedecuesta: 52
+2022-11-30 22:56:18,411 Arjona
+2022-11-30 22:56:18,414 Colegios en Arjona: 28
+2022-11-30 22:57:01,828 Barranquilla
+2022-11-30 22:57:01,832 Colegios en Barranquilla: 344
+2022-11-30 23:00:25,747 Sotara
+2022-11-30 23:00:25,750 Colegios en Sotara: 7
+2022-11-30 23:00:51,688 Soledad
+2022-11-30 23:00:51,691 Colegios en Soledad: 142
+2022-11-30 23:01:48,323 Valledupar
+2022-11-30 23:01:48,325 Colegios en Valledupar: 95
+2022-11-30 23:02:22,695 Pereira
+2022-11-30 23:02:22,698 Colegios en Pereira: 139
+2022-11-30 23:07:12,894 Malambo
+2022-11-30 23:07:12,896 Colegios en Malambo: 34
+2022-12-01 01:04:42,469 Not Found: /lista-colegios/sea
+2022-12-01 01:05:00,167 Mercaderes
+2022-12-01 01:05:00,171 Colegios en Mercaderes: 6
+2022-12-01 01:07:26,798 Mercaderes
+2022-12-01 01:07:26,803 Colegios en Mercaderes: 6
+2022-12-01 01:08:49,756 Mercaderes
+2022-12-01 01:08:49,760 Colegios en Mercaderes: 6
+2022-12-01 01:08:52,807 Mercaderes
+2022-12-01 01:08:52,811 Colegios en Mercaderes: 6
+2022-12-01 01:09:52,361 Linares
+2022-12-01 01:09:52,365 Colegios en Linares: 4
+2022-12-01 01:10:35,700 Anserma
+2022-12-01 01:10:35,702 Colegios en Anserma: 12
+2022-12-01 01:13:04,904 Anserma
+2022-12-01 01:13:04,907 Colegios en Anserma: 12
+2022-12-01 01:13:27,418 Anserma
+2022-12-01 01:13:27,420 Colegios en Anserma: 12
+2022-12-01 01:23:44,659 Rivera
+2022-12-01 01:23:44,662 Colegios en Rivera: 8
+2022-12-01 01:23:44,707 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 886, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 28, in search
+    return render(request, 'saber11/search.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 736, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_obj] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'form2': <DepartamentoForm bound=False, valid=False, fields=(departamento;municipio)>, 'colegios': <QuerySet [<Colegio: COLOMBUS AMERICAN SCHOOL>, <Colegio: RIVERITA>, <Colegio: RIO FRIO>, <Colegio: LA ULLOA>, <Colegio: MISAEL PASTRANA BORRERO>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: MISAEL PASTRANA BORRERO>]>, 'municipio': 'Rivera', 'departamento': '1'}]
+2022-12-01 01:26:24,043 Rivera
+2022-12-01 01:26:24,046 Colegios en Rivera: 8
+2022-12-01 01:26:24,090 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 886, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 28, in search
+    return render(request, 'saber11/search.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 736, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_obj] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'form2': <DepartamentoForm bound=False, valid=False, fields=(departamento;municipio)>, 'colegios': <QuerySet [<Colegio: COLOMBUS AMERICAN SCHOOL>, <Colegio: RIVERITA>, <Colegio: RIO FRIO>, <Colegio: LA ULLOA>, <Colegio: MISAEL PASTRANA BORRERO>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: MISAEL PASTRANA BORRERO>]>, 'municipio': 'Rivera', 'departamento': '1'}]
+2022-12-01 01:26:49,763 Rivera
+2022-12-01 01:26:49,767 Colegios en Rivera: 8
+2022-12-01 01:26:49,863 Internal Server Error: /lista-colegios/search/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 886, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_obj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/saber11/views.py", line 28, in search
+    return render(request, 'saber11/search.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 736, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_obj] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'form2': <DepartamentoForm bound=False, valid=False, fields=(departamento;municipio)>, 'colegios': <QuerySet [<Colegio: COLOMBUS AMERICAN SCHOOL>, <Colegio: RIVERITA>, <Colegio: RIO FRIO>, <Colegio: LA ULLOA>, <Colegio: MISAEL PASTRANA BORRERO>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: NUCLEO ESCOLAR EL GUADUAL>, <Colegio: MISAEL PASTRANA BORRERO>]>, 'municipio': 'Rivera', 'departamento': '1'}]
+2022-12-01 01:30:36,462 Rivera
+2022-12-01 01:30:36,466 Colegios en Rivera: 8
+2022-12-01 01:31:12,242 Not Found: /lista-colegios/detalle/misael-pastrana-borrero/11/
+2022-12-01 01:31:33,396 Not Found: /lista-colegios/detalle/misael-pastrana-borrero/10203/
+2022-12-01 01:31:52,301 Not Found: /lista-colegios/detalle/la-ulloa/2761/
+2022-12-01 01:32:11,483 Not Found: /lista-colegios/detalle/riverita/5069/
+2022-12-01 01:32:49,499 Policarpa
+2022-12-01 01:32:49,501 Colegios en Policarpa: 6
+2022-12-01 01:32:54,094 Not Found: /lista-colegios/detalle/sede-1-institucion-educativa-agropecuaria-el-ejido/7769/
+2022-12-01 01:32:58,355 Not Found: /lista-colegios/detalle/sede-1-institucion-educativa-madrigal-san-francisco-de-asis/11471/
+2022-12-01 01:35:21,163 Atrato
+2022-12-01 01:35:21,166 Colegios en Atrato: 4
+2022-12-01 01:35:27,639 Not Found: /lista-colegios/detalle/sede-de-dona-josefa/1022/
+2022-12-01 01:37:29,039 El Molino
+2022-12-01 01:37:29,043 Colegios en El Molino: 2
+2022-12-01 01:37:45,338 Pacoa
+2022-12-01 01:37:45,340 Colegios en Pacoa: 2
+2022-12-01 01:38:47,708 Pacoa
+2022-12-01 01:38:47,712 Colegios en Pacoa: 2
+2022-12-01 01:39:07,152 Barranquilla
+2022-12-01 01:39:07,155 Colegios en Barranquilla: 336

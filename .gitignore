@@ -6,3 +6,4 @@ preicfesapp/__pycache__/
 preicfesapp/migrations/__pycache__/
 bestpreicfes/__pycache__/
 __pycache__/
+dynamodb/

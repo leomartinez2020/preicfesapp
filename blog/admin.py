@@ -6,7 +6,7 @@ from django.contrib import admin
 
 from blog.models import Post, Etiqueta
 
-logging.basicConfig(filename='adminlogs.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename='adminlogs.log', encoding='utf-8', format='%(asctime)s %(message)s', level=logging.DEBUG)
 
 class PostAdmin(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):

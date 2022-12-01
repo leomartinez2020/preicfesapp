@@ -696,6 +696,10 @@ video {
   margin-left: 1rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -744,6 +748,10 @@ video {
   height: 24rem;
 }
 
+.h-5\/6 {
+  height: 83.333333%;
+}
+
 .h-64 {
   height: 16rem;
 }
@@ -778,6 +786,10 @@ video {
 
 .w-56 {
   width: 14rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .max-w-5xl {
@@ -988,6 +1000,11 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -1101,6 +1118,10 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .pt-64 {
@@ -1254,6 +1275,11 @@ video {
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -1359,6 +1385,11 @@ video {
 .hover\:bg-slate-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-900:hover {
