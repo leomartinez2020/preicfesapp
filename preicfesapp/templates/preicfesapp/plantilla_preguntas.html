@@ -11,14 +11,17 @@
         {% csrf_token %}
         {% for pregunta in preguntas %}
         <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+          <span class="text-lg font-bold">{{ forloop.counter }}.</span>
           {% if pregunta.contexto %}
-            <p class="text-xl">{{ pregunta.contexto }}</p>
+          {% autoescape off %}
+            <p class="text-xl">{{ pregunta.contexto | safe }}</p>
+          {% endautoescape %}
           {% endif %}
           {% if pregunta.imagen %}
             <img src="{{ pregunta.imagen.url }}"/>
           {% endif %}
           {% autoescape off %}
-          <p class="text-xl">{{ pregunta.texto }}</p>
+          <p class="text-xl">{{ pregunta.texto | safe }}</p>
           {% endautoescape %}
           <!-- <div class="flex flex-wrap gap-1"> -->
           <div {% if pregunta.respuestas_tienen_imagen %}class="flex flex-wrap gap-1"{% endif %}>
@@ -29,7 +32,9 @@
               <label for="opcion{{ opcion.pk }}"></label>
               <img class="mr-6" src="{{ opcion.imagen.url }}" alt=""/>
               {% else %}
-                <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto }}</label>
+                {% autoescape off %}
+                <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto | safe }}</label>
+                {% endautoescape %}
               {% endif %}
             </div>
             {% endfor %}

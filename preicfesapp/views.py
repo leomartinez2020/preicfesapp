@@ -6,7 +6,8 @@ from .models import Pregunta, Respuesta, Quiz
 
 def main(request):
     quiz_ciencias = Quiz.objects.filter(categoria='ciencias')
-    context= {'ciencias': quiz_ciencias}
+    quiz_mats = Quiz.objects.filter(categoria='matematicas')
+    context= {'ciencias': quiz_ciencias, 'matematicas': quiz_mats}
     return render(request, 'preicfesapp/main.html', context)
 
 def prueba(request, pk):

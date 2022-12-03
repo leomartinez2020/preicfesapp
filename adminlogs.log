@@ -543,3 +543,878 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [page_obj] in [
 2022-12-01 01:38:47,712 Colegios en Pacoa: 2
 2022-12-01 01:39:07,152 Barranquilla
 2022-12-01 01:39:07,155 Colegios en Barranquilla: 336
+2022-12-01 22:01:16,088 STREAM b'IHDR' 16 13
+2022-12-01 22:01:16,088 STREAM b'sRGB' 41 1
+2022-12-01 22:01:16,088 STREAM b'gAMA' 54 4
+2022-12-01 22:01:16,088 STREAM b'pHYs' 70 9
+2022-12-01 22:01:16,088 STREAM b'IDAT' 91 12031
+2022-12-01 22:01:16,089 Importing BlpImagePlugin
+2022-12-01 22:01:16,090 Importing BmpImagePlugin
+2022-12-01 22:01:16,090 Importing BufrStubImagePlugin
+2022-12-01 22:01:16,091 Importing CurImagePlugin
+2022-12-01 22:01:16,092 Importing DcxImagePlugin
+2022-12-01 22:01:16,094 Importing DdsImagePlugin
+2022-12-01 22:01:16,095 Importing EpsImagePlugin
+2022-12-01 22:01:16,096 Importing FitsImagePlugin
+2022-12-01 22:01:16,097 Importing FitsStubImagePlugin
+2022-12-01 22:01:16,098 Importing FliImagePlugin
+2022-12-01 22:01:16,099 Importing FpxImagePlugin
+2022-12-01 22:01:16,100 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-01 22:01:16,100 Importing FtexImagePlugin
+2022-12-01 22:01:16,102 Importing GbrImagePlugin
+2022-12-01 22:01:16,103 Importing GifImagePlugin
+2022-12-01 22:01:16,103 Importing GribStubImagePlugin
+2022-12-01 22:01:16,104 Importing Hdf5StubImagePlugin
+2022-12-01 22:01:16,106 Importing IcnsImagePlugin
+2022-12-01 22:01:16,108 Importing IcoImagePlugin
+2022-12-01 22:01:16,109 Importing ImImagePlugin
+2022-12-01 22:01:16,111 Importing ImtImagePlugin
+2022-12-01 22:01:16,112 Importing IptcImagePlugin
+2022-12-01 22:01:16,113 Importing JpegImagePlugin
+2022-12-01 22:01:16,113 Importing Jpeg2KImagePlugin
+2022-12-01 22:01:16,113 Importing McIdasImagePlugin
+2022-12-01 22:01:16,114 Importing MicImagePlugin
+2022-12-01 22:01:16,115 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-01 22:01:16,115 Importing MpegImagePlugin
+2022-12-01 22:01:16,116 Importing MpoImagePlugin
+2022-12-01 22:01:16,117 Importing MspImagePlugin
+2022-12-01 22:01:16,118 Importing PalmImagePlugin
+2022-12-01 22:01:16,119 Importing PcdImagePlugin
+2022-12-01 22:01:16,120 Importing PcxImagePlugin
+2022-12-01 22:01:16,120 Importing PdfImagePlugin
+2022-12-01 22:01:16,129 Importing PixarImagePlugin
+2022-12-01 22:01:16,130 Importing PngImagePlugin
+2022-12-01 22:01:16,130 Importing PpmImagePlugin
+2022-12-01 22:01:16,130 Importing PsdImagePlugin
+2022-12-01 22:01:16,131 Importing SgiImagePlugin
+2022-12-01 22:01:16,132 Importing SpiderImagePlugin
+2022-12-01 22:01:16,133 Importing SunImagePlugin
+2022-12-01 22:01:16,134 Importing TgaImagePlugin
+2022-12-01 22:01:16,135 Importing TiffImagePlugin
+2022-12-01 22:01:16,135 Importing WebPImagePlugin
+2022-12-01 22:01:16,151 Importing WmfImagePlugin
+2022-12-01 22:01:16,152 Importing XbmImagePlugin
+2022-12-01 22:01:16,154 Importing XpmImagePlugin
+2022-12-01 22:01:16,155 Importing XVThumbImagePlugin
+2022-12-01 22:11:08,560 STREAM b'IHDR' 16 13
+2022-12-01 22:11:08,561 STREAM b'sRGB' 41 1
+2022-12-01 22:11:08,561 STREAM b'gAMA' 54 4
+2022-12-01 22:11:08,561 STREAM b'pHYs' 70 9
+2022-12-01 22:11:08,561 STREAM b'IDAT' 91 19461
+2022-12-01 22:11:08,561 Importing BlpImagePlugin
+2022-12-01 22:11:08,562 Importing BmpImagePlugin
+2022-12-01 22:11:08,562 Importing BufrStubImagePlugin
+2022-12-01 22:11:08,562 Importing CurImagePlugin
+2022-12-01 22:11:08,562 Importing DcxImagePlugin
+2022-12-01 22:11:08,563 Importing DdsImagePlugin
+2022-12-01 22:11:08,563 Importing EpsImagePlugin
+2022-12-01 22:11:08,564 Importing FitsImagePlugin
+2022-12-01 22:11:08,564 Importing FitsStubImagePlugin
+2022-12-01 22:11:08,564 Importing FliImagePlugin
+2022-12-01 22:11:08,565 Importing FpxImagePlugin
+2022-12-01 22:11:08,565 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-01 22:11:08,565 Importing FtexImagePlugin
+2022-12-01 22:11:08,565 Importing GbrImagePlugin
+2022-12-01 22:11:08,566 Importing GifImagePlugin
+2022-12-01 22:11:08,566 Importing GribStubImagePlugin
+2022-12-01 22:11:08,566 Importing Hdf5StubImagePlugin
+2022-12-01 22:11:08,566 Importing IcnsImagePlugin
+2022-12-01 22:11:08,567 Importing IcoImagePlugin
+2022-12-01 22:11:08,568 Importing ImImagePlugin
+2022-12-01 22:11:08,568 Importing ImtImagePlugin
+2022-12-01 22:11:08,569 Importing IptcImagePlugin
+2022-12-01 22:11:08,569 Importing JpegImagePlugin
+2022-12-01 22:11:08,569 Importing Jpeg2KImagePlugin
+2022-12-01 22:11:08,569 Importing McIdasImagePlugin
+2022-12-01 22:11:08,569 Importing MicImagePlugin
+2022-12-01 22:11:08,570 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-01 22:11:08,570 Importing MpegImagePlugin
+2022-12-01 22:11:08,570 Importing MpoImagePlugin
+2022-12-01 22:11:08,571 Importing MspImagePlugin
+2022-12-01 22:11:08,572 Importing PalmImagePlugin
+2022-12-01 22:11:08,572 Importing PcdImagePlugin
+2022-12-01 22:11:08,572 Importing PcxImagePlugin
+2022-12-01 22:11:08,572 Importing PdfImagePlugin
+2022-12-01 22:11:08,579 Importing PixarImagePlugin
+2022-12-01 22:11:08,579 Importing PngImagePlugin
+2022-12-01 22:11:08,579 Importing PpmImagePlugin
+2022-12-01 22:11:08,579 Importing PsdImagePlugin
+2022-12-01 22:11:08,580 Importing SgiImagePlugin
+2022-12-01 22:11:08,580 Importing SpiderImagePlugin
+2022-12-01 22:11:08,580 Importing SunImagePlugin
+2022-12-01 22:11:08,581 Importing TgaImagePlugin
+2022-12-01 22:11:08,581 Importing TiffImagePlugin
+2022-12-01 22:11:08,581 Importing WebPImagePlugin
+2022-12-01 22:11:08,582 Importing WmfImagePlugin
+2022-12-01 22:11:08,582 Importing XbmImagePlugin
+2022-12-01 22:11:08,583 Importing XpmImagePlugin
+2022-12-01 22:11:08,584 Importing XVThumbImagePlugin
+2022-12-02 00:20:09,344 STREAM b'IHDR' 16 13
+2022-12-02 00:20:09,344 STREAM b'sRGB' 41 1
+2022-12-02 00:20:09,344 STREAM b'gAMA' 54 4
+2022-12-02 00:20:09,344 STREAM b'pHYs' 70 9
+2022-12-02 00:20:09,344 STREAM b'IDAT' 91 22012
+2022-12-02 00:20:09,345 Importing BlpImagePlugin
+2022-12-02 00:20:09,345 Importing BmpImagePlugin
+2022-12-02 00:20:09,346 Importing BufrStubImagePlugin
+2022-12-02 00:20:09,346 Importing CurImagePlugin
+2022-12-02 00:20:09,346 Importing DcxImagePlugin
+2022-12-02 00:20:09,347 Importing DdsImagePlugin
+2022-12-02 00:20:09,347 Importing EpsImagePlugin
+2022-12-02 00:20:09,348 Importing FitsImagePlugin
+2022-12-02 00:20:09,348 Importing FitsStubImagePlugin
+2022-12-02 00:20:09,348 Importing FliImagePlugin
+2022-12-02 00:20:09,348 Importing FpxImagePlugin
+2022-12-02 00:20:09,349 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 00:20:09,349 Importing FtexImagePlugin
+2022-12-02 00:20:09,349 Importing GbrImagePlugin
+2022-12-02 00:20:09,349 Importing GifImagePlugin
+2022-12-02 00:20:09,350 Importing GribStubImagePlugin
+2022-12-02 00:20:09,350 Importing Hdf5StubImagePlugin
+2022-12-02 00:20:09,350 Importing IcnsImagePlugin
+2022-12-02 00:20:09,351 Importing IcoImagePlugin
+2022-12-02 00:20:09,351 Importing ImImagePlugin
+2022-12-02 00:20:09,352 Importing ImtImagePlugin
+2022-12-02 00:20:09,352 Importing IptcImagePlugin
+2022-12-02 00:20:09,353 Importing JpegImagePlugin
+2022-12-02 00:20:09,353 Importing Jpeg2KImagePlugin
+2022-12-02 00:20:09,353 Importing McIdasImagePlugin
+2022-12-02 00:20:09,353 Importing MicImagePlugin
+2022-12-02 00:20:09,353 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 00:20:09,353 Importing MpegImagePlugin
+2022-12-02 00:20:09,354 Importing MpoImagePlugin
+2022-12-02 00:20:09,354 Importing MspImagePlugin
+2022-12-02 00:20:09,354 Importing PalmImagePlugin
+2022-12-02 00:20:09,355 Importing PcdImagePlugin
+2022-12-02 00:20:09,355 Importing PcxImagePlugin
+2022-12-02 00:20:09,355 Importing PdfImagePlugin
+2022-12-02 00:20:09,362 Importing PixarImagePlugin
+2022-12-02 00:20:09,362 Importing PngImagePlugin
+2022-12-02 00:20:09,362 Importing PpmImagePlugin
+2022-12-02 00:20:09,362 Importing PsdImagePlugin
+2022-12-02 00:20:09,363 Importing SgiImagePlugin
+2022-12-02 00:20:09,363 Importing SpiderImagePlugin
+2022-12-02 00:20:09,363 Importing SunImagePlugin
+2022-12-02 00:20:09,363 Importing TgaImagePlugin
+2022-12-02 00:20:09,364 Importing TiffImagePlugin
+2022-12-02 00:20:09,364 Importing WebPImagePlugin
+2022-12-02 00:20:09,365 Importing WmfImagePlugin
+2022-12-02 00:20:09,365 Importing XbmImagePlugin
+2022-12-02 00:20:09,366 Importing XpmImagePlugin
+2022-12-02 00:20:09,366 Importing XVThumbImagePlugin
+2022-12-02 00:49:57,689 STREAM b'IHDR' 16 13
+2022-12-02 00:49:57,691 STREAM b'sRGB' 41 1
+2022-12-02 00:49:57,691 STREAM b'gAMA' 54 4
+2022-12-02 00:49:57,691 STREAM b'pHYs' 70 9
+2022-12-02 00:49:57,691 STREAM b'IDAT' 91 65039
+2022-12-02 00:49:57,691 Importing BlpImagePlugin
+2022-12-02 00:49:57,693 Importing BmpImagePlugin
+2022-12-02 00:49:57,693 Importing BufrStubImagePlugin
+2022-12-02 00:49:57,694 Importing CurImagePlugin
+2022-12-02 00:49:57,695 Importing DcxImagePlugin
+2022-12-02 00:49:57,697 Importing DdsImagePlugin
+2022-12-02 00:49:57,699 Importing EpsImagePlugin
+2022-12-02 00:49:57,700 Importing FitsImagePlugin
+2022-12-02 00:49:57,701 Importing FitsStubImagePlugin
+2022-12-02 00:49:57,702 Importing FliImagePlugin
+2022-12-02 00:49:57,703 Importing FpxImagePlugin
+2022-12-02 00:49:57,704 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 00:49:57,704 Importing FtexImagePlugin
+2022-12-02 00:49:57,705 Importing GbrImagePlugin
+2022-12-02 00:49:57,706 Importing GifImagePlugin
+2022-12-02 00:49:57,706 Importing GribStubImagePlugin
+2022-12-02 00:49:57,707 Importing Hdf5StubImagePlugin
+2022-12-02 00:49:57,708 Importing IcnsImagePlugin
+2022-12-02 00:49:57,711 Importing IcoImagePlugin
+2022-12-02 00:49:57,712 Importing ImImagePlugin
+2022-12-02 00:49:57,713 Importing ImtImagePlugin
+2022-12-02 00:49:57,714 Importing IptcImagePlugin
+2022-12-02 00:49:57,715 Importing JpegImagePlugin
+2022-12-02 00:49:57,715 Importing Jpeg2KImagePlugin
+2022-12-02 00:49:57,715 Importing McIdasImagePlugin
+2022-12-02 00:49:57,716 Importing MicImagePlugin
+2022-12-02 00:49:57,717 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 00:49:57,717 Importing MpegImagePlugin
+2022-12-02 00:49:57,718 Importing MpoImagePlugin
+2022-12-02 00:49:57,718 Importing MspImagePlugin
+2022-12-02 00:49:57,719 Importing PalmImagePlugin
+2022-12-02 00:49:57,721 Importing PcdImagePlugin
+2022-12-02 00:49:57,721 Importing PcxImagePlugin
+2022-12-02 00:49:57,721 Importing PdfImagePlugin
+2022-12-02 00:49:57,731 Importing PixarImagePlugin
+2022-12-02 00:49:57,731 Importing PngImagePlugin
+2022-12-02 00:49:57,731 Importing PpmImagePlugin
+2022-12-02 00:49:57,731 Importing PsdImagePlugin
+2022-12-02 00:49:57,731 Importing SgiImagePlugin
+2022-12-02 00:49:57,732 Importing SpiderImagePlugin
+2022-12-02 00:49:57,732 Importing SunImagePlugin
+2022-12-02 00:49:57,732 Importing TgaImagePlugin
+2022-12-02 00:49:57,732 Importing TiffImagePlugin
+2022-12-02 00:49:57,733 Importing WebPImagePlugin
+2022-12-02 00:49:57,741 Importing WmfImagePlugin
+2022-12-02 00:49:57,742 Importing XbmImagePlugin
+2022-12-02 00:49:57,743 Importing XpmImagePlugin
+2022-12-02 00:49:57,743 Importing XVThumbImagePlugin
+2022-12-02 01:43:07,442 STREAM b'IHDR' 16 13
+2022-12-02 01:43:07,442 STREAM b'sRGB' 41 1
+2022-12-02 01:43:07,442 STREAM b'gAMA' 54 4
+2022-12-02 01:43:07,442 STREAM b'pHYs' 70 9
+2022-12-02 01:43:07,442 STREAM b'IDAT' 91 13187
+2022-12-02 01:43:07,442 Importing BlpImagePlugin
+2022-12-02 01:43:07,443 Importing BmpImagePlugin
+2022-12-02 01:43:07,443 Importing BufrStubImagePlugin
+2022-12-02 01:43:07,443 Importing CurImagePlugin
+2022-12-02 01:43:07,444 Importing DcxImagePlugin
+2022-12-02 01:43:07,444 Importing DdsImagePlugin
+2022-12-02 01:43:07,445 Importing EpsImagePlugin
+2022-12-02 01:43:07,445 Importing FitsImagePlugin
+2022-12-02 01:43:07,445 Importing FitsStubImagePlugin
+2022-12-02 01:43:07,446 Importing FliImagePlugin
+2022-12-02 01:43:07,446 Importing FpxImagePlugin
+2022-12-02 01:43:07,446 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 01:43:07,447 Importing FtexImagePlugin
+2022-12-02 01:43:07,447 Importing GbrImagePlugin
+2022-12-02 01:43:07,447 Importing GifImagePlugin
+2022-12-02 01:43:07,447 Importing GribStubImagePlugin
+2022-12-02 01:43:07,447 Importing Hdf5StubImagePlugin
+2022-12-02 01:43:07,448 Importing IcnsImagePlugin
+2022-12-02 01:43:07,449 Importing IcoImagePlugin
+2022-12-02 01:43:07,449 Importing ImImagePlugin
+2022-12-02 01:43:07,450 Importing ImtImagePlugin
+2022-12-02 01:43:07,450 Importing IptcImagePlugin
+2022-12-02 01:43:07,450 Importing JpegImagePlugin
+2022-12-02 01:43:07,450 Importing Jpeg2KImagePlugin
+2022-12-02 01:43:07,451 Importing McIdasImagePlugin
+2022-12-02 01:43:07,451 Importing MicImagePlugin
+2022-12-02 01:43:07,451 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 01:43:07,451 Importing MpegImagePlugin
+2022-12-02 01:43:07,451 Importing MpoImagePlugin
+2022-12-02 01:43:07,452 Importing MspImagePlugin
+2022-12-02 01:43:07,452 Importing PalmImagePlugin
+2022-12-02 01:43:07,453 Importing PcdImagePlugin
+2022-12-02 01:43:07,453 Importing PcxImagePlugin
+2022-12-02 01:43:07,453 Importing PdfImagePlugin
+2022-12-02 01:43:07,460 Importing PixarImagePlugin
+2022-12-02 01:43:07,460 Importing PngImagePlugin
+2022-12-02 01:43:07,460 Importing PpmImagePlugin
+2022-12-02 01:43:07,460 Importing PsdImagePlugin
+2022-12-02 01:43:07,460 Importing SgiImagePlugin
+2022-12-02 01:43:07,461 Importing SpiderImagePlugin
+2022-12-02 01:43:07,461 Importing SunImagePlugin
+2022-12-02 01:43:07,461 Importing TgaImagePlugin
+2022-12-02 01:43:07,462 Importing TiffImagePlugin
+2022-12-02 01:43:07,462 Importing WebPImagePlugin
+2022-12-02 01:43:07,462 Importing WmfImagePlugin
+2022-12-02 01:43:07,463 Importing XbmImagePlugin
+2022-12-02 01:43:07,464 Importing XpmImagePlugin
+2022-12-02 01:43:07,464 Importing XVThumbImagePlugin
+2022-12-02 01:46:18,018 STREAM b'IHDR' 16 13
+2022-12-02 01:46:18,018 STREAM b'sRGB' 41 1
+2022-12-02 01:46:18,018 STREAM b'gAMA' 54 4
+2022-12-02 01:46:18,018 STREAM b'pHYs' 70 9
+2022-12-02 01:46:18,018 STREAM b'IDAT' 91 1076
+2022-12-02 01:46:32,107 STREAM b'IHDR' 16 13
+2022-12-02 01:46:32,108 STREAM b'sRGB' 41 1
+2022-12-02 01:46:32,108 STREAM b'gAMA' 54 4
+2022-12-02 01:46:32,108 STREAM b'pHYs' 70 9
+2022-12-02 01:46:32,108 STREAM b'IDAT' 91 4682
+2022-12-02 01:46:32,108 Importing BlpImagePlugin
+2022-12-02 01:46:32,109 Importing BmpImagePlugin
+2022-12-02 01:46:32,109 Importing BufrStubImagePlugin
+2022-12-02 01:46:32,109 Importing CurImagePlugin
+2022-12-02 01:46:32,110 Importing DcxImagePlugin
+2022-12-02 01:46:32,110 Importing DdsImagePlugin
+2022-12-02 01:46:32,110 Importing EpsImagePlugin
+2022-12-02 01:46:32,111 Importing FitsImagePlugin
+2022-12-02 01:46:32,111 Importing FitsStubImagePlugin
+2022-12-02 01:46:32,112 Importing FliImagePlugin
+2022-12-02 01:46:32,112 Importing FpxImagePlugin
+2022-12-02 01:46:32,112 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 01:46:32,112 Importing FtexImagePlugin
+2022-12-02 01:46:32,113 Importing GbrImagePlugin
+2022-12-02 01:46:32,113 Importing GifImagePlugin
+2022-12-02 01:46:32,113 Importing GribStubImagePlugin
+2022-12-02 01:46:32,113 Importing Hdf5StubImagePlugin
+2022-12-02 01:46:32,114 Importing IcnsImagePlugin
+2022-12-02 01:46:32,115 Importing IcoImagePlugin
+2022-12-02 01:46:32,115 Importing ImImagePlugin
+2022-12-02 01:46:32,116 Importing ImtImagePlugin
+2022-12-02 01:46:32,116 Importing IptcImagePlugin
+2022-12-02 01:46:32,116 Importing JpegImagePlugin
+2022-12-02 01:46:32,116 Importing Jpeg2KImagePlugin
+2022-12-02 01:46:32,116 Importing McIdasImagePlugin
+2022-12-02 01:46:32,117 Importing MicImagePlugin
+2022-12-02 01:46:32,117 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 01:46:32,117 Importing MpegImagePlugin
+2022-12-02 01:46:32,117 Importing MpoImagePlugin
+2022-12-02 01:46:32,118 Importing MspImagePlugin
+2022-12-02 01:46:32,119 Importing PalmImagePlugin
+2022-12-02 01:46:32,120 Importing PcdImagePlugin
+2022-12-02 01:46:32,120 Importing PcxImagePlugin
+2022-12-02 01:46:32,120 Importing PdfImagePlugin
+2022-12-02 01:46:32,127 Importing PixarImagePlugin
+2022-12-02 01:46:32,127 Importing PngImagePlugin
+2022-12-02 01:46:32,127 Importing PpmImagePlugin
+2022-12-02 01:46:32,127 Importing PsdImagePlugin
+2022-12-02 01:46:32,127 Importing SgiImagePlugin
+2022-12-02 01:46:32,128 Importing SpiderImagePlugin
+2022-12-02 01:46:32,128 Importing SunImagePlugin
+2022-12-02 01:46:32,128 Importing TgaImagePlugin
+2022-12-02 01:46:32,129 Importing TiffImagePlugin
+2022-12-02 01:46:32,129 Importing WebPImagePlugin
+2022-12-02 01:46:32,129 Importing WmfImagePlugin
+2022-12-02 01:46:32,130 Importing XbmImagePlugin
+2022-12-02 01:46:32,131 Importing XpmImagePlugin
+2022-12-02 01:46:32,131 Importing XVThumbImagePlugin
+2022-12-02 01:46:44,346 STREAM b'IHDR' 16 13
+2022-12-02 01:46:44,347 STREAM b'sRGB' 41 1
+2022-12-02 01:46:44,347 STREAM b'gAMA' 54 4
+2022-12-02 01:46:44,347 STREAM b'pHYs' 70 9
+2022-12-02 01:46:44,347 STREAM b'IDAT' 91 5808
+2022-12-02 01:46:58,786 STREAM b'IHDR' 16 13
+2022-12-02 01:46:58,786 STREAM b'sRGB' 41 1
+2022-12-02 01:46:58,786 STREAM b'gAMA' 54 4
+2022-12-02 01:46:58,786 STREAM b'pHYs' 70 9
+2022-12-02 01:46:58,786 STREAM b'IDAT' 91 6147
+2022-12-02 01:48:56,838 STREAM b'IHDR' 16 13
+2022-12-02 01:48:56,839 STREAM b'sRGB' 41 1
+2022-12-02 01:48:56,839 STREAM b'gAMA' 54 4
+2022-12-02 01:48:56,839 STREAM b'pHYs' 70 9
+2022-12-02 01:48:56,839 STREAM b'IDAT' 91 5561
+2022-12-02 01:55:13,140 STREAM b'IHDR' 16 13
+2022-12-02 01:55:13,140 STREAM b'sRGB' 41 1
+2022-12-02 01:55:13,140 STREAM b'gAMA' 54 4
+2022-12-02 01:55:13,140 STREAM b'pHYs' 70 9
+2022-12-02 01:55:13,140 STREAM b'IDAT' 91 64481
+2022-12-02 01:55:13,140 Importing BlpImagePlugin
+2022-12-02 01:55:13,141 Importing BmpImagePlugin
+2022-12-02 01:55:13,141 Importing BufrStubImagePlugin
+2022-12-02 01:55:13,142 Importing CurImagePlugin
+2022-12-02 01:55:13,142 Importing DcxImagePlugin
+2022-12-02 01:55:13,142 Importing DdsImagePlugin
+2022-12-02 01:55:13,143 Importing EpsImagePlugin
+2022-12-02 01:55:13,143 Importing FitsImagePlugin
+2022-12-02 01:55:13,144 Importing FitsStubImagePlugin
+2022-12-02 01:55:13,144 Importing FliImagePlugin
+2022-12-02 01:55:13,144 Importing FpxImagePlugin
+2022-12-02 01:55:13,144 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 01:55:13,145 Importing FtexImagePlugin
+2022-12-02 01:55:13,145 Importing GbrImagePlugin
+2022-12-02 01:55:13,145 Importing GifImagePlugin
+2022-12-02 01:55:13,145 Importing GribStubImagePlugin
+2022-12-02 01:55:13,146 Importing Hdf5StubImagePlugin
+2022-12-02 01:55:13,146 Importing IcnsImagePlugin
+2022-12-02 01:55:13,147 Importing IcoImagePlugin
+2022-12-02 01:55:13,147 Importing ImImagePlugin
+2022-12-02 01:55:13,148 Importing ImtImagePlugin
+2022-12-02 01:55:13,148 Importing IptcImagePlugin
+2022-12-02 01:55:13,148 Importing JpegImagePlugin
+2022-12-02 01:55:13,148 Importing Jpeg2KImagePlugin
+2022-12-02 01:55:13,149 Importing McIdasImagePlugin
+2022-12-02 01:55:13,149 Importing MicImagePlugin
+2022-12-02 01:55:13,149 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 01:55:13,149 Importing MpegImagePlugin
+2022-12-02 01:55:13,149 Importing MpoImagePlugin
+2022-12-02 01:55:13,150 Importing MspImagePlugin
+2022-12-02 01:55:13,150 Importing PalmImagePlugin
+2022-12-02 01:55:13,151 Importing PcdImagePlugin
+2022-12-02 01:55:13,151 Importing PcxImagePlugin
+2022-12-02 01:55:13,151 Importing PdfImagePlugin
+2022-12-02 01:55:13,158 Importing PixarImagePlugin
+2022-12-02 01:55:13,158 Importing PngImagePlugin
+2022-12-02 01:55:13,158 Importing PpmImagePlugin
+2022-12-02 01:55:13,158 Importing PsdImagePlugin
+2022-12-02 01:55:13,158 Importing SgiImagePlugin
+2022-12-02 01:55:13,159 Importing SpiderImagePlugin
+2022-12-02 01:55:13,159 Importing SunImagePlugin
+2022-12-02 01:55:13,159 Importing TgaImagePlugin
+2022-12-02 01:55:13,160 Importing TiffImagePlugin
+2022-12-02 01:55:13,160 Importing WebPImagePlugin
+2022-12-02 01:55:13,160 Importing WmfImagePlugin
+2022-12-02 01:55:13,161 Importing XbmImagePlugin
+2022-12-02 01:55:13,162 Importing XpmImagePlugin
+2022-12-02 01:55:13,162 Importing XVThumbImagePlugin
+2022-12-02 05:36:58,842 STREAM b'IHDR' 16 13
+2022-12-02 05:36:58,842 STREAM b'sRGB' 41 1
+2022-12-02 05:36:58,842 STREAM b'gAMA' 54 4
+2022-12-02 05:36:58,842 STREAM b'pHYs' 70 9
+2022-12-02 05:36:58,842 STREAM b'IDAT' 91 17288
+2022-12-02 05:36:58,842 Importing BlpImagePlugin
+2022-12-02 05:36:58,843 Importing BmpImagePlugin
+2022-12-02 05:36:58,843 Importing BufrStubImagePlugin
+2022-12-02 05:36:58,843 Importing CurImagePlugin
+2022-12-02 05:36:58,844 Importing DcxImagePlugin
+2022-12-02 05:36:58,844 Importing DdsImagePlugin
+2022-12-02 05:36:58,845 Importing EpsImagePlugin
+2022-12-02 05:36:58,845 Importing FitsImagePlugin
+2022-12-02 05:36:58,845 Importing FitsStubImagePlugin
+2022-12-02 05:36:58,846 Importing FliImagePlugin
+2022-12-02 05:36:58,846 Importing FpxImagePlugin
+2022-12-02 05:36:58,846 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 05:36:58,846 Importing FtexImagePlugin
+2022-12-02 05:36:58,847 Importing GbrImagePlugin
+2022-12-02 05:36:58,847 Importing GifImagePlugin
+2022-12-02 05:36:58,847 Importing GribStubImagePlugin
+2022-12-02 05:36:58,847 Importing Hdf5StubImagePlugin
+2022-12-02 05:36:58,848 Importing IcnsImagePlugin
+2022-12-02 05:36:58,849 Importing IcoImagePlugin
+2022-12-02 05:36:58,849 Importing ImImagePlugin
+2022-12-02 05:36:58,850 Importing ImtImagePlugin
+2022-12-02 05:36:58,850 Importing IptcImagePlugin
+2022-12-02 05:36:58,850 Importing JpegImagePlugin
+2022-12-02 05:36:58,850 Importing Jpeg2KImagePlugin
+2022-12-02 05:36:58,850 Importing McIdasImagePlugin
+2022-12-02 05:36:58,851 Importing MicImagePlugin
+2022-12-02 05:36:58,851 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 05:36:58,851 Importing MpegImagePlugin
+2022-12-02 05:36:58,851 Importing MpoImagePlugin
+2022-12-02 05:36:58,852 Importing MspImagePlugin
+2022-12-02 05:36:58,852 Importing PalmImagePlugin
+2022-12-02 05:36:58,853 Importing PcdImagePlugin
+2022-12-02 05:36:58,853 Importing PcxImagePlugin
+2022-12-02 05:36:58,853 Importing PdfImagePlugin
+2022-12-02 05:36:58,859 Importing PixarImagePlugin
+2022-12-02 05:36:58,860 Importing PngImagePlugin
+2022-12-02 05:36:58,860 Importing PpmImagePlugin
+2022-12-02 05:36:58,860 Importing PsdImagePlugin
+2022-12-02 05:36:58,860 Importing SgiImagePlugin
+2022-12-02 05:36:58,860 Importing SpiderImagePlugin
+2022-12-02 05:36:58,861 Importing SunImagePlugin
+2022-12-02 05:36:58,861 Importing TgaImagePlugin
+2022-12-02 05:36:58,861 Importing TiffImagePlugin
+2022-12-02 05:36:58,861 Importing WebPImagePlugin
+2022-12-02 05:36:58,862 Importing WmfImagePlugin
+2022-12-02 05:36:58,862 Importing XbmImagePlugin
+2022-12-02 05:36:58,863 Importing XpmImagePlugin
+2022-12-02 05:36:58,864 Importing XVThumbImagePlugin
+2022-12-02 05:39:59,247 STREAM b'IHDR' 16 13
+2022-12-02 05:39:59,247 STREAM b'sRGB' 41 1
+2022-12-02 05:39:59,247 STREAM b'gAMA' 54 4
+2022-12-02 05:39:59,247 STREAM b'pHYs' 70 9
+2022-12-02 05:39:59,247 STREAM b'IDAT' 91 18461
+2022-12-02 05:42:56,964 STREAM b'IHDR' 16 13
+2022-12-02 05:42:56,964 STREAM b'sRGB' 41 1
+2022-12-02 05:42:56,965 STREAM b'gAMA' 54 4
+2022-12-02 05:42:56,965 STREAM b'pHYs' 70 9
+2022-12-02 05:42:56,965 STREAM b'IDAT' 91 16654
+2022-12-02 05:52:53,834 STREAM b'IHDR' 16 13
+2022-12-02 05:52:53,834 STREAM b'sRGB' 41 1
+2022-12-02 05:52:53,834 STREAM b'gAMA' 54 4
+2022-12-02 05:52:53,834 STREAM b'pHYs' 70 9
+2022-12-02 05:52:53,834 STREAM b'IDAT' 91 18392
+2022-12-02 05:52:53,834 Importing BlpImagePlugin
+2022-12-02 05:52:53,835 Importing BmpImagePlugin
+2022-12-02 05:52:53,835 Importing BufrStubImagePlugin
+2022-12-02 05:52:53,835 Importing CurImagePlugin
+2022-12-02 05:52:53,836 Importing DcxImagePlugin
+2022-12-02 05:52:53,836 Importing DdsImagePlugin
+2022-12-02 05:52:53,836 Importing EpsImagePlugin
+2022-12-02 05:52:53,837 Importing FitsImagePlugin
+2022-12-02 05:52:53,837 Importing FitsStubImagePlugin
+2022-12-02 05:52:53,838 Importing FliImagePlugin
+2022-12-02 05:52:53,838 Importing FpxImagePlugin
+2022-12-02 05:52:53,838 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 05:52:53,838 Importing FtexImagePlugin
+2022-12-02 05:52:53,839 Importing GbrImagePlugin
+2022-12-02 05:52:53,839 Importing GifImagePlugin
+2022-12-02 05:52:53,839 Importing GribStubImagePlugin
+2022-12-02 05:52:53,839 Importing Hdf5StubImagePlugin
+2022-12-02 05:52:53,840 Importing IcnsImagePlugin
+2022-12-02 05:52:53,841 Importing IcoImagePlugin
+2022-12-02 05:52:53,842 Importing ImImagePlugin
+2022-12-02 05:52:53,843 Importing ImtImagePlugin
+2022-12-02 05:52:53,843 Importing IptcImagePlugin
+2022-12-02 05:52:53,843 Importing JpegImagePlugin
+2022-12-02 05:52:53,843 Importing Jpeg2KImagePlugin
+2022-12-02 05:52:53,843 Importing McIdasImagePlugin
+2022-12-02 05:52:53,844 Importing MicImagePlugin
+2022-12-02 05:52:53,844 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 05:52:53,844 Importing MpegImagePlugin
+2022-12-02 05:52:53,844 Importing MpoImagePlugin
+2022-12-02 05:52:53,845 Importing MspImagePlugin
+2022-12-02 05:52:53,845 Importing PalmImagePlugin
+2022-12-02 05:52:53,846 Importing PcdImagePlugin
+2022-12-02 05:52:53,846 Importing PcxImagePlugin
+2022-12-02 05:52:53,846 Importing PdfImagePlugin
+2022-12-02 05:52:53,852 Importing PixarImagePlugin
+2022-12-02 05:52:53,853 Importing PngImagePlugin
+2022-12-02 05:52:53,853 Importing PpmImagePlugin
+2022-12-02 05:52:53,853 Importing PsdImagePlugin
+2022-12-02 05:52:53,853 Importing SgiImagePlugin
+2022-12-02 05:52:53,853 Importing SpiderImagePlugin
+2022-12-02 05:52:53,854 Importing SunImagePlugin
+2022-12-02 05:52:53,854 Importing TgaImagePlugin
+2022-12-02 05:52:53,854 Importing TiffImagePlugin
+2022-12-02 05:52:53,854 Importing WebPImagePlugin
+2022-12-02 05:52:53,855 Importing WmfImagePlugin
+2022-12-02 05:52:53,856 Importing XbmImagePlugin
+2022-12-02 05:52:53,856 Importing XpmImagePlugin
+2022-12-02 05:52:53,857 Importing XVThumbImagePlugin
+2022-12-02 05:58:20,320 STREAM b'IHDR' 16 13
+2022-12-02 05:58:20,321 STREAM b'sRGB' 41 1
+2022-12-02 05:58:20,321 STREAM b'gAMA' 54 4
+2022-12-02 05:58:20,321 STREAM b'pHYs' 70 9
+2022-12-02 05:58:20,321 STREAM b'IDAT' 91 9349
+2022-12-02 05:58:34,668 STREAM b'IHDR' 16 13
+2022-12-02 05:58:34,668 STREAM b'sRGB' 41 1
+2022-12-02 05:58:34,668 STREAM b'gAMA' 54 4
+2022-12-02 05:58:34,668 STREAM b'pHYs' 70 9
+2022-12-02 05:58:34,668 STREAM b'IDAT' 91 8812
+2022-12-02 05:58:47,677 STREAM b'IHDR' 16 13
+2022-12-02 05:58:47,677 STREAM b'sRGB' 41 1
+2022-12-02 05:58:47,677 STREAM b'gAMA' 54 4
+2022-12-02 05:58:47,677 STREAM b'pHYs' 70 9
+2022-12-02 05:58:47,677 STREAM b'IDAT' 91 8305
+2022-12-02 05:59:02,627 STREAM b'IHDR' 16 13
+2022-12-02 05:59:02,627 STREAM b'sRGB' 41 1
+2022-12-02 05:59:02,627 STREAM b'gAMA' 54 4
+2022-12-02 05:59:02,627 STREAM b'pHYs' 70 9
+2022-12-02 05:59:02,627 STREAM b'IDAT' 91 9024
+2022-12-02 06:04:32,218 STREAM b'IHDR' 16 13
+2022-12-02 06:04:32,219 STREAM b'sRGB' 41 1
+2022-12-02 06:04:32,219 STREAM b'gAMA' 54 4
+2022-12-02 06:04:32,219 STREAM b'pHYs' 70 9
+2022-12-02 06:04:32,219 STREAM b'IDAT' 91 50665
+2022-12-02 06:08:59,911 Baraya
+2022-12-02 06:08:59,915 Colegios en Baraya: 3
+2022-12-02 06:09:32,914 Tubará
+2022-12-02 06:09:32,917 Colegios en Tubará: 3
+2022-12-02 06:10:01,614 Zarzal
+2022-12-02 06:10:01,617 Colegios en Zarzal: 8
+2022-12-02 06:44:47,554 Not Found: /showLogin.cc
+2022-12-02 07:21:36,720 Not Found: /atom.xml
+2022-12-02 07:23:18,312 Not Found: /sitemap.xml
+2022-12-02 07:32:04,213 Not Found: //wp-includes/wlwmanifest.xml
+2022-12-02 07:32:04,455 Not Found: //xmlrpc.php
+2022-12-02 07:32:04,961 Not Found: //blog/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:05,205 Not Found: //web/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:05,448 Not Found: //wordpress/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:05,690 Not Found: //website/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:05,933 Not Found: //wp/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:06,177 Not Found: //news/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:06,419 Not Found: //2020/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:06,662 Not Found: //2019/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:06,905 Not Found: //shop/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:07,149 Not Found: //wp1/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:07,394 Not Found: //test/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:07,638 Not Found: //wp2/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:07,881 Not Found: //site/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:08,124 Not Found: //cms/wp-includes/wlwmanifest.xml
+2022-12-02 07:32:08,367 Not Found: //sito/wp-includes/wlwmanifest.xml
+2022-12-02 08:00:13,895 Not Found: /robots.txt
+2022-12-02 08:00:14,244 Not Found: /sitemap.xml
+2022-12-02 08:00:14,579 Not Found: /.well-known/security.txt
+2022-12-02 08:02:50,947 Not Found: /sitemap.xml.gz
+2022-12-02 08:10:02,218 Not Found: /sitemap.xml
+2022-12-02 08:13:51,921 Not Found: /sitemaps.xml
+2022-12-02 08:23:11,568 Not Found: /_ignition/health-check/
+2022-12-02 08:23:13,969 Not Found: /public/_ignition/health-check/
+2022-12-02 08:23:16,367 Not Found: /wp-includes/wlwmanifest.xml
+2022-12-02 08:29:23,144 Not Found: /atom.xml
+2022-12-02 08:45:04,628 Not Found: /sitemaps.xml
+2022-12-02 08:49:19,515 Not Found: /.git/config
+2022-12-02 08:58:26,920 Not Found: /sitemap_index.xml
+2022-12-02 09:01:56,293 Not Found: /sitemap.txt
+2022-12-02 09:02:37,817 Not Found: /sitemap_index.xml
+2022-12-02 09:07:36,569 Not Found: /sitemap.txt
+2022-12-02 09:23:18,216 Not Found: /sitemap.xml.gz
+2022-12-02 11:52:26,887 STREAM b'IHDR' 16 13
+2022-12-02 11:52:26,887 STREAM b'sRGB' 41 1
+2022-12-02 11:52:26,887 STREAM b'gAMA' 54 4
+2022-12-02 11:52:26,888 STREAM b'pHYs' 70 9
+2022-12-02 11:52:26,888 STREAM b'IDAT' 91 23230
+2022-12-02 11:52:26,888 Importing BlpImagePlugin
+2022-12-02 11:52:26,889 Importing BmpImagePlugin
+2022-12-02 11:52:26,889 Importing BufrStubImagePlugin
+2022-12-02 11:52:26,890 Importing CurImagePlugin
+2022-12-02 11:52:26,891 Importing DcxImagePlugin
+2022-12-02 11:52:26,893 Importing DdsImagePlugin
+2022-12-02 11:52:26,894 Importing EpsImagePlugin
+2022-12-02 11:52:26,895 Importing FitsImagePlugin
+2022-12-02 11:52:26,896 Importing FitsStubImagePlugin
+2022-12-02 11:52:26,897 Importing FliImagePlugin
+2022-12-02 11:52:26,898 Importing FpxImagePlugin
+2022-12-02 11:52:26,899 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 11:52:26,899 Importing FtexImagePlugin
+2022-12-02 11:52:26,900 Importing GbrImagePlugin
+2022-12-02 11:52:26,901 Importing GifImagePlugin
+2022-12-02 11:52:26,901 Importing GribStubImagePlugin
+2022-12-02 11:52:26,902 Importing Hdf5StubImagePlugin
+2022-12-02 11:52:26,903 Importing IcnsImagePlugin
+2022-12-02 11:52:26,906 Importing IcoImagePlugin
+2022-12-02 11:52:26,907 Importing ImImagePlugin
+2022-12-02 11:52:26,908 Importing ImtImagePlugin
+2022-12-02 11:52:26,909 Importing IptcImagePlugin
+2022-12-02 11:52:26,910 Importing JpegImagePlugin
+2022-12-02 11:52:26,910 Importing Jpeg2KImagePlugin
+2022-12-02 11:52:26,910 Importing McIdasImagePlugin
+2022-12-02 11:52:26,911 Importing MicImagePlugin
+2022-12-02 11:52:26,912 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 11:52:26,912 Importing MpegImagePlugin
+2022-12-02 11:52:26,913 Importing MpoImagePlugin
+2022-12-02 11:52:26,914 Importing MspImagePlugin
+2022-12-02 11:52:26,915 Importing PalmImagePlugin
+2022-12-02 11:52:26,917 Importing PcdImagePlugin
+2022-12-02 11:52:26,917 Importing PcxImagePlugin
+2022-12-02 11:52:26,918 Importing PdfImagePlugin
+2022-12-02 11:52:26,927 Importing PixarImagePlugin
+2022-12-02 11:52:26,928 Importing PngImagePlugin
+2022-12-02 11:52:26,928 Importing PpmImagePlugin
+2022-12-02 11:52:26,928 Importing PsdImagePlugin
+2022-12-02 11:52:26,929 Importing SgiImagePlugin
+2022-12-02 11:52:26,930 Importing SpiderImagePlugin
+2022-12-02 11:52:26,931 Importing SunImagePlugin
+2022-12-02 11:52:26,932 Importing TgaImagePlugin
+2022-12-02 11:52:26,933 Importing TiffImagePlugin
+2022-12-02 11:52:26,933 Importing WebPImagePlugin
+2022-12-02 11:52:26,943 Importing WmfImagePlugin
+2022-12-02 11:52:26,943 Importing XbmImagePlugin
+2022-12-02 11:52:26,945 Importing XpmImagePlugin
+2022-12-02 11:52:26,946 Importing XVThumbImagePlugin
+2022-12-02 11:58:16,162 STREAM b'IHDR' 16 13
+2022-12-02 11:58:16,162 STREAM b'sRGB' 41 1
+2022-12-02 11:58:16,162 STREAM b'gAMA' 54 4
+2022-12-02 11:58:16,162 STREAM b'pHYs' 70 9
+2022-12-02 11:58:16,162 STREAM b'IDAT' 91 65445
+2022-12-02 12:02:29,121 STREAM b'IHDR' 16 13
+2022-12-02 12:02:29,121 STREAM b'sRGB' 41 1
+2022-12-02 12:02:29,122 STREAM b'gAMA' 54 4
+2022-12-02 12:02:29,122 STREAM b'pHYs' 70 9
+2022-12-02 12:02:29,122 STREAM b'IDAT' 91 21793
+2022-12-02 12:02:29,122 Importing BlpImagePlugin
+2022-12-02 12:02:29,123 Importing BmpImagePlugin
+2022-12-02 12:02:29,123 Importing BufrStubImagePlugin
+2022-12-02 12:02:29,123 Importing CurImagePlugin
+2022-12-02 12:02:29,123 Importing DcxImagePlugin
+2022-12-02 12:02:29,124 Importing DdsImagePlugin
+2022-12-02 12:02:29,124 Importing EpsImagePlugin
+2022-12-02 12:02:29,125 Importing FitsImagePlugin
+2022-12-02 12:02:29,125 Importing FitsStubImagePlugin
+2022-12-02 12:02:29,125 Importing FliImagePlugin
+2022-12-02 12:02:29,126 Importing FpxImagePlugin
+2022-12-02 12:02:29,126 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 12:02:29,126 Importing FtexImagePlugin
+2022-12-02 12:02:29,126 Importing GbrImagePlugin
+2022-12-02 12:02:29,127 Importing GifImagePlugin
+2022-12-02 12:02:29,127 Importing GribStubImagePlugin
+2022-12-02 12:02:29,127 Importing Hdf5StubImagePlugin
+2022-12-02 12:02:29,127 Importing IcnsImagePlugin
+2022-12-02 12:02:29,128 Importing IcoImagePlugin
+2022-12-02 12:02:29,129 Importing ImImagePlugin
+2022-12-02 12:02:29,129 Importing ImtImagePlugin
+2022-12-02 12:02:29,130 Importing IptcImagePlugin
+2022-12-02 12:02:29,130 Importing JpegImagePlugin
+2022-12-02 12:02:29,130 Importing Jpeg2KImagePlugin
+2022-12-02 12:02:29,130 Importing McIdasImagePlugin
+2022-12-02 12:02:29,130 Importing MicImagePlugin
+2022-12-02 12:02:29,131 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 12:02:29,131 Importing MpegImagePlugin
+2022-12-02 12:02:29,131 Importing MpoImagePlugin
+2022-12-02 12:02:29,131 Importing MspImagePlugin
+2022-12-02 12:02:29,132 Importing PalmImagePlugin
+2022-12-02 12:02:29,133 Importing PcdImagePlugin
+2022-12-02 12:02:29,133 Importing PcxImagePlugin
+2022-12-02 12:02:29,133 Importing PdfImagePlugin
+2022-12-02 12:02:29,140 Importing PixarImagePlugin
+2022-12-02 12:02:29,140 Importing PngImagePlugin
+2022-12-02 12:02:29,140 Importing PpmImagePlugin
+2022-12-02 12:02:29,140 Importing PsdImagePlugin
+2022-12-02 12:02:29,140 Importing SgiImagePlugin
+2022-12-02 12:02:29,141 Importing SpiderImagePlugin
+2022-12-02 12:02:29,141 Importing SunImagePlugin
+2022-12-02 12:02:29,141 Importing TgaImagePlugin
+2022-12-02 12:02:29,142 Importing TiffImagePlugin
+2022-12-02 12:02:29,142 Importing WebPImagePlugin
+2022-12-02 12:02:29,142 Importing WmfImagePlugin
+2022-12-02 12:02:29,143 Importing XbmImagePlugin
+2022-12-02 12:02:29,144 Importing XpmImagePlugin
+2022-12-02 12:02:29,144 Importing XVThumbImagePlugin
+2022-12-02 12:11:35,022 STREAM b'IHDR' 16 13
+2022-12-02 12:11:35,022 STREAM b'sRGB' 41 1
+2022-12-02 12:11:35,022 STREAM b'gAMA' 54 4
+2022-12-02 12:11:35,022 STREAM b'pHYs' 70 9
+2022-12-02 12:11:35,022 STREAM b'IDAT' 91 7751
+2022-12-02 23:53:09,203 STREAM b'IHDR' 16 13
+2022-12-02 23:53:09,203 STREAM b'sRGB' 41 1
+2022-12-02 23:53:09,203 STREAM b'gAMA' 54 4
+2022-12-02 23:53:09,203 STREAM b'pHYs' 70 9
+2022-12-02 23:53:09,203 STREAM b'IDAT' 91 10175
+2022-12-02 23:56:10,490 STREAM b'IHDR' 16 13
+2022-12-02 23:56:10,490 STREAM b'sRGB' 41 1
+2022-12-02 23:56:10,490 STREAM b'gAMA' 54 4
+2022-12-02 23:56:10,490 STREAM b'pHYs' 70 9
+2022-12-02 23:56:10,490 STREAM b'IDAT' 91 18666
+2022-12-02 23:56:10,490 Importing BlpImagePlugin
+2022-12-02 23:56:10,491 Importing BmpImagePlugin
+2022-12-02 23:56:10,491 Importing BufrStubImagePlugin
+2022-12-02 23:56:10,491 Importing CurImagePlugin
+2022-12-02 23:56:10,492 Importing DcxImagePlugin
+2022-12-02 23:56:10,492 Importing DdsImagePlugin
+2022-12-02 23:56:10,492 Importing EpsImagePlugin
+2022-12-02 23:56:10,493 Importing FitsImagePlugin
+2022-12-02 23:56:10,493 Importing FitsStubImagePlugin
+2022-12-02 23:56:10,494 Importing FliImagePlugin
+2022-12-02 23:56:10,494 Importing FpxImagePlugin
+2022-12-02 23:56:10,494 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-02 23:56:10,494 Importing FtexImagePlugin
+2022-12-02 23:56:10,495 Importing GbrImagePlugin
+2022-12-02 23:56:10,495 Importing GifImagePlugin
+2022-12-02 23:56:10,495 Importing GribStubImagePlugin
+2022-12-02 23:56:10,495 Importing Hdf5StubImagePlugin
+2022-12-02 23:56:10,496 Importing IcnsImagePlugin
+2022-12-02 23:56:10,497 Importing IcoImagePlugin
+2022-12-02 23:56:10,497 Importing ImImagePlugin
+2022-12-02 23:56:10,498 Importing ImtImagePlugin
+2022-12-02 23:56:10,498 Importing IptcImagePlugin
+2022-12-02 23:56:10,498 Importing JpegImagePlugin
+2022-12-02 23:56:10,499 Importing Jpeg2KImagePlugin
+2022-12-02 23:56:10,499 Importing McIdasImagePlugin
+2022-12-02 23:56:10,499 Importing MicImagePlugin
+2022-12-02 23:56:10,499 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-02 23:56:10,499 Importing MpegImagePlugin
+2022-12-02 23:56:10,499 Importing MpoImagePlugin
+2022-12-02 23:56:10,500 Importing MspImagePlugin
+2022-12-02 23:56:10,500 Importing PalmImagePlugin
+2022-12-02 23:56:10,501 Importing PcdImagePlugin
+2022-12-02 23:56:10,501 Importing PcxImagePlugin
+2022-12-02 23:56:10,501 Importing PdfImagePlugin
+2022-12-02 23:56:10,508 Importing PixarImagePlugin
+2022-12-02 23:56:10,508 Importing PngImagePlugin
+2022-12-02 23:56:10,508 Importing PpmImagePlugin
+2022-12-02 23:56:10,508 Importing PsdImagePlugin
+2022-12-02 23:56:10,508 Importing SgiImagePlugin
+2022-12-02 23:56:10,509 Importing SpiderImagePlugin
+2022-12-02 23:56:10,509 Importing SunImagePlugin
+2022-12-02 23:56:10,509 Importing TgaImagePlugin
+2022-12-02 23:56:10,510 Importing TiffImagePlugin
+2022-12-02 23:56:10,510 Importing WebPImagePlugin
+2022-12-02 23:56:10,511 Importing WmfImagePlugin
+2022-12-02 23:56:10,511 Importing XbmImagePlugin
+2022-12-02 23:56:10,512 Importing XpmImagePlugin
+2022-12-02 23:56:10,512 Importing XVThumbImagePlugin
+2022-12-02 23:56:27,373 STREAM b'IHDR' 16 13
+2022-12-02 23:56:27,373 STREAM b'sRGB' 41 1
+2022-12-02 23:56:27,373 STREAM b'gAMA' 54 4
+2022-12-02 23:56:27,373 STREAM b'pHYs' 70 9
+2022-12-02 23:56:27,373 STREAM b'IDAT' 91 20922
+2022-12-02 23:56:42,563 STREAM b'IHDR' 16 13
+2022-12-02 23:56:42,563 STREAM b'sRGB' 41 1
+2022-12-02 23:56:42,563 STREAM b'gAMA' 54 4
+2022-12-02 23:56:42,563 STREAM b'pHYs' 70 9
+2022-12-02 23:56:42,563 STREAM b'IDAT' 91 20897
+2022-12-02 23:56:56,435 STREAM b'IHDR' 16 13
+2022-12-02 23:56:56,435 STREAM b'sRGB' 41 1
+2022-12-02 23:56:56,435 STREAM b'gAMA' 54 4
+2022-12-02 23:56:56,435 STREAM b'pHYs' 70 9
+2022-12-02 23:56:56,435 STREAM b'IDAT' 91 20028
+2022-12-03 00:05:08,517 STREAM b'IHDR' 16 13
+2022-12-03 00:05:08,517 STREAM b'sRGB' 41 1
+2022-12-03 00:05:08,517 STREAM b'gAMA' 54 4
+2022-12-03 00:05:08,517 STREAM b'pHYs' 70 9
+2022-12-03 00:05:08,517 STREAM b'IDAT' 91 18474
+2022-12-03 00:22:26,220 STREAM b'IHDR' 16 13
+2022-12-03 00:22:26,220 STREAM b'sRGB' 41 1
+2022-12-03 00:22:26,220 STREAM b'gAMA' 54 4
+2022-12-03 00:22:26,220 STREAM b'pHYs' 70 9
+2022-12-03 00:22:26,220 STREAM b'IDAT' 91 39389
+2022-12-03 00:22:26,221 Importing BlpImagePlugin
+2022-12-03 00:22:26,221 Importing BmpImagePlugin
+2022-12-03 00:22:26,222 Importing BufrStubImagePlugin
+2022-12-03 00:22:26,222 Importing CurImagePlugin
+2022-12-03 00:22:26,222 Importing DcxImagePlugin
+2022-12-03 00:22:26,223 Importing DdsImagePlugin
+2022-12-03 00:22:26,223 Importing EpsImagePlugin
+2022-12-03 00:22:26,224 Importing FitsImagePlugin
+2022-12-03 00:22:26,224 Importing FitsStubImagePlugin
+2022-12-03 00:22:26,224 Importing FliImagePlugin
+2022-12-03 00:22:26,224 Importing FpxImagePlugin
+2022-12-03 00:22:26,225 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-03 00:22:26,225 Importing FtexImagePlugin
+2022-12-03 00:22:26,225 Importing GbrImagePlugin
+2022-12-03 00:22:26,225 Importing GifImagePlugin
+2022-12-03 00:22:26,225 Importing GribStubImagePlugin
+2022-12-03 00:22:26,226 Importing Hdf5StubImagePlugin
+2022-12-03 00:22:26,226 Importing IcnsImagePlugin
+2022-12-03 00:22:26,227 Importing IcoImagePlugin
+2022-12-03 00:22:26,227 Importing ImImagePlugin
+2022-12-03 00:22:26,228 Importing ImtImagePlugin
+2022-12-03 00:22:26,228 Importing IptcImagePlugin
+2022-12-03 00:22:26,229 Importing JpegImagePlugin
+2022-12-03 00:22:26,229 Importing Jpeg2KImagePlugin
+2022-12-03 00:22:26,229 Importing McIdasImagePlugin
+2022-12-03 00:22:26,229 Importing MicImagePlugin
+2022-12-03 00:22:26,229 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-03 00:22:26,229 Importing MpegImagePlugin
+2022-12-03 00:22:26,230 Importing MpoImagePlugin
+2022-12-03 00:22:26,230 Importing MspImagePlugin
+2022-12-03 00:22:26,230 Importing PalmImagePlugin
+2022-12-03 00:22:26,231 Importing PcdImagePlugin
+2022-12-03 00:22:26,231 Importing PcxImagePlugin
+2022-12-03 00:22:26,231 Importing PdfImagePlugin
+2022-12-03 00:22:26,238 Importing PixarImagePlugin
+2022-12-03 00:22:26,238 Importing PngImagePlugin
+2022-12-03 00:22:26,238 Importing PpmImagePlugin
+2022-12-03 00:22:26,239 Importing PsdImagePlugin
+2022-12-03 00:22:26,239 Importing SgiImagePlugin
+2022-12-03 00:22:26,239 Importing SpiderImagePlugin
+2022-12-03 00:22:26,239 Importing SunImagePlugin
+2022-12-03 00:22:26,240 Importing TgaImagePlugin
+2022-12-03 00:22:26,240 Importing TiffImagePlugin
+2022-12-03 00:22:26,240 Importing WebPImagePlugin
+2022-12-03 00:22:26,241 Importing WmfImagePlugin
+2022-12-03 00:22:26,241 Importing XbmImagePlugin
+2022-12-03 00:22:26,242 Importing XpmImagePlugin
+2022-12-03 00:22:26,243 Importing XVThumbImagePlugin
+2022-12-03 00:31:18,952 STREAM b'IHDR' 16 13
+2022-12-03 00:31:18,952 STREAM b'sRGB' 41 1
+2022-12-03 00:31:18,952 STREAM b'gAMA' 54 4
+2022-12-03 00:31:18,952 STREAM b'pHYs' 70 9
+2022-12-03 00:31:18,952 STREAM b'IDAT' 91 65445
+2022-12-03 00:31:18,953 Importing BlpImagePlugin
+2022-12-03 00:31:18,953 Importing BmpImagePlugin
+2022-12-03 00:31:18,953 Importing BufrStubImagePlugin
+2022-12-03 00:31:18,954 Importing CurImagePlugin
+2022-12-03 00:31:18,954 Importing DcxImagePlugin
+2022-12-03 00:31:18,955 Importing DdsImagePlugin
+2022-12-03 00:31:18,955 Importing EpsImagePlugin
+2022-12-03 00:31:18,955 Importing FitsImagePlugin
+2022-12-03 00:31:18,956 Importing FitsStubImagePlugin
+2022-12-03 00:31:18,956 Importing FliImagePlugin
+2022-12-03 00:31:18,956 Importing FpxImagePlugin
+2022-12-03 00:31:18,957 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-03 00:31:18,957 Importing FtexImagePlugin
+2022-12-03 00:31:18,957 Importing GbrImagePlugin
+2022-12-03 00:31:18,957 Importing GifImagePlugin
+2022-12-03 00:31:18,958 Importing GribStubImagePlugin
+2022-12-03 00:31:18,958 Importing Hdf5StubImagePlugin
+2022-12-03 00:31:18,958 Importing IcnsImagePlugin
+2022-12-03 00:31:18,959 Importing IcoImagePlugin
+2022-12-03 00:31:18,959 Importing ImImagePlugin
+2022-12-03 00:31:18,960 Importing ImtImagePlugin
+2022-12-03 00:31:18,960 Importing IptcImagePlugin
+2022-12-03 00:31:18,961 Importing JpegImagePlugin
+2022-12-03 00:31:18,961 Importing Jpeg2KImagePlugin
+2022-12-03 00:31:18,961 Importing McIdasImagePlugin
+2022-12-03 00:31:18,961 Importing MicImagePlugin
+2022-12-03 00:31:18,961 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-03 00:31:18,961 Importing MpegImagePlugin
+2022-12-03 00:31:18,962 Importing MpoImagePlugin
+2022-12-03 00:31:18,962 Importing MspImagePlugin
+2022-12-03 00:31:18,962 Importing PalmImagePlugin
+2022-12-03 00:31:18,963 Importing PcdImagePlugin
+2022-12-03 00:31:18,963 Importing PcxImagePlugin
+2022-12-03 00:31:18,963 Importing PdfImagePlugin
+2022-12-03 00:31:18,970 Importing PixarImagePlugin
+2022-12-03 00:31:18,970 Importing PngImagePlugin
+2022-12-03 00:31:18,970 Importing PpmImagePlugin
+2022-12-03 00:31:18,970 Importing PsdImagePlugin
+2022-12-03 00:31:18,971 Importing SgiImagePlugin
+2022-12-03 00:31:18,971 Importing SpiderImagePlugin
+2022-12-03 00:31:18,971 Importing SunImagePlugin
+2022-12-03 00:31:18,972 Importing TgaImagePlugin
+2022-12-03 00:31:18,972 Importing TiffImagePlugin
+2022-12-03 00:31:18,972 Importing WebPImagePlugin
+2022-12-03 00:31:18,973 Importing WmfImagePlugin
+2022-12-03 00:31:18,973 Importing XbmImagePlugin
+2022-12-03 00:31:18,974 Importing XpmImagePlugin
+2022-12-03 00:31:18,974 Importing XVThumbImagePlugin
