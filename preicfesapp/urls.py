@@ -9,7 +9,7 @@ app_name = 'preicfesapp'
 urlpatterns = [
     path('', TemplateView.as_view(template_name='preicfesapp/index.html'), name='inicio'),
     path('indice/', views.main, name='main'),
-    path('<int:pk>/', views.prueba, name='prueba'),
+    path('<slug:slug>/<int:pk>/', views.prueba, name='prueba'),
     path('<int:quiz_id>/resultados/', views.revisar, name='revisar'),
 ]
 

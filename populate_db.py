@@ -15,7 +15,7 @@ C. Se hicieron disecciones de una pareja de jirafas para estudiar sus órganos.
 D. Se comparó el ADN de un grupo de jirafas primitivas con el de un grupo de jirafas actuales.
 """
 
-filename = 'texto.txt'
+filename = 'sociales.txt'
 
 def process_file_lines():
     """ Procesa una lista de lineas del archivo de texto """
@@ -37,6 +37,7 @@ def process_file_lines():
         if dd.get(line[:3], False):
             print(line[:3])
             if line[:3] == 'A. ':
+                pregunta.categoria = 'sociales'
                 pregunta.save()
             respuesta = Respuesta(texto=line[3:], pregunta=pregunta)
             respuesta.save()
@@ -45,3 +46,34 @@ def process_file_lines():
     print('Done...')
     f.close()
 
+def test_process_file_lines():
+    """ Procesa una lista de lineas del archivo de texto """
+    f = open(filename)
+    dd = {'A. ': True, 'B. ': True, 'C. ': True, 'D. ': True}
+    ctx = False
+    for line in f:
+        if line.startswith('ctx'):
+            #pregunta = Pregunta(contexto=line[4:])
+            print('contexto', line[4:])
+            ctx = True
+            continue
+        if line.startswith('txt') and ctx == True:
+            #pregunta.texto = line[4:]
+            print('texto', line[4:])
+            ctx = False
+            continue
+        if line.startswith('txt'):
+            #pregunta = Pregunta(texto=line[4:])
+            continue
+        if dd.get(line[:3], False):
+            print(line[3:])
+            #if line[:3] == 'A. ':
+                #pregunta.save()
+            #respuesta = Respuesta(texto=line[3:], pregunta=pregunta)
+            #respuesta.save()
+            if line[:3] == 'D. ':
+                ctx = False
+    print('Done...')
+    f.close()
+
+#test_process_file_lines()

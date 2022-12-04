@@ -1,0 +1,20 @@
+A. 12x + 5
+B. x + 17
+C. 12x + 17
+D. x + 12
+A. Las ventas del producto 1 son directamente proporcionales al número del mes.
+B. Las ventas del producto 1 son inversamente proporcionales al número del mes.
+C. Las ventas del producto 2 son directamente proporcionales al número del mes.
+D. Las ventas del producto 2 son inversamente proporcionales al número del mes.
+A. Es constante, porque la altura que alcanza el ave y la distancia recorrida tienen el mismo valor.
+B. Es exponencial, porque la altura que alcanza el ave y la distancia recorrida van en aumento.
+C. Es lineal, porque por cada metro que aumenta la altura que alcanza el ave, aumenta un metro la distancia recorrida.
+D. Es cuadrática, porque la altura que alcanza el ave y la distancia que recorre aumentan dos metros cada vez.
+A. 4,91 km, 4,86 km, 5,42 km y 5,407 km.
+B. 4,91 km, 4,86 km, 5,407 km y 5,42 km.
+C. 4,86 km, 4,91 km, 5,407 km y 5,42 km.
+D. 4,86 km, 4,91 km, 5,42 km y 5,407 km.
+A. verdadera, pues una parábola queda completamente determinada por su vértice y cualquier otro desus puntos.
+B. verdadera, pues una parábola está dada por una ecuación cuadrática y, por tanto, bastan dos puntos para encontrarla.
+C. falsa, pues dados dos puntos en el plano hay por lo menos dos parábolas que pasan por estos dos puntos.
+D. falsa, pues dos puntos en el plano definen una recta y, por tanto, no hay información suficiente para definir una parábola.

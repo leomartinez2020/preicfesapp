@@ -7,10 +7,14 @@ from .models import Pregunta, Respuesta, Quiz
 def main(request):
     quiz_ciencias = Quiz.objects.filter(categoria='ciencias')
     quiz_mats = Quiz.objects.filter(categoria='matematicas')
-    context= {'ciencias': quiz_ciencias, 'matematicas': quiz_mats}
+    quiz_ingles = Quiz.objects.filter(categoria='ingles')
+    quiz_sociales = Quiz.objects.filter(categoria='sociales')
+    quiz_lectura = Quiz.objects.filter(categoria='lectura')
+    context= {'ciencias': quiz_ciencias, 'matematicas': quiz_mats,
+              'ingles': quiz_ingles, 'sociales': quiz_sociales, 'lectura': quiz_lectura}
     return render(request, 'preicfesapp/main.html', context)
 
-def prueba(request, pk):
+def prueba(request, slug, pk):
     quiz = Quiz.objects.get(pk=pk)
     #preguntas = Pregunta.objects.filter(categoria=categoria)
     preguntas = quiz.pregunta_set.all()

@@ -1418,3 +1418,353 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [page_obj] in [
 2022-12-03 00:31:18,973 Importing XbmImagePlugin
 2022-12-03 00:31:18,974 Importing XpmImagePlugin
 2022-12-03 00:31:18,974 Importing XVThumbImagePlugin
+2022-12-03 02:51:50,879 STREAM b'IHDR' 16 13
+2022-12-03 02:51:50,880 STREAM b'sRGB' 41 1
+2022-12-03 02:51:50,880 STREAM b'gAMA' 54 4
+2022-12-03 02:51:50,880 STREAM b'pHYs' 70 9
+2022-12-03 02:51:50,880 STREAM b'IDAT' 91 20889
+2022-12-03 02:51:50,881 Importing BlpImagePlugin
+2022-12-03 02:51:50,891 Importing BmpImagePlugin
+2022-12-03 02:51:50,891 Importing BufrStubImagePlugin
+2022-12-03 02:51:50,892 Importing CurImagePlugin
+2022-12-03 02:51:50,893 Importing DcxImagePlugin
+2022-12-03 02:51:50,894 Importing DdsImagePlugin
+2022-12-03 02:51:50,896 Importing EpsImagePlugin
+2022-12-03 02:51:50,897 Importing FitsImagePlugin
+2022-12-03 02:51:50,898 Importing FitsStubImagePlugin
+2022-12-03 02:51:50,899 Importing FliImagePlugin
+2022-12-03 02:51:50,900 Importing FpxImagePlugin
+2022-12-03 02:51:50,901 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-03 02:51:50,901 Importing FtexImagePlugin
+2022-12-03 02:51:50,902 Importing GbrImagePlugin
+2022-12-03 02:51:50,903 Importing GifImagePlugin
+2022-12-03 02:51:50,903 Importing GribStubImagePlugin
+2022-12-03 02:51:50,903 Importing Hdf5StubImagePlugin
+2022-12-03 02:51:50,904 Importing IcnsImagePlugin
+2022-12-03 02:51:50,907 Importing IcoImagePlugin
+2022-12-03 02:51:50,908 Importing ImImagePlugin
+2022-12-03 02:51:50,909 Importing ImtImagePlugin
+2022-12-03 02:51:50,910 Importing IptcImagePlugin
+2022-12-03 02:51:50,911 Importing JpegImagePlugin
+2022-12-03 02:51:50,911 Importing Jpeg2KImagePlugin
+2022-12-03 02:51:50,911 Importing McIdasImagePlugin
+2022-12-03 02:51:50,912 Importing MicImagePlugin
+2022-12-03 02:51:50,913 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-03 02:51:50,913 Importing MpegImagePlugin
+2022-12-03 02:51:50,914 Importing MpoImagePlugin
+2022-12-03 02:51:50,915 Importing MspImagePlugin
+2022-12-03 02:51:50,916 Importing PalmImagePlugin
+2022-12-03 02:51:50,917 Importing PcdImagePlugin
+2022-12-03 02:51:50,918 Importing PcxImagePlugin
+2022-12-03 02:51:50,918 Importing PdfImagePlugin
+2022-12-03 02:51:50,928 Importing PixarImagePlugin
+2022-12-03 02:51:50,929 Importing PngImagePlugin
+2022-12-03 02:51:50,929 Importing PpmImagePlugin
+2022-12-03 02:51:50,929 Importing PsdImagePlugin
+2022-12-03 02:51:50,930 Importing SgiImagePlugin
+2022-12-03 02:51:50,931 Importing SpiderImagePlugin
+2022-12-03 02:51:50,932 Importing SunImagePlugin
+2022-12-03 02:51:50,932 Importing TgaImagePlugin
+2022-12-03 02:51:50,933 Importing TiffImagePlugin
+2022-12-03 02:51:50,933 Importing WebPImagePlugin
+2022-12-03 02:51:50,943 Importing WmfImagePlugin
+2022-12-03 02:51:50,943 Importing XbmImagePlugin
+2022-12-03 02:51:50,945 Importing XpmImagePlugin
+2022-12-03 02:51:50,946 Importing XVThumbImagePlugin
+2022-12-03 03:43:22,383 STREAM b'IHDR' 16 13
+2022-12-03 03:43:22,383 STREAM b'sRGB' 41 1
+2022-12-03 03:43:22,383 STREAM b'gAMA' 54 4
+2022-12-03 03:43:22,383 STREAM b'pHYs' 70 9
+2022-12-03 03:43:22,383 STREAM b'IDAT' 91 13174
+2022-12-03 03:43:22,383 Importing BlpImagePlugin
+2022-12-03 03:43:22,384 Importing BmpImagePlugin
+2022-12-03 03:43:22,384 Importing BufrStubImagePlugin
+2022-12-03 03:43:22,385 Importing CurImagePlugin
+2022-12-03 03:43:22,385 Importing DcxImagePlugin
+2022-12-03 03:43:22,385 Importing DdsImagePlugin
+2022-12-03 03:43:22,386 Importing EpsImagePlugin
+2022-12-03 03:43:22,386 Importing FitsImagePlugin
+2022-12-03 03:43:22,387 Importing FitsStubImagePlugin
+2022-12-03 03:43:22,387 Importing FliImagePlugin
+2022-12-03 03:43:22,387 Importing FpxImagePlugin
+2022-12-03 03:43:22,388 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-03 03:43:22,388 Importing FtexImagePlugin
+2022-12-03 03:43:22,388 Importing GbrImagePlugin
+2022-12-03 03:43:22,388 Importing GifImagePlugin
+2022-12-03 03:43:22,388 Importing GribStubImagePlugin
+2022-12-03 03:43:22,389 Importing Hdf5StubImagePlugin
+2022-12-03 03:43:22,389 Importing IcnsImagePlugin
+2022-12-03 03:43:22,390 Importing IcoImagePlugin
+2022-12-03 03:43:22,390 Importing ImImagePlugin
+2022-12-03 03:43:22,391 Importing ImtImagePlugin
+2022-12-03 03:43:22,391 Importing IptcImagePlugin
+2022-12-03 03:43:22,391 Importing JpegImagePlugin
+2022-12-03 03:43:22,392 Importing Jpeg2KImagePlugin
+2022-12-03 03:43:22,392 Importing McIdasImagePlugin
+2022-12-03 03:43:22,392 Importing MicImagePlugin
+2022-12-03 03:43:22,392 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-03 03:43:22,392 Importing MpegImagePlugin
+2022-12-03 03:43:22,392 Importing MpoImagePlugin
+2022-12-03 03:43:22,393 Importing MspImagePlugin
+2022-12-03 03:43:22,393 Importing PalmImagePlugin
+2022-12-03 03:43:22,394 Importing PcdImagePlugin
+2022-12-03 03:43:22,394 Importing PcxImagePlugin
+2022-12-03 03:43:22,394 Importing PdfImagePlugin
+2022-12-03 03:43:22,401 Importing PixarImagePlugin
+2022-12-03 03:43:22,401 Importing PngImagePlugin
+2022-12-03 03:43:22,401 Importing PpmImagePlugin
+2022-12-03 03:43:22,401 Importing PsdImagePlugin
+2022-12-03 03:43:22,401 Importing SgiImagePlugin
+2022-12-03 03:43:22,401 Importing SpiderImagePlugin
+2022-12-03 03:43:22,402 Importing SunImagePlugin
+2022-12-03 03:43:22,402 Importing TgaImagePlugin
+2022-12-03 03:43:22,402 Importing TiffImagePlugin
+2022-12-03 03:43:22,402 Importing WebPImagePlugin
+2022-12-03 03:43:22,403 Importing WmfImagePlugin
+2022-12-03 03:43:22,403 Importing XbmImagePlugin
+2022-12-03 03:43:22,404 Importing XpmImagePlugin
+2022-12-03 03:43:22,405 Importing XVThumbImagePlugin
+2022-12-03 03:52:12,951 Not Found: /apple-touch-icon-152x152-precomposed.png
+2022-12-03 03:52:13,391 Not Found: /apple-touch-icon-152x152.png
+2022-12-03 03:52:13,583 Not Found: /apple-touch-icon-precomposed.png
+2022-12-03 03:52:13,668 Not Found: /apple-touch-icon.png
+2022-12-03 13:27:42,824 Internal Server Error: /indice/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/preicfesapp/views.py", line 15, in main
+    return render(request, 'preicfesapp/main.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'prueba' with arguments '(1,)' not found. 1 pattern(s) tried: ['(?P<slug>[-a-zA-Z0-9_]+)/(?P<pk>[0-9]+)/\\Z']
+2022-12-03 13:28:04,480 Internal Server Error: /indice/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/preicfesapp/views.py", line 15, in main
+    return render(request, 'preicfesapp/main.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'prueba' with arguments '(1,)' not found. 1 pattern(s) tried: ['(?P<slug>[-a-zA-Z0-9_]+)/(?P<pk>[0-9]+)/\\Z']
+2022-12-03 13:29:48,666 Internal Server Error: /indice/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/preicfesapp/views.py", line 15, in main
+    return render(request, 'preicfesapp/main.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 914, in _resolve_lookup
+    current = current()
+  File "/home/ubuntu/saas/bestpreicfes/preicfesapp/models.py", line 39, in get_absolute_url
+    return reverse('preicfesapp:prueba', args=[str(self.pk)])
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'prueba' with arguments '('1',)' not found. 1 pattern(s) tried: ['(?P<slug>[-a-zA-Z0-9_]+)/(?P<pk>[0-9]+)/\\Z']
+2022-12-03 13:33:58,962 STREAM b'IHDR' 16 13
+2022-12-03 13:33:58,962 STREAM b'sRGB' 41 1
+2022-12-03 13:33:58,962 STREAM b'gAMA' 54 4
+2022-12-03 13:33:58,962 STREAM b'pHYs' 70 9
+2022-12-03 13:33:58,962 STREAM b'IDAT' 91 15661
+2022-12-03 13:33:58,962 Importing BlpImagePlugin
+2022-12-03 13:33:58,964 Importing BmpImagePlugin
+2022-12-03 13:33:58,964 Importing BufrStubImagePlugin
+2022-12-03 13:33:58,965 Importing CurImagePlugin
+2022-12-03 13:33:58,966 Importing DcxImagePlugin
+2022-12-03 13:33:58,968 Importing DdsImagePlugin
+2022-12-03 13:33:58,969 Importing EpsImagePlugin
+2022-12-03 13:33:58,970 Importing FitsImagePlugin
+2022-12-03 13:33:58,971 Importing FitsStubImagePlugin
+2022-12-03 13:33:58,974 Importing FliImagePlugin
+2022-12-03 13:33:58,974 Importing FpxImagePlugin
+2022-12-03 13:33:58,976 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-03 13:33:58,976 Importing FtexImagePlugin
+2022-12-03 13:33:58,977 Importing GbrImagePlugin
+2022-12-03 13:33:58,979 Importing GifImagePlugin
+2022-12-03 13:33:58,979 Importing GribStubImagePlugin
+2022-12-03 13:33:58,981 Importing Hdf5StubImagePlugin
+2022-12-03 13:33:58,982 Importing IcnsImagePlugin
+2022-12-03 13:33:58,987 Importing IcoImagePlugin
+2022-12-03 13:33:58,988 Importing ImImagePlugin
+2022-12-03 13:33:58,991 Importing ImtImagePlugin
+2022-12-03 13:33:58,992 Importing IptcImagePlugin
+2022-12-03 13:33:58,993 Importing JpegImagePlugin
+2022-12-03 13:33:58,993 Importing Jpeg2KImagePlugin
+2022-12-03 13:33:58,993 Importing McIdasImagePlugin
+2022-12-03 13:33:58,994 Importing MicImagePlugin
+2022-12-03 13:33:58,995 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-03 13:33:58,995 Importing MpegImagePlugin
+2022-12-03 13:33:58,996 Importing MpoImagePlugin
+2022-12-03 13:33:58,997 Importing MspImagePlugin
+2022-12-03 13:33:58,998 Importing PalmImagePlugin
+2022-12-03 13:33:59,000 Importing PcdImagePlugin
+2022-12-03 13:33:59,001 Importing PcxImagePlugin
+2022-12-03 13:33:59,001 Importing PdfImagePlugin
+2022-12-03 13:33:59,012 Importing PixarImagePlugin
+2022-12-03 13:33:59,013 Importing PngImagePlugin
+2022-12-03 13:33:59,013 Importing PpmImagePlugin
+2022-12-03 13:33:59,013 Importing PsdImagePlugin
+2022-12-03 13:33:59,014 Importing SgiImagePlugin
+2022-12-03 13:33:59,015 Importing SpiderImagePlugin
+2022-12-03 13:33:59,019 Importing SunImagePlugin
+2022-12-03 13:33:59,020 Importing TgaImagePlugin
+2022-12-03 13:33:59,021 Importing TiffImagePlugin
+2022-12-03 13:33:59,021 Importing WebPImagePlugin
+2022-12-03 13:33:59,036 Importing WmfImagePlugin
+2022-12-03 13:33:59,037 Importing XbmImagePlugin
+2022-12-03 13:33:59,038 Importing XpmImagePlugin
+2022-12-03 13:33:59,040 Importing XVThumbImagePlugin
+2022-12-03 14:37:16,604 STREAM b'IHDR' 16 13
+2022-12-03 14:37:16,604 STREAM b'sRGB' 41 1
+2022-12-03 14:37:16,604 STREAM b'gAMA' 54 4
+2022-12-03 14:37:16,604 STREAM b'pHYs' 70 9
+2022-12-03 14:37:16,604 STREAM b'IDAT' 91 6974
+2022-12-03 14:42:56,416 STREAM b'IHDR' 16 13
+2022-12-03 14:42:56,417 STREAM b'sRGB' 41 1
+2022-12-03 14:42:56,417 STREAM b'gAMA' 54 4
+2022-12-03 14:42:56,417 STREAM b'pHYs' 70 9
+2022-12-03 14:42:56,417 STREAM b'IDAT' 91 26848
+2022-12-03 14:46:14,567 STREAM b'IHDR' 16 13
+2022-12-03 14:46:14,567 STREAM b'sRGB' 41 1
+2022-12-03 14:46:14,568 STREAM b'gAMA' 54 4
+2022-12-03 14:46:14,568 STREAM b'pHYs' 70 9
+2022-12-03 14:46:14,568 STREAM b'IDAT' 91 26633
+2022-12-04 02:11:18,980 STREAM b'IHDR' 16 13
+2022-12-04 02:11:18,981 STREAM b'sRGB' 41 1
+2022-12-04 02:11:18,981 STREAM b'gAMA' 54 4
+2022-12-04 02:11:18,981 STREAM b'pHYs' 70 9
+2022-12-04 02:11:18,981 STREAM b'IDAT' 91 65445
