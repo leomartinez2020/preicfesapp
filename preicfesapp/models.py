@@ -12,6 +12,32 @@ PRUEBAS = [
     ('sociales', 'Sociales y ciudadanas'),
 ]
 
+class PreguntaAbstract(models.Model):
+    categoria = models.CharField(
+        max_length=12,
+        choices=PRUEBAS,
+        default='ciencias',
+        null=True,
+        blank=True
+    )
+    contexto = models.TextField(null=True, blank=True)
+    texto = models.TextField(null=True, blank=True)
+    explicacion = models.TextField(null=True, blank=True)
+    imagen = models.ImageField(upload_to='media', null=True, blank=True)
+    respuestas_tienen_imagen = models.BooleanField(default=False)
+
+    class Meta:
+        abstract = True
+
+
+class RespuestaAbstract(models.Model):
+    texto = models.TextField(null=True, blank=True)
+    imagen = models.ImageField(upload_to='media', null=True, blank=True)
+    es_correcta = models.BooleanField(default=False)
+
+    class Meta:
+        abstract = True
+
 
 class Quiz(models.Model):
     '''A quiz template'''
@@ -38,6 +64,29 @@ class Quiz(models.Model):
     def get_absolute_url(self):
         return reverse('preicfesapp:prueba', args=[str(self.pk)])
 
+
+class Lectura(models.Model):
+    titulo = models.CharField(max_length=120, null=True)
+    contenido = models.TextField(blank=True, null=True)
+    imagen = models.ImageField(upload_to='media', null=True, blank=True)
+    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, null=True, blank=True)
+
+    def __str__(self):
+        return self.titulo
+
+
+class PreguntaLectura(PreguntaAbstract):
+    lectura = models.ForeignKey(Lectura, on_delete=models.CASCADE, null=True, blank=True)
+
+    def __str__(self):
+        return self.texto
+
+
+class RespuestaLectura(RespuestaAbstract):
+    pregunta = models.ForeignKey(PreguntaLectura, on_delete=models.CASCADE, null=True, blank=True)
+
+    def __str__(self):
+        return self.texto
 
 class Pregunta(models.Model):
     categoria = models.CharField(

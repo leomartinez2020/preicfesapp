@@ -12,7 +12,7 @@
     <div class="p-6">
       <div class="">
         {% for etiqueta in post.etiquetas.all %}
-         <span class="text-blue-600 text-xs">{{ etiqueta.nombre }}</span>
+         <span class="text-gray-700 text-xs">Etiquetas: </span><span class="text-blue-600 text-xs">{{ etiqueta.nombre }}</span>
         {% endfor %}
         <a class="block text-gray-800 font-semibold text-2xl mt-2 hover:text-gray-600 hover:underline" href="{{ post.get_absolute_url }}">{{ post.titulo }}</a>
         <div class="text-sm text-gray-600 mt-2">{{ post.contenido | safe | truncatewords:10 }}</div>

@@ -1768,3 +1768,523 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'prueba' with arguments '('1'
 2022-12-04 02:11:18,981 STREAM b'gAMA' 54 4
 2022-12-04 02:11:18,981 STREAM b'pHYs' 70 9
 2022-12-04 02:11:18,981 STREAM b'IDAT' 91 65445
+2022-12-04 15:02:04,398 Internal Server Error: /admin/preicfesapp/lectura/1/change/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+2022-12-04 17:52:03,471 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: preicfesapp_respuestalectura.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: preicfesapp_respuestalectura.id
+2022-12-04 17:53:10,185 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: preicfesapp_respuestalectura.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: preicfesapp_respuestalectura.id
+2022-12-04 17:53:37,779 Internal Server Error: /admin/preicfesapp/preguntalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: preicfesapp_respuestalectura.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/utils.py", line 120, in get_deleted_objects
+    collector.collect(objs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/utils.py", line 186, in collect
+    return super().collect(objs, source_attr=source_attr, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/deletion.py", line 343, in collect
+    if sub_objs:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 408, in __bool__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: preicfesapp_respuestalectura.id
+2022-12-04 18:01:15,569 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: preicfesapp_respuestalectura.respuestaabstract_ptr_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: preicfesapp_respuestalectura.respuestaabstract_ptr_id
+2022-12-04 18:01:27,635 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: preicfesapp_respuestalectura.respuestaabstract_ptr_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: preicfesapp_respuestalectura.respuestaabstract_ptr_id
+2022-12-04 18:20:04,760 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: preicfesapp_respuestaabstract
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: preicfesapp_respuestaabstract
+2022-12-04 18:20:18,207 Internal Server Error: /admin/preicfesapp/respuestalectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: preicfesapp_respuestaabstract
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: preicfesapp_respuestaabstract
+2022-12-04 19:18:22,879 Internal Server Error: /lectura-critica-1-2022-11-11/5/lectura/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/preicfesapp/views.py", line 31, in prueba_lectura
+    return render(request, 'preicfesapp/plantilla_lecturas.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 52: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2022-12-04 20:10:40,021 Importing BlpImagePlugin
+2022-12-04 20:10:40,023 Importing BmpImagePlugin
+2022-12-04 20:10:40,023 Importing BufrStubImagePlugin
+2022-12-04 20:10:40,024 Importing CurImagePlugin
+2022-12-04 20:10:40,024 Importing DcxImagePlugin
+2022-12-04 20:10:40,026 Importing DdsImagePlugin
+2022-12-04 20:10:40,027 Importing EpsImagePlugin
+2022-12-04 20:10:40,029 Importing FitsImagePlugin
+2022-12-04 20:10:40,029 Importing FitsStubImagePlugin
+2022-12-04 20:10:40,030 Importing FliImagePlugin
+2022-12-04 20:10:40,031 Importing FpxImagePlugin
+2022-12-04 20:10:40,032 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-04 20:10:40,032 Importing FtexImagePlugin
+2022-12-04 20:10:40,033 Importing GbrImagePlugin
+2022-12-04 20:10:40,034 Importing GifImagePlugin
+2022-12-04 20:10:40,034 Importing GribStubImagePlugin
+2022-12-04 20:10:40,036 Importing Hdf5StubImagePlugin
+2022-12-04 20:10:40,036 Importing IcnsImagePlugin
+2022-12-04 20:10:40,040 Importing IcoImagePlugin
+2022-12-04 20:10:40,042 Importing ImImagePlugin
+2022-12-04 20:10:40,043 Importing ImtImagePlugin
+2022-12-04 20:10:40,044 Importing IptcImagePlugin
+2022-12-04 20:10:40,045 Importing JpegImagePlugin
+2022-12-04 20:10:40,045 Importing Jpeg2KImagePlugin
+2022-12-04 20:10:40,045 Importing McIdasImagePlugin
+2022-12-04 20:10:40,048 Importing MicImagePlugin
+2022-12-04 20:10:40,049 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-04 20:10:40,049 Importing MpegImagePlugin
+2022-12-04 20:10:40,050 Importing MpoImagePlugin
+2022-12-04 20:10:40,051 Importing MspImagePlugin
+2022-12-04 20:10:40,052 Importing PalmImagePlugin
+2022-12-04 20:10:40,054 Importing PcdImagePlugin
+2022-12-04 20:10:40,055 Importing PcxImagePlugin
+2022-12-04 20:10:40,055 Importing PdfImagePlugin
+2022-12-04 20:10:40,067 Importing PixarImagePlugin
+2022-12-04 20:10:40,068 Importing PngImagePlugin
+2022-12-04 20:10:40,068 Importing PpmImagePlugin
+2022-12-04 20:10:40,068 Importing PsdImagePlugin
+2022-12-04 20:10:40,069 Importing SgiImagePlugin
+2022-12-04 20:10:40,070 Importing SpiderImagePlugin
+2022-12-04 20:10:40,071 Importing SunImagePlugin
+2022-12-04 20:10:40,072 Importing TgaImagePlugin
+2022-12-04 20:10:40,073 Importing TiffImagePlugin
+2022-12-04 20:10:40,073 Importing WebPImagePlugin
+2022-12-04 20:10:40,083 Importing WmfImagePlugin
+2022-12-04 20:10:40,084 Importing XbmImagePlugin
+2022-12-04 20:10:40,085 Importing XpmImagePlugin
+2022-12-04 20:10:40,087 Importing XVThumbImagePlugin
+2022-12-04 20:10:40,090 Content copied...
+2022-12-05 00:18:45,389 Content copied...
+2022-12-05 00:21:05,082 Content copied...
+2022-12-05 00:21:46,150 Content copied...
+2022-12-05 00:23:09,731 Content copied...
+2022-12-05 00:23:53,968 Content copied...
+2022-12-05 00:25:01,883 Content copied...

@@ -24,6 +24,12 @@ def prueba(request, slug, pk):
     context = {'preguntas': preguntas, 'quiz': quiz}
     return render(request, 'preicfesapp/plantilla_preguntas.html', context)
 
+def prueba_lectura(request, slug, pk):
+    quiz = Quiz.objects.get(pk=pk)
+    lecturas = quiz.lectura_set.all()
+    context = {'lecturas': lecturas, 'quiz': quiz}
+    return render(request, 'preicfesapp/plantilla_lecturas.html', context)
+
 def revisar(request, quiz_id):
     #print(request.POST)
     quiz = Quiz.objects.get(pk=quiz_id)
