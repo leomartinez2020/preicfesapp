@@ -1,0 +1,23 @@
+{% extends 'preicfesapp/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Pruebas ICFES saber 11">
+    <meta name="keywords" content="Icfes, preicfes, saber 11">
+    <meta name="author" content="Leonardo Martinez">
+    <link rel="stylesheet" href="{% static 'css/output.css' %}">
+    <title>404 - no encontrado</title>
+  </head>
+  <body>
+  {% block content %}
+    <section class="pt-32">
+      <h1 class="text-4xl text-gray-300 text-center font-bold">La página no existe</h1>
+      <img class="mx-auto max-w-md h-auto" src="https://bestpreicfes.s3.amazonaws.com/404+Error-bro.png" alt="page not found">
+    </section>
+  {% endblock %}
+  </body>
+</html>

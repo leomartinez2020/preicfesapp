@@ -1,8 +1,13 @@
+import logging
+
 from random import shuffle
 
 from django.shortcuts import render
 
-from .models import Pregunta, Respuesta, Quiz
+from .models import Pregunta, Respuesta, PreguntaLectura, RespuestaLectura, Quiz
+
+def error_404(request, exception):
+    return render(request, 'preicfesapp/404.html')
 
 def main(request):
     quiz_ciencias = Quiz.objects.filter(categoria='ciencias')
@@ -19,18 +24,35 @@ def prueba(request, slug, pk):
     #preguntas = Pregunta.objects.filter(categoria=categoria)
     preguntas = quiz.pregunta_set.all()
     # Mezclar aleatoriamente las preguntas
-    preguntas = list(preguntas)
-    shuffle(preguntas)
-    context = {'preguntas': preguntas, 'quiz': quiz}
+    # preguntas = list(preguntas)
+    # shuffle(preguntas)
+    lecturas = quiz.lectura_set.all()
+    if lecturas:
+        context = {'lecturas': lecturas, 'preguntas': preguntas, 'quiz': quiz, 'numero': 3}
+    else:
+        context = {'preguntas': preguntas, 'quiz': quiz, 'numero': 0}
     return render(request, 'preicfesapp/plantilla_preguntas.html', context)
 
+def prueba_lectura(request, slug, pk):
+    quiz = Quiz.objects.get(pk=pk)
+    lecturas = quiz.lectura_set.all()
+    context = {'lecturas': lecturas, 'quiz': quiz}
+    return render(request, 'preicfesapp/plantilla_lecturas.html', context)
+
 def revisar(request, quiz_id):
-    #print(request.POST)
+    logging.info(request.POST)
     quiz = Quiz.objects.get(pk=quiz_id)
     lista_preguntas = []
     lista_respuestas = []
     lista_respuestas_correctas = []
     for item in request.POST:
+        if item.startswith('lectura'):
+            pregunta_id, respuesta_id = helper(request.POST[item])
+            p = PreguntaLectura.objects.get(pk=pregunta_id)
+            lista_preguntas.append(p)
+            lista_respuestas.append(RespuestaLectura.objects.get(pk=respuesta_id))
+            lista_correctas = p.respuestalectura_set.filter(es_correcta=True)[0]
+            lista_respuestas_correctas.append(lista_correctas)
         if item.startswith('pregunta'):
             pregunta_id, respuesta_id = helper(request.POST[item])
             p = Pregunta.objects.get(pk=pregunta_id)

@@ -1,17 +1,14 @@
 {% extends 'preicfesapp/base_cuestionario.html' %}
-{% load filtros %}
+
 {% block content %}
 <header class="w-4/5 mx-auto mt-6 flex justify-between">
   <h1 class="text-xl text-center font-bold">{{ quiz.titulo | title }}</h1>
   <a class="p-2 border-2 border-slate-400 rounded-lg bg-slate-300 hover:bg-slate-500 hover:text-white hover:underline" href="{% url 'preicfesapp:main' %}">Salir</a>
 </header>
-
-{% if preguntas %}
+{% if lecturas %}
     <div class="w-4/5 mx-auto pt-8">
       <form action="{% url 'preicfesapp:revisar' quiz.id %}" method="post">
         {% csrf_token %}
-
-        {% if lecturas %}
         {% for lectura in lecturas %}
           <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
             <h2 class="text-center text-amber-700 font-bold">{{ lectura.titulo }}</h2>
@@ -37,46 +34,12 @@
             </section>
           {% endfor %}
         {% endfor %}
-        {% endif %}
-
-        {% for pregunta in preguntas %}
-        <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
-          <span class="text-lg font-bold">{{ forloop.counter | sumanumero:numero }}.</span>
-          {% if pregunta.contexto %}
-          {% autoescape off %}
-            <p class="text-xl">{{ pregunta.contexto | safe }}</p>
-          {% endautoescape %}
-          {% endif %}
-          {% if pregunta.imagen %}
-            <img src="{{ pregunta.imagen.url }}"/>
-          {% endif %}
-          {% autoescape off %}
-          <p class="text-xl">{{ pregunta.texto | safe }}</p>
-          {% endautoescape %}
-          <!-- <div class="flex flex-wrap gap-1"> -->
-          <div {% if pregunta.respuestas_tienen_imagen %}class="flex flex-wrap gap-1"{% endif %}>
-            {% for opcion in pregunta.respuesta_set.all %}
-            <div {% if opcion.imagen %}class="flex border-2 border-gray-200"{% endif %}>
-              <input type="radio" id="opcion{{ opcion.pk }}" name="pregunta{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{opcion.pk }}">
-              {% if opcion.imagen %}
-              <label for="opcion{{ opcion.pk }}"></label>
-              <img class="mr-6" src="{{ opcion.imagen.url }}" alt=""/>
-              {% else %}
-                {% autoescape off %}
-                <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto | safe }}</label>
-                {% endautoescape %}
-              {% endif %}
-            </div>
-            {% endfor %}
-          </div>
-        </section>
-        {% endfor %}
         <div class="text-center my-6">
           <input type="submit" value="Enviar" class="cursor-pointer mt-4 text-white bg-slate-600 hover:bg-slate-800 text-lg font-medium rounded-lg px-5 focus:ring-4 focus:ring-blue-300 px-4"/>
         </div>
       </form>
     </div>
 {% else %}
-    <p>No hay preguntas</p>
+    <p>No hay lecturas</p>
 {% endif %}
 {% endblock %}
