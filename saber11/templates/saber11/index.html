@@ -7,34 +7,37 @@
     <table class="table-auto w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-400 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-                <th scope="col" class="text-base py-3 px-6">
+                <th scope="col" class="text-sm py-3 px-6">
                     Nombre del Colegio
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Ciencias
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Matemáticas
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Inglés
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Sociales
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Lectura
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Promedio Ponderado
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Puntaje Global
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
                     Evaluados
                 </th>
-                <th scope="col" class="text-sm py-3 px-6">
+                <th scope="col" class="text-xs py-3 px-6">
+                    Calendario
+                </th>
+                <th scope="col" class="text-xs py-3 px-6">
                     Municipio
                 </th>
             </tr>
@@ -44,7 +47,7 @@
             {% if forloop.counter|divisibleby:"2" %}
                 <tr class="bg-gray-200 border-b dark:bg-gray-800 dark:border-gray-700">
             {% else %}
-              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
             {% endif %}
                 <th scope="row" class="py-4 px-6 font-medium text-gray-500 dark:text-white hover:text-gray-900">
                     <a id="{{ colegio.pk }}" onclick="myFunction(this)" href="{% url 'saber11:detalle' colegio.slug colegio.pk %}">{{ forloop.counter | sumapag:page_obj.number }}) {{ colegio.nombre }}</a>
@@ -68,10 +71,13 @@
                     {{ colegio.promponderado | floatformat:1 }}
                 </td>
                 <td class="py-4 px-6">
-                    {{ colegio.puntajeglobal }}
+                    {{ colegio.puntajeglobal | floatformat:0 }}
                 </td>
                 <td class="py-4 px-6">
                     {{ colegio.evaluados }}
+                </td>
+                <td class="py-4 px-6">
+                    {{ colegio.calendario }}
                 </td>
                 <td class="py-4 px-6">
                     {{ colegio.ubicacion }}

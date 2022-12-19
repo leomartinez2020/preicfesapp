@@ -1,17 +1,47 @@
 {% extends 'preicfesapp/base_cuestionario.html' %}
-
+{% load filtros %}
 {% block content %}
 <header class="w-4/5 mx-auto mt-6 flex justify-between">
   <h1 class="text-xl text-center font-bold">{{ quiz.titulo | title }}</h1>
   <a class="p-2 border-2 border-slate-400 rounded-lg bg-slate-300 hover:bg-slate-500 hover:text-white hover:underline" href="{% url 'preicfesapp:main' %}">Salir</a>
 </header>
+
 {% if preguntas %}
     <div class="w-4/5 mx-auto pt-8">
       <form action="{% url 'preicfesapp:revisar' quiz.id %}" method="post">
         {% csrf_token %}
+
+        {% if lecturas %}
+        {% for lectura in lecturas %}
+          <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+            <h2 class="text-center text-amber-700 font-bold">{{ lectura.titulo }}</h2>
+            {% autoescape off %}
+              <div class="p-4 text-base text-justify">{{ lectura.contenido | safe }}</div>
+            {% endautoescape %}
+            {% if lectura.imagen %}
+              <img src="{{ pregunta.imagen.url }}"/>
+            {% endif %}
+          </section>
+
+          {% for pregunta in lectura.preguntalectura_set.all %}
+            <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+              <p><span class="text-lg font-bold">{{ forloop.counter }}.</span> {{ pregunta.texto }}</p>
+                {% for respuesta in pregunta.respuestalectura_set.all %}
+                  <div>
+                    <input type="radio" id="respuesta{{ respuesta.pk }}" name="lectura{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{respuesta.pk }}">
+                    {% autoescape off %}
+                    <label class="mr-6" for="respuesta{{ respuesta.pk }}">{{ respuesta.texto | safe }}</label>
+                    {% endautoescape %}
+                  </div>
+                {% endfor %}
+            </section>
+          {% endfor %}
+        {% endfor %}
+        {% endif %}
+
         {% for pregunta in preguntas %}
         <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
-          <span class="text-lg font-bold">{{ forloop.counter }}.</span>
+          <span class="text-lg font-bold">{{ forloop.counter | sumanumero:numero }}.</span>
           {% if pregunta.contexto %}
           {% autoescape off %}
             <p class="text-xl">{{ pregunta.contexto | safe }}</p>

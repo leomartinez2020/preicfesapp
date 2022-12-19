@@ -13,13 +13,17 @@
         <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>:</p>
         <img src="{{ item.1.imagen.url }}" alt="">
       {% else %}
-        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>: {{ item.1.texto }}</p>
+        {% autoescape off %}
+        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>: {{ item.1.texto | safe }}</p>
+        {% endautoescape %}
       {% endif %}
       {% if item.2.imagen %}
         <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>:</p>
         <img src="{{ item.2.imagen.url }}" alt="">
       {% else %}
-        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>: {{ item.2.texto }}</p>
+        {% autoescape off %}
+        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>: {{ item.2.texto | safe }}</p>
+        {% endautoescape %}
       {% endif %}
       <p class="text-xl text-gray-700"><span class="underline">Explicación</span>: {% if item.0.explicacion %}{{ item.0.explicacion }}{% endif %}</p>
     </div>

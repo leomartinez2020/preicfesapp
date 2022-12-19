@@ -25,7 +25,7 @@
               <p><span class="text-lg font-bold">{{ forloop.counter }}.</span> {{ pregunta.texto }}</p>
                 {% for respuesta in pregunta.respuestalectura_set.all %}
                   <div>
-                    <input type="radio" id="respuesta{{ respuesta.pk }}" name="pregunta{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{respuesta.pk }}">
+                    <input type="radio" id="respuesta{{ respuesta.pk }}" name="lectura{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{respuesta.pk }}">
                     {% autoescape off %}
                     <label class="mr-6" for="respuesta{{ respuesta.pk }}">{{ respuesta.texto | safe }}</label>
                     {% endautoescape %}
