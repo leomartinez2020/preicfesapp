@@ -1,0 +1,32 @@
+{% extends 'icfesapp/base.html' %}
+
+{% block content %}
+<section class="w-4/5 mx-auto pt-24 text-gray-900">
+  <h1 class="text-xl text-gray-800 font-bold">Resultados</h1>
+  <p class="text-xl text-gray-800 font-bold mb-4">{{ quiz.titulo }} (Quiz # {{ quiz.pk }})</p>
+  {% for item in datos %}
+    <div class="border-solid border-b-2 border-gray-300 mb-4 px-2 {% if item.1 == item.2 %} bg-green-300 {% else %} bg-red-300 {% endif %}">
+      {% autoescape off %}
+      <p class="text-xl text-gray-700"><span class="underline">Pregunta</span>: {{ item.0.texto }} {% if item.0.contexto %} {{ item.0.contexto }} {% endif %}</p>
+      {% endautoescape %}
+      {% if item.1.imagen %}
+        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>:</p>
+        <img src="{{ item.1.imagen.url }}" alt="">
+      {% else %}
+        {% autoescape off %}
+        <p class="text-xl text-gray-700"><span class="underline">Tu respuesta</span>: {{ item.1 | safe }}</p>
+        {% endautoescape %}
+      {% endif %}
+      {% if item.2.imagen %}
+        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>:</p>
+        <img src="{{ item.2.imagen.url }}" alt="">
+      {% else %}
+        {% autoescape off %}
+        <p class="text-xl text-gray-700"><span class="underline">Respuesta correcta</span>: {{ item.2 | safe }}</p>
+        {% endautoescape %}
+      {% endif %}
+      <p class="text-xl text-gray-700"><span class="underline">Explicación</span>: {% if item.0.explicacion %}{{ item.0.explicacion }}{% endif %}</p>
+    </div>
+  {% endfor %}
+</section>
+{% endblock %}

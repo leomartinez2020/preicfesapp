@@ -1,0 +1,46 @@
+<div class="w-fit m-2 bg-blue-300 p-2 rounded-lg">
+  <ul class="p-1 bg-white flex gap-2 border border-yellow-700 rounded-lg">
+    <li>
+        <input type="radio" id="A-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="A-{{ pregunta.pk }}" class="hidden peer" required>
+        <label for="A-{{ pregunta.pk }}" class="flex items-center py-1 px-3 w-full text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-700 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-blue-300">
+            <div class="text-lg font-semibold">A</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="B-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="B-{{ pregunta.pk }}" class="hidden peer">
+        <label for="B-{{ pregunta.pk }}" class="flex items-center py-1 px-3 w-full text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-700 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">B</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="C-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="C-{{ pregunta.pk }}" class="hidden peer">
+        <label for="C-{{ pregunta.pk }}" class="flex items-center py-1 px-3 w-full text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-700 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">C</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="D-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="D-{{ pregunta.pk }}" class="hidden peer">
+        <label for="D-{{ pregunta.pk }}" class="flex items-center py-1 px-3 w-full text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-700 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">D</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="E-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="E-{{ pregunta.pk }}" class="hidden peer">
+        <label for="E-{{ pregunta.pk }}" class="flex items-center py-1 px-3 w-full text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-700 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">E</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="F-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="F-{{ pregunta.pk }}" class="hidden peer">
+        <label for="F-{{ pregunta.pk }}" class="flex items-center py-1 px-3 text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-900 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">F</div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="G-{{ pregunta.pk }}" name="pregunta-{{ pregunta.pk }}" value="G-{{ pregunta.pk }}" class="hidden peer">
+        <label for="G-{{ pregunta.pk }}" class="flex items-center py-1 px-3 text-yellow-700 bg-white rounded-full border border-yellow-700 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-yellow-900 peer-checked:bg-blue-300 hover:text-gray-600 hover:bg-blue-200 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <div class="text-lg font-semibold">G</div>
+        </label>
+    </li>
+  </ul>
+</div>

@@ -1,1 +1,792 @@
 
+2022-12-20 20:48:50,854 Watching for file changes with StatReloader
+2022-12-20 20:59:52,408 Watching for file changes with StatReloader
+2022-12-21 00:28:51,871 Not Found: /version
+2022-12-21 00:53:34,077 Not Found: /robots.txt
+2022-12-21 02:18:54,110 Not Found: /.git/config
+2022-12-21 04:26:38,593 Invalid HTTP_HOST header: 'www.448pdd.com'. You may need to add 'www.448pdd.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.448pdd.com'. You may need to add 'www.448pdd.com' to ALLOWED_HOSTS.
+2022-12-21 04:26:38,632 Bad Request: /topic/index.html
+2022-12-21 04:48:45,101 Not Found: /login
+2022-12-21 04:52:23,016 Not Found: /ReportServer
+2022-12-21 06:22:06,884 Forbidden (CSRF token missing.): /admin/login/
+2022-12-21 06:44:22,777 Not Found: /.git/config
+2022-12-21 06:58:30,339 Not Found: /.git/config
+2022-12-21 07:03:14,073 Not Found: //
+2022-12-21 07:03:35,655 Not Found: /owa/auth/logon.aspx
+2022-12-21 08:15:36,325 Not Found: /.env
+2022-12-21 08:15:36,547 Forbidden (Referer checking failed - no Referer.): /
+2022-12-21 08:59:01,224 Not Found: /autodiscover/autodiscover.json
+2022-12-21 09:16:14,058 Not Found: /api/jsonws/
+2022-12-21 09:29:40,840 Invalid HTTP_HOST header: '169.254.169.254'. You may need to add '169.254.169.254' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '169.254.169.254'. You may need to add '169.254.169.254' to ALLOWED_HOSTS.
+2022-12-21 09:29:40,867 Bad Request: /latest/meta-data/
+2022-12-21 12:31:08,548 Not Found: /.env
+2022-12-21 12:31:09,020 Forbidden (Referer checking failed - no Referer.): /
+2022-12-21 12:59:37,625 Not Found: /robots.txt
+2022-12-21 13:14:10,730 Not Found: /robots.txt
+2022-12-21 13:14:17,698 Not Found: /sitemap.xml
+2022-12-21 13:14:18,119 Not Found: /atom.xml
+2022-12-21 13:44:13,001 Not Found: /sitemap.xml.gz
+2022-12-21 14:00:59,792 Not Found: /robots.txt
+2022-12-21 14:01:01,931 Not Found: /sitemap.xml
+2022-12-21 14:02:34,021 Not Found: /sitemaps.xml
+2022-12-21 14:12:40,620 Not Found: /administrator/index.php
+2022-12-21 14:13:17,675 Not Found: /actuator/health
+2022-12-21 14:19:54,934 Not Found: /atom.xml
+2022-12-21 14:37:56,742 Not Found: /sitemaps.xml
+2022-12-21 14:56:17,055 Not Found: /sitemap_index.xml
+2022-12-21 14:56:59,381 Not Found: /sitemap.txt
+2022-12-21 14:59:17,763 Not Found: /sitemap_index.xml
+2022-12-21 15:05:20,225 Not Found: /sitemap.txt
+2022-12-21 15:21:01,875 Not Found: /sitemap.xml.gz
+2022-12-21 15:47:14,288 Not Found: /.env
+2022-12-21 16:32:06,973 Not Found: /.env
+2022-12-21 17:47:09,740 Not Found: /robots.txt
+2022-12-21 18:23:17,286 Not Found: /.env
+2022-12-21 18:23:22,397 Forbidden (Referer checking failed - no Referer.): /
+2022-12-21 18:44:49,434 Not Found: /wp-login.php
+2022-12-21 19:17:47,120 Not Found: /owa/auth/x.js
+2022-12-21 20:30:00,247 Not Found: /owa/auth/logon.aspx
+2022-12-21 20:33:42,401 Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+2022-12-21 21:05:19,450 Not Found: /robots.txt
+2022-12-21 21:47:58,210 Not Found: /v2/
+2022-12-21 21:47:58,326 Not Found: /metrics
+2022-12-21 23:04:29,387 Not Found: /apis/apps/v1/namespaces/kube-system/daemonsets/
+2022-12-22 03:21:51,355 Forbidden (CSRF token missing.): /admin/login/
+2022-12-22 04:08:41,205 Not Found: /HNAP1/
+2022-12-22 04:09:28,302 Not Found: /robots.txt
+2022-12-22 04:09:29,468 Not Found: /sitemap.xml
+2022-12-22 04:09:31,539 Not Found: /.well-known/security.txt
+2022-12-22 05:07:54,826 Not Found: /robots.txt
+2022-12-22 06:59:51,097 Not Found: /owa/auth/logon.aspx
+2022-12-22 09:02:58,645 Not Found: /system_api.php
+2022-12-22 09:03:00,271 Not Found: /c/version.js
+2022-12-22 09:03:01,915 Not Found: /streaming/clients_live.php
+2022-12-22 09:03:03,526 Not Found: /stalker_portal/c/version.js
+2022-12-22 09:03:05,179 Not Found: /stream/live.php
+2022-12-22 09:03:06,837 Not Found: /flu/403.html
+2022-12-22 09:39:00,577 Not Found: /atom.xml
+2022-12-22 09:39:13,968 Not Found: /sitemap.xml
+2022-12-22 10:03:00,574 Not Found: /.env
+2022-12-22 10:03:00,942 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 10:09:22,715 Not Found: /sitemap.xml.gz
+2022-12-22 10:23:03,561 Not Found: /robots.txt
+2022-12-22 10:25:48,031 Not Found: /sitemap.xml
+2022-12-22 10:27:24,163 Not Found: /sitemaps.xml
+2022-12-22 10:31:36,378 Not Found: /.git/config
+2022-12-22 10:44:34,739 Not Found: /atom.xml
+2022-12-22 10:50:46,629 Not Found: /autodiscover/autodiscover.json
+2022-12-22 11:03:07,942 Not Found: /sitemaps.xml
+2022-12-22 11:05:22,010 Not Found: /robots.txt
+2022-12-22 11:16:22,701 Not Found: /sitemap_index.xml
+2022-12-22 11:16:57,674 Not Found: /sitemap.txt
+2022-12-22 11:19:23,495 Not Found: /sitemap_index.xml
+2022-12-22 11:25:45,909 Not Found: /sitemap.txt
+2022-12-22 11:41:40,706 Not Found: /sitemap.xml.gz
+2022-12-22 12:14:02,539 Not Found: /.env
+2022-12-22 12:14:02,901 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 12:21:04,300 Not Found: /status.php
+2022-12-22 13:12:18,048 Not Found: /wp-login.php
+2022-12-22 13:12:18,505 Not Found: /wordpress/wp-login.php
+2022-12-22 13:12:18,936 Not Found: /blog/wp-login.php
+2022-12-22 13:12:19,370 Not Found: /wp/wp-login.php
+2022-12-22 15:03:42,972 Not Found: /actuator/health
+2022-12-22 15:12:28,124 Not Found: /.env
+2022-12-22 15:12:28,491 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 16:55:38,273 Forbidden (CSRF token missing.): /admin/login/
+2022-12-22 17:59:26,880 Not Found: /.env
+2022-12-22 17:59:27,256 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 18:39:44,320 Not Found: /.env
+2022-12-22 18:39:44,704 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 20:29:31,388 Not Found: /wp-login.php
+2022-12-22 22:17:38,766 Not Found: /owa/
+2022-12-22 22:17:59,979 Not Found: /autodiscover/autodiscover.json
+2022-12-22 22:50:51,268 Not Found: /.env
+2022-12-22 22:50:51,624 Forbidden (Referer checking failed - no Referer.): /
+2022-12-22 23:24:43,042 Not Found: /ab2g
+2022-12-22 23:33:35,248 Not Found: /.env
+2022-12-22 23:33:35,636 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 00:49:46,020 Not Found: /robots.txt
+2022-12-23 01:41:48,630 Not Found: /.env
+2022-12-23 01:41:48,935 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 02:51:50,367 Not Found: /.env
+2022-12-23 02:51:50,741 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 05:07:07,373 Not Found: /atom.xml
+2022-12-23 05:07:21,579 Not Found: /sitemap.xml
+2022-12-23 05:18:01,620 Not Found: /robots.txt
+2022-12-23 05:18:03,467 Not Found: /sitemap.xml
+2022-12-23 05:31:47,102 Not Found: /.git/config
+2022-12-23 05:37:28,022 Not Found: /sitemap.xml.gz
+2022-12-23 05:39:53,250 Not Found: /remote/fgt_lang
+2022-12-23 05:47:44,589 Not Found: /.env
+2022-12-23 05:54:26,031 Not Found: /sitemap.xml
+2022-12-23 05:55:49,567 Not Found: /sitemaps.xml
+2022-12-23 06:13:21,738 Not Found: /atom.xml
+2022-12-23 06:19:27,580 Invalid HTTP_HOST header: 'm.bjxfqc.net'. You may need to add 'm.bjxfqc.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'm.bjxfqc.net'. You may need to add 'm.bjxfqc.net' to ALLOWED_HOSTS.
+2022-12-23 06:19:27,604 Bad Request: /news/85267.html
+2022-12-23 06:31:52,020 Not Found: /sitemaps.xml
+2022-12-23 06:31:53,920 Not Found: /api/v4/ci/lint
+2022-12-23 06:36:00,946 Not Found: /wp-content/
+2022-12-23 06:38:29,152 Not Found: /plugin
+2022-12-23 06:38:33,014 Not Found: /users/sign_in
+2022-12-23 06:38:37,855 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:39:24,926 Not Found: /dfsms/index.php
+2022-12-23 06:39:25,019 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 06:39:25,794 Not Found: /dfsms/add-category.php
+2022-12-23 06:39:25,875 Not Found: /wp-content/plugins/woc-order-alert/assets/admin/js/scripts.js
+2022-12-23 06:43:27,245 Not Found: /vcac/
+2022-12-23 06:43:27,980 Not Found: /vcac/
+2022-12-23 06:43:34,407 Not Found: /apisix/batch-requests
+2022-12-23 06:43:35,134 Not Found: /api/2JItW5id0emKCsIMFVrt96NZV7Q
+2022-12-23 06:45:00,716 Not Found: /sitemap_index.xml
+2022-12-23 06:45:47,877 Not Found: /sitemap.txt
+2022-12-23 06:45:52,431 Not Found: /photo/combine.php
+2022-12-23 06:45:58,844 Not Found: /mims/updatecustomer.php
+2022-12-23 06:46:09,810 Not Found: /hms/user-login.php
+2022-12-23 06:48:00,462 Not Found: /sitemap_index.xml
+2022-12-23 06:49:00,725 Not Found: /.env
+2022-12-23 06:49:01,117 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 06:49:13,870 Not Found: /SAAS/t/_/;/WEB-INF/web.xml
+2022-12-23 06:49:29,668 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:49:30,992 Not Found: /network_test.php
+2022-12-23 06:49:41,949 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:49:42,706 Not Found: /wp-content/plugins/arprice-responsive-pricing-table/js/arprice.js
+2022-12-23 06:51:36,135 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 06:51:37,547 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 06:52:24,977 Not Found: /aj.html
+2022-12-23 06:52:42,533 Not Found: /api/agent/tabs/agentData
+2022-12-23 06:52:50,773 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:53:53,227 Not Found: /sitemap.txt
+2022-12-23 06:55:16,818 Not Found: /wp-json/am-member/license
+2022-12-23 06:56:07,708 Not Found: /page
+2022-12-23 06:56:16,919 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:56:17,567 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:56:33,191 Not Found: /zabbix/index_sso.php
+2022-12-23 06:56:33,973 Not Found: /index_sso.php
+2022-12-23 06:58:36,066 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 06:58:58,970 Not Found: /owa/auth/logon.aspx
+2022-12-23 07:00:53,734 Not Found: /actuator/gateway/routes/2JItW9SQOnoDceP9k2hAeHaI8o8
+2022-12-23 07:00:54,322 Not Found: /actuator/gateway/refresh
+2022-12-23 07:00:55,064 Not Found: /actuator/gateway/routes/2JItW9SQOnoDceP9k2hAeHaI8o8
+2022-12-23 07:01:36,167 Not Found: /cgi-bin/mesh.cgi
+2022-12-23 07:02:06,188 Not Found: /dologin.action
+2022-12-23 07:02:21,538 Not Found: /vendor/htmlawed/htmlawed/htmLawedTest.php
+2022-12-23 07:02:25,885 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 07:04:58,584 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 07:05:57,624 Not Found: /app/options.py
+2022-12-23 07:06:18,307 Not Found: /mgmt/tm/util/bash
+2022-12-23 07:06:19,382 Not Found: /mgmt/tm/util/bash
+2022-12-23 07:06:33,121 Forbidden (Referer checking failed - no Referer.): /admin/index.php
+2022-12-23 07:08:30,853 Not Found: //interactsh.com/..
+2022-12-23 07:09:22,432 Not Found: /api/scrape/kube-system
+2022-12-23 07:10:02,362 Not Found: /api/v2/cmdb/system/admin
+2022-12-23 07:10:03,285 Not Found: /api/v2/cmdb/system/admin/admin
+2022-12-23 07:10:18,858 Not Found: /sitemap.xml.gz
+2022-12-23 07:11:31,173 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 07:12:17,807 Not Found: /index.php/video/
+2022-12-23 07:12:34,080 Not Found: /conf_mail.php
+2022-12-23 07:12:50,713 Not Found: /wp-content/plugins/vr-calendar-sync/assets/js/public.js
+2022-12-23 07:12:51,745 Not Found: /wp-admin/admin-post.php
+2022-12-23 07:15:31,608 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 07:16:06,318 Not Found: /hms/doctor/
+2022-12-23 07:16:25,383 Not Found: /pfblockerng/www/index.php
+2022-12-23 07:16:25,979 Invalid HTTP_HOST header: "' *; host ceikpb8h694sp58000104whendxy8f9hh.oast.live; '". The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: "' *; host ceikpb8h694sp58000104whendxy8f9hh.oast.live; '". The domain name provided is not valid according to RFC 1034/1035.
+2022-12-23 07:16:26,002 Bad Request: /pfblockerng/www/index.php
+2022-12-23 07:18:22,891 Not Found: /index.asp
+2022-12-23 07:18:53,748 Not Found: /wp-content/plugins/admin-word-count-column/download-csv.php
+2022-12-23 07:20:52,803 Not Found: /wp-admin/admin-ajax.php
+2022-12-23 07:21:03,413 Not Found: /api.php
+2022-12-23 07:21:04,818 Not Found: /cgi-bin/touchlist_sync.cgi
+2022-12-23 07:22:02,521 Not Found: /ccms/index.php
+2022-12-23 07:22:03,047 Not Found: /ccms/dashboard.php
+2022-12-23 08:15:57,538 Forbidden (CSRF token missing.): /admin/login/
+2022-12-23 08:24:27,725 Not Found: /.env
+2022-12-23 08:24:28,961 Not Found: /.env.bak
+2022-12-23 08:24:30,188 Not Found: /.env.dev
+2022-12-23 08:24:31,453 Not Found: /.env.dev.local
+2022-12-23 08:24:32,753 Not Found: /.env.development.local
+2022-12-23 08:24:33,996 Not Found: /.env.prod
+2022-12-23 08:24:35,147 Not Found: /.env.prod.local
+2022-12-23 08:24:36,286 Not Found: /.env.production
+2022-12-23 08:24:37,285 Not Found: /.env.production.local
+2022-12-23 08:24:38,340 Not Found: /.env.local
+2022-12-23 08:24:39,322 Not Found: /.env.example
+2022-12-23 08:24:40,207 Not Found: /.env.stage
+2022-12-23 08:24:41,194 Not Found: /.env.live
+2022-12-23 08:24:42,131 Not Found: /.env.backup
+2022-12-23 08:24:42,985 Not Found: /.env.save
+2022-12-23 08:24:43,905 Not Found: /.env.old
+2022-12-23 08:24:44,804 Not Found: /.env.www
+2022-12-23 08:24:45,744 Not Found: /.env_1
+2022-12-23 08:24:46,603 Not Found: /.env_sample
+2022-12-23 08:24:47,487 Not Found: /.env.74
+2022-12-23 08:24:48,291 Not Found: /.env.3.214
+2022-12-23 08:24:49,183 Not Found: /api/.env
+2022-12-23 08:33:09,397 Not Found: /.env
+2022-12-23 08:33:09,811 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 08:53:22,046 Not Found: /owa/auth/x.js
+2022-12-23 09:12:16,924 Not Found: /style.php
+2022-12-23 09:12:16,951 Not Found: /wp-admin/style.php
+2022-12-23 09:51:11,882 Not Found: /owa/auth/logon.aspx
+2022-12-23 09:54:27,711 Not Found: //wp-includes/wlwmanifest.xml
+2022-12-23 09:54:28,498 Not Found: //xmlrpc.php
+2022-12-23 09:54:32,650 Not Found: //blog/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:33,380 Not Found: //web/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:34,107 Not Found: //wordpress/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:34,860 Not Found: //website/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:35,697 Not Found: //wp/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:36,503 Not Found: //news/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:37,299 Not Found: //2018/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:38,007 Not Found: //2019/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:38,684 Not Found: //shop/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:39,430 Not Found: //wp1/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:40,188 Not Found: //test/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:41,787 Not Found: //wp2/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:42,595 Not Found: //site/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:43,424 Not Found: //cms/wp-includes/wlwmanifest.xml
+2022-12-23 09:54:44,300 Not Found: //sito/wp-includes/wlwmanifest.xml
+2022-12-23 09:58:00,555 Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+2022-12-23 10:01:25,374 Not Found: //wp-content/themes/seotheme/db.php
+2022-12-23 10:01:25,550 Not Found: //wp-content/plugins/seoplugins/mar.php
+2022-12-23 10:01:25,724 Not Found: //wp-content/themes/seotheme/mar.php
+2022-12-23 10:09:16,124 Not Found: /.env
+2022-12-23 10:09:16,812 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 10:52:18,817 Not Found: /metrics
+2022-12-23 10:52:18,922 Not Found: /v2/
+2022-12-23 11:17:02,937 Not Found: /autodiscover/autodiscover.json
+2022-12-23 13:08:49,244 Not Found: /robots.txt
+2022-12-23 13:32:07,600 Not Found: /.env
+2022-12-23 13:32:08,185 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 15:14:33,152 Not Found: /robots.txt
+2022-12-23 15:28:45,884 Not Found: /actuator/health
+2022-12-23 16:28:46,071 Not Found: /.env
+2022-12-23 16:28:46,710 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 17:10:34,938 Not Found: /apis/apps/v1/namespaces/kube-system/daemonsets/
+2022-12-23 17:32:01,368 Not Found: /owa/auth/logon.aspx
+2022-12-23 20:16:32,698 Not Found: /.env
+2022-12-23 20:16:33,177 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 21:44:26,422 Not Found: /remote/fgt_lang
+2022-12-23 22:26:13,638 Not Found: /robots.txt
+2022-12-23 23:12:41,006 Not Found: /.env
+2022-12-23 23:12:41,793 Forbidden (Referer checking failed - no Referer.): /
+2022-12-23 23:16:31,102 Not Found: /ab2g
+2022-12-23 23:16:31,995 Not Found: /ab2h
+2022-12-23 23:18:44,337 Not Found: /wp-login.php
+2022-12-23 23:57:22,412 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 00:13:41,644 Not Found: /version
+2022-12-24 00:43:25,838 Not Found: /login
+2022-12-24 00:44:02,370 Not Found: /glpi/status.php
+2022-12-24 01:21:54,540 Not Found: /robots.txt
+2022-12-24 01:38:39,902 Not Found: /.env
+2022-12-24 01:38:40,786 Forbidden (Referer checking failed - no Referer.): /
+2022-12-24 02:02:58,772 Not Found: /robots.txt
+2022-12-24 02:49:42,400 Not Found: /robots.txt
+2022-12-24 02:49:51,741 Not Found: /atom.xml
+2022-12-24 02:49:54,435 Not Found: /sitemap.xml
+2022-12-24 02:50:51,687 Not Found: //wp-includes/wlwmanifest.xml
+2022-12-24 02:50:51,927 Not Found: //xmlrpc.php
+2022-12-24 02:50:52,402 Not Found: //blog/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:52,641 Not Found: //web/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:52,881 Not Found: //wordpress/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:53,120 Not Found: //website/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:53,359 Not Found: //wp/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:53,598 Not Found: //news/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:53,837 Not Found: //2020/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:54,077 Not Found: //2019/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:54,316 Not Found: //shop/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:54,555 Not Found: //wp1/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:54,794 Not Found: //test/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:55,033 Not Found: //wp2/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:55,273 Not Found: //site/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:55,512 Not Found: //cms/wp-includes/wlwmanifest.xml
+2022-12-24 02:50:55,751 Not Found: //sito/wp-includes/wlwmanifest.xml
+2022-12-24 03:21:22,695 Not Found: /sitemap.xml.gz
+2022-12-24 03:37:54,168 Not Found: /robots.txt
+2022-12-24 03:37:58,985 Not Found: /sitemap.xml
+2022-12-24 03:39:18,761 Not Found: /sitemaps.xml
+2022-12-24 03:56:28,833 Not Found: /atom.xml
+2022-12-24 04:14:40,720 Not Found: /sitemaps.xml
+2022-12-24 04:14:43,214 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:16:48,036 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:17:53,261 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:20:11,089 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:21:00,661 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:23:30,742 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:24:09,181 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:26:57,427 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:27:18,269 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:28:04,145 Not Found: /sitemap_index.xml
+2022-12-24 04:28:43,809 Not Found: /sitemap.txt
+2022-12-24 04:30:20,329 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:30:25,826 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:31:03,982 Not Found: /sitemap_index.xml
+2022-12-24 04:33:36,125 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:33:57,893 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:36:46,688 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:37:03,070 Not Found: /sitemap.txt
+2022-12-24 04:37:31,493 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:39:53,632 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:40:52,061 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:43:02,348 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:44:11,252 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:47:29,956 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:50:49,724 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:53:56,703 Not Found: /sitemap.xml.gz
+2022-12-24 04:54:09,717 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 04:57:30,153 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 05:00:54,364 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 05:04:21,701 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 05:07:48,421 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 05:11:16,364 Forbidden (CSRF token missing.): /admin/login/
+2022-12-24 05:28:58,845 Not Found: /.env
+2022-12-24 05:28:59,433 Forbidden (Referer checking failed - no Referer.): /
+2022-12-24 05:59:31,156 Not Found: /.git/config
+2022-12-24 06:03:48,440 Not Found: /.env
+2022-12-24 06:03:48,714 Forbidden (Referer checking failed - no Referer.): /
+2022-12-24 06:24:59,781 Not Found: /Public/home/js/check.js
+2022-12-24 06:33:34,558 Not Found: /administrator/index.php
+2022-12-24 07:15:40,435 Not Found: /.git/config
+2022-12-24 07:16:59,687 Not Found: /.env
+2022-12-24 07:17:00,072 Forbidden (Referer checking failed - no Referer.): /
+2022-12-24 07:19:47,023 Watching for file changes with StatReloader
+2022-12-24 07:20:21,150 Internal Server Error: /app/indice/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 4, in main
+    quiz_ciencias = Quiz.objects.filter(categoria='ciencias')
+NameError: name 'Quiz' is not defined
+2022-12-24 07:20:21,481 Not Found: /favicon.ico
+2022-12-24 07:22:00,327 Watching for file changes with StatReloader
+2022-12-24 07:23:53,396 Watching for file changes with StatReloader
+2022-12-24 07:25:58,603 Watching for file changes with StatReloader
+2022-12-24 07:27:30,364 Watching for file changes with StatReloader
+2022-12-24 07:29:54,942 Internal Server Error: /app/ciencias-naturales-1-2022-12-24/1/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 1027, in find_library
+    return parser.libraries[name]
+KeyError: 'mytags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 20, in prueba
+    return render(request, 'icfesapp/plantilla_preguntas.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 1089, in load
+    lib = find_library(parser, name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/defaulttags.py", line 1029, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'mytags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+filtros
+i18n
+l10n
+log
+misfiltros
+rest_framework
+static
+tz
+2022-12-24 07:35:30,786 Watching for file changes with StatReloader
+2022-12-24 07:35:35,169 Internal Server Error: /app/ciencias-naturales-1-2022-12-24/1/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 20, in prueba
+    return render(request, 'icfesapp/plantilla_preguntas.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 5: 'block'. Looking for one of: endblock.
+2022-12-24 07:37:10,121 Watching for file changes with StatReloader
+2022-12-24 07:37:20,060 Internal Server Error: /app/1/resultados/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 39, in revisar
+    return HttpResponse('just testing...')
+NameError: name 'HttpResponse' is not defined
+2022-12-24 07:40:41,081 Watching for file changes with StatReloader
+2022-12-24 07:40:48,460 Internal Server Error: /app/1/resultados/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: icfesapp/base_cuestionario.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 55, in revisar
+    return render(request, 'icfesapp/resultados.html', context)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 64, in render
+    reraise(exc, self.backend)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/template/backends/django.py", line 85, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: icfesapp/base_cuestionario.html
+2022-12-24 07:41:15,404 Watching for file changes with StatReloader
+2022-12-24 07:44:29,387 STREAM b'IHDR' 16 13
+2022-12-24 07:44:29,387 STREAM b'sRGB' 41 1
+2022-12-24 07:44:29,387 STREAM b'gAMA' 54 4
+2022-12-24 07:44:29,387 STREAM b'pHYs' 70 9
+2022-12-24 07:44:29,387 STREAM b'IDAT' 91 12031
+2022-12-24 07:44:29,387 Importing BlpImagePlugin
+2022-12-24 07:44:29,389 Importing BmpImagePlugin
+2022-12-24 07:44:29,389 Importing BufrStubImagePlugin
+2022-12-24 07:44:29,390 Importing CurImagePlugin
+2022-12-24 07:44:29,391 Importing DcxImagePlugin
+2022-12-24 07:44:29,392 Importing DdsImagePlugin
+2022-12-24 07:44:29,393 Importing EpsImagePlugin
+2022-12-24 07:44:29,395 Importing FitsImagePlugin
+2022-12-24 07:44:29,396 Importing FitsStubImagePlugin
+2022-12-24 07:44:29,399 Importing FliImagePlugin
+2022-12-24 07:44:29,400 Importing FpxImagePlugin
+2022-12-24 07:44:29,401 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-24 07:44:29,401 Importing FtexImagePlugin
+2022-12-24 07:44:29,402 Importing GbrImagePlugin
+2022-12-24 07:44:29,403 Importing GifImagePlugin
+2022-12-24 07:44:29,403 Importing GribStubImagePlugin
+2022-12-24 07:44:29,407 Importing Hdf5StubImagePlugin
+2022-12-24 07:44:29,408 Importing IcnsImagePlugin
+2022-12-24 07:44:29,413 Importing IcoImagePlugin
+2022-12-24 07:44:29,414 Importing ImImagePlugin
+2022-12-24 07:44:29,415 Importing ImtImagePlugin
+2022-12-24 07:44:29,416 Importing IptcImagePlugin
+2022-12-24 07:44:29,417 Importing JpegImagePlugin
+2022-12-24 07:44:29,417 Importing Jpeg2KImagePlugin
+2022-12-24 07:44:29,417 Importing McIdasImagePlugin
+2022-12-24 07:44:29,418 Importing MicImagePlugin
+2022-12-24 07:44:29,419 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-24 07:44:29,419 Importing MpegImagePlugin
+2022-12-24 07:44:29,422 Importing MpoImagePlugin
+2022-12-24 07:44:29,423 Importing MspImagePlugin
+2022-12-24 07:44:29,424 Importing PalmImagePlugin
+2022-12-24 07:44:29,427 Importing PcdImagePlugin
+2022-12-24 07:44:29,428 Importing PcxImagePlugin
+2022-12-24 07:44:29,428 Importing PdfImagePlugin
+2022-12-24 07:44:29,437 Importing PixarImagePlugin
+2022-12-24 07:44:29,438 Importing PngImagePlugin
+2022-12-24 07:44:29,438 Importing PpmImagePlugin
+2022-12-24 07:44:29,438 Importing PsdImagePlugin
+2022-12-24 07:44:29,439 Importing SgiImagePlugin
+2022-12-24 07:44:29,441 Importing SpiderImagePlugin
+2022-12-24 07:44:29,442 Importing SunImagePlugin
+2022-12-24 07:44:29,443 Importing TgaImagePlugin
+2022-12-24 07:44:29,444 Importing TiffImagePlugin
+2022-12-24 07:44:29,444 Importing WebPImagePlugin
+2022-12-24 07:44:29,453 Importing WmfImagePlugin
+2022-12-24 07:44:29,454 Importing XbmImagePlugin
+2022-12-24 07:44:29,455 Importing XpmImagePlugin
+2022-12-24 07:44:29,456 Importing XVThumbImagePlugin
+2022-12-24 07:44:37,762 Not Found: /media/media/p-2-circuito_yATbCJA.png
+2022-12-24 07:48:39,022 Internal Server Error: /app/indice/
+Traceback (most recent call last):
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/saas/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/saas/bestpreicfes/icfesapp/views.py", line 4, in main
+    from .models import SeccionEstandar, SeccionUno, SeccionLectura, Quiz, OpcionEstandar
+NameError: name 'Quiz' is not defined
+2022-12-24 08:40:41,315 Not Found: /apple-touch-icon-152x152-precomposed.png
+2022-12-24 08:40:41,469 Not Found: /apple-touch-icon-152x152.png
+2022-12-24 08:40:41,548 Not Found: /apple-touch-icon-precomposed.png
+2022-12-24 08:40:41,632 Not Found: /apple-touch-icon.png
+2022-12-25 15:57:52,271 STREAM b'IHDR' 16 13
+2022-12-25 15:57:52,272 STREAM b'sRGB' 41 1
+2022-12-25 15:57:52,272 STREAM b'gAMA' 54 4
+2022-12-25 15:57:52,272 STREAM b'pHYs' 70 9
+2022-12-25 15:57:52,272 STREAM b'IDAT' 91 65445
+2022-12-25 15:57:52,272 Importing BlpImagePlugin
+2022-12-25 15:57:52,274 Importing BmpImagePlugin
+2022-12-25 15:57:52,274 Importing BufrStubImagePlugin
+2022-12-25 15:57:52,275 Importing CurImagePlugin
+2022-12-25 15:57:52,276 Importing DcxImagePlugin
+2022-12-25 15:57:52,277 Importing DdsImagePlugin
+2022-12-25 15:57:52,278 Importing EpsImagePlugin
+2022-12-25 15:57:52,280 Importing FitsImagePlugin
+2022-12-25 15:57:52,281 Importing FitsStubImagePlugin
+2022-12-25 15:57:52,282 Importing FliImagePlugin
+2022-12-25 15:57:52,282 Importing FpxImagePlugin
+2022-12-25 15:57:52,283 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-25 15:57:52,283 Importing FtexImagePlugin
+2022-12-25 15:57:52,284 Importing GbrImagePlugin
+2022-12-25 15:57:52,285 Importing GifImagePlugin
+2022-12-25 15:57:52,285 Importing GribStubImagePlugin
+2022-12-25 15:57:52,286 Importing Hdf5StubImagePlugin
+2022-12-25 15:57:52,287 Importing IcnsImagePlugin
+2022-12-25 15:57:52,290 Importing IcoImagePlugin
+2022-12-25 15:57:52,291 Importing ImImagePlugin
+2022-12-25 15:57:52,292 Importing ImtImagePlugin
+2022-12-25 15:57:52,293 Importing IptcImagePlugin
+2022-12-25 15:57:52,294 Importing JpegImagePlugin
+2022-12-25 15:57:52,294 Importing Jpeg2KImagePlugin
+2022-12-25 15:57:52,294 Importing McIdasImagePlugin
+2022-12-25 15:57:52,295 Importing MicImagePlugin
+2022-12-25 15:57:52,296 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-25 15:57:52,296 Importing MpegImagePlugin
+2022-12-25 15:57:52,297 Importing MpoImagePlugin
+2022-12-25 15:57:52,298 Importing MspImagePlugin
+2022-12-25 15:57:52,298 Importing PalmImagePlugin
+2022-12-25 15:57:52,301 Importing PcdImagePlugin
+2022-12-25 15:57:52,302 Importing PcxImagePlugin
+2022-12-25 15:57:52,302 Importing PdfImagePlugin
+2022-12-25 15:57:52,313 Importing PixarImagePlugin
+2022-12-25 15:57:52,314 Importing PngImagePlugin
+2022-12-25 15:57:52,314 Importing PpmImagePlugin
+2022-12-25 15:57:52,314 Importing PsdImagePlugin
+2022-12-25 15:57:52,315 Importing SgiImagePlugin
+2022-12-25 15:57:52,316 Importing SpiderImagePlugin
+2022-12-25 15:57:52,317 Importing SunImagePlugin
+2022-12-25 15:57:52,317 Importing TgaImagePlugin
+2022-12-25 15:57:52,318 Importing TiffImagePlugin
+2022-12-25 15:57:52,318 Importing WebPImagePlugin
+2022-12-25 15:57:52,327 Importing WmfImagePlugin
+2022-12-25 15:57:52,328 Importing XbmImagePlugin
+2022-12-25 15:57:52,330 Importing XpmImagePlugin
+2022-12-25 15:57:52,331 Importing XVThumbImagePlugin
+2022-12-25 16:23:21,142 STREAM b'IHDR' 16 13
+2022-12-25 16:23:21,142 STREAM b'sRGB' 41 1
+2022-12-25 16:23:21,142 STREAM b'gAMA' 54 4
+2022-12-25 16:23:21,142 STREAM b'pHYs' 70 9
+2022-12-25 16:23:21,142 STREAM b'IDAT' 91 65445
+2022-12-25 16:23:21,142 Importing BlpImagePlugin
+2022-12-25 16:23:21,143 Importing BmpImagePlugin
+2022-12-25 16:23:21,143 Importing BufrStubImagePlugin
+2022-12-25 16:23:21,144 Importing CurImagePlugin
+2022-12-25 16:23:21,144 Importing DcxImagePlugin
+2022-12-25 16:23:21,144 Importing DdsImagePlugin
+2022-12-25 16:23:21,145 Importing EpsImagePlugin
+2022-12-25 16:23:21,145 Importing FitsImagePlugin
+2022-12-25 16:23:21,146 Importing FitsStubImagePlugin
+2022-12-25 16:23:21,146 Importing FliImagePlugin
+2022-12-25 16:23:21,146 Importing FpxImagePlugin
+2022-12-25 16:23:21,147 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-25 16:23:21,147 Importing FtexImagePlugin
+2022-12-25 16:23:21,147 Importing GbrImagePlugin
+2022-12-25 16:23:21,147 Importing GifImagePlugin
+2022-12-25 16:23:21,147 Importing GribStubImagePlugin
+2022-12-25 16:23:21,148 Importing Hdf5StubImagePlugin
+2022-12-25 16:23:21,148 Importing IcnsImagePlugin
+2022-12-25 16:23:21,149 Importing IcoImagePlugin
+2022-12-25 16:23:21,149 Importing ImImagePlugin
+2022-12-25 16:23:21,150 Importing ImtImagePlugin
+2022-12-25 16:23:21,150 Importing IptcImagePlugin
+2022-12-25 16:23:21,151 Importing JpegImagePlugin
+2022-12-25 16:23:21,151 Importing Jpeg2KImagePlugin
+2022-12-25 16:23:21,151 Importing McIdasImagePlugin
+2022-12-25 16:23:21,151 Importing MicImagePlugin
+2022-12-25 16:23:21,151 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-25 16:23:21,151 Importing MpegImagePlugin
+2022-12-25 16:23:21,152 Importing MpoImagePlugin
+2022-12-25 16:23:21,152 Importing MspImagePlugin
+2022-12-25 16:23:21,152 Importing PalmImagePlugin
+2022-12-25 16:23:21,153 Importing PcdImagePlugin
+2022-12-25 16:23:21,153 Importing PcxImagePlugin
+2022-12-25 16:23:21,153 Importing PdfImagePlugin
+2022-12-25 16:23:21,161 Importing PixarImagePlugin
+2022-12-25 16:23:21,161 Importing PngImagePlugin
+2022-12-25 16:23:21,161 Importing PpmImagePlugin
+2022-12-25 16:23:21,161 Importing PsdImagePlugin
+2022-12-25 16:23:21,161 Importing SgiImagePlugin
+2022-12-25 16:23:21,162 Importing SpiderImagePlugin
+2022-12-25 16:23:21,162 Importing SunImagePlugin
+2022-12-25 16:23:21,162 Importing TgaImagePlugin
+2022-12-25 16:23:21,163 Importing TiffImagePlugin
+2022-12-25 16:23:21,163 Importing WebPImagePlugin
+2022-12-25 16:23:21,163 Importing WmfImagePlugin
+2022-12-25 16:23:21,164 Importing XbmImagePlugin
+2022-12-25 16:23:21,165 Importing XpmImagePlugin
+2022-12-25 16:23:21,165 Importing XVThumbImagePlugin
+2022-12-25 16:31:32,972 STREAM b'IHDR' 16 13
+2022-12-25 16:31:32,972 STREAM b'sRGB' 41 1
+2022-12-25 16:31:32,972 STREAM b'gAMA' 54 4
+2022-12-25 16:31:32,972 STREAM b'pHYs' 70 9
+2022-12-25 16:31:32,972 STREAM b'IDAT' 91 65445
+2022-12-25 16:31:32,972 Importing BlpImagePlugin
+2022-12-25 16:31:32,973 Importing BmpImagePlugin
+2022-12-25 16:31:32,973 Importing BufrStubImagePlugin
+2022-12-25 16:31:32,973 Importing CurImagePlugin
+2022-12-25 16:31:32,974 Importing DcxImagePlugin
+2022-12-25 16:31:32,974 Importing DdsImagePlugin
+2022-12-25 16:31:32,975 Importing EpsImagePlugin
+2022-12-25 16:31:32,975 Importing FitsImagePlugin
+2022-12-25 16:31:32,975 Importing FitsStubImagePlugin
+2022-12-25 16:31:32,976 Importing FliImagePlugin
+2022-12-25 16:31:32,976 Importing FpxImagePlugin
+2022-12-25 16:31:32,976 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-12-25 16:31:32,976 Importing FtexImagePlugin
+2022-12-25 16:31:32,977 Importing GbrImagePlugin
+2022-12-25 16:31:32,977 Importing GifImagePlugin
+2022-12-25 16:31:32,977 Importing GribStubImagePlugin
+2022-12-25 16:31:32,977 Importing Hdf5StubImagePlugin
+2022-12-25 16:31:32,978 Importing IcnsImagePlugin
+2022-12-25 16:31:32,979 Importing IcoImagePlugin
+2022-12-25 16:31:32,979 Importing ImImagePlugin
+2022-12-25 16:31:32,980 Importing ImtImagePlugin
+2022-12-25 16:31:32,980 Importing IptcImagePlugin
+2022-12-25 16:31:32,980 Importing JpegImagePlugin
+2022-12-25 16:31:32,980 Importing Jpeg2KImagePlugin
+2022-12-25 16:31:32,980 Importing McIdasImagePlugin
+2022-12-25 16:31:32,981 Importing MicImagePlugin
+2022-12-25 16:31:32,981 Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-12-25 16:31:32,981 Importing MpegImagePlugin
+2022-12-25 16:31:32,981 Importing MpoImagePlugin
+2022-12-25 16:31:32,982 Importing MspImagePlugin
+2022-12-25 16:31:32,982 Importing PalmImagePlugin
+2022-12-25 16:31:32,983 Importing PcdImagePlugin
+2022-12-25 16:31:32,983 Importing PcxImagePlugin
+2022-12-25 16:31:32,983 Importing PdfImagePlugin
+2022-12-25 16:31:32,989 Importing PixarImagePlugin
+2022-12-25 16:31:32,990 Importing PngImagePlugin
+2022-12-25 16:31:32,990 Importing PpmImagePlugin
+2022-12-25 16:31:32,990 Importing PsdImagePlugin
+2022-12-25 16:31:32,990 Importing SgiImagePlugin
+2022-12-25 16:31:32,990 Importing SpiderImagePlugin
+2022-12-25 16:31:32,991 Importing SunImagePlugin
+2022-12-25 16:31:32,991 Importing TgaImagePlugin
+2022-12-25 16:31:32,991 Importing TiffImagePlugin
+2022-12-25 16:31:32,991 Importing WebPImagePlugin
+2022-12-25 16:31:32,992 Importing WmfImagePlugin
+2022-12-25 16:31:32,992 Importing XbmImagePlugin
+2022-12-25 16:31:32,993 Importing XpmImagePlugin
+2022-12-25 16:31:32,994 Importing XVThumbImagePlugin

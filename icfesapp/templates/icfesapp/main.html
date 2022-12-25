@@ -1,0 +1,64 @@
+{% extends 'icfesapp/base.html' %}
+
+{% block content %}
+<section class="w-4/5 mx-auto pt-24">
+  <h1 class="text-gray-300 text-2xl">Cuestionarios disponibles:</h1>
+
+  <!-- <div class="grid grid-cols-4 gap-4"> -->
+  <div class="flex flex-wrap gap-4">
+
+    <!-- Start quiz -->
+    <div class="">
+      <h2 class="text-center">Ciencias Naturales</h2>
+      <div>
+        {% for quiz in ciencias %}
+          <a href="{% url 'icfesapp:prueba' quiz.slug quiz.pk %}" class="border-2 border-blue-700 rounded-full bg-blue-500 text-gray-300 block px-4 py-2 mb-2 text-center text-sm hover:bg-blue-400 hover:text-white">{{ quiz.titulo }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Start quiz -->
+    <div class="">
+      <h2 class="text-center">Matemáticas</h2>
+      <div>
+        {% for quiz in matematicas %}
+          <a href="{% url 'icfesapp:prueba' quiz.slug quiz.pk %}" class="border-2 border-blue-700 rounded-full bg-blue-500 text-gray-300 block px-4 py-2 text-center text-sm hover:bg-blue-400 hover:text-white">{{ quiz.titulo }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Start quiz -->
+    <div class="">
+      <h2 class="text-center">Inglés</h2>
+      <div>
+        {% for quiz in ingles %}
+          <a href="{% url 'icfesapp:prueba' quiz.slug quiz.pk %}" class="border-2 border-blue-700 rounded-full bg-blue-500 text-gray-300 block px-4 py-2 text-center text-sm hover:bg-blue-400 hover:text-white">{{ quiz.titulo }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Start quiz -->
+    <div class="">
+      <h2 class="text-center">Sociales y Ciudadanas</h2>
+      <div>
+        {% for quiz in sociales %}
+          <a href="{% url 'icfesapp:prueba' quiz.slug quiz.pk %}" class="border-2 border-blue-700 rounded-full bg-blue-500 text-gray-300 block px-4 py-2 mb-2 text-center text-sm hover:bg-blue-400 hover:text-white">{{ quiz.titulo }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Start quiz -->
+    <div class="">
+      <h2 class="text-center">Lectura Crítica</h2>
+      <div>
+        {% for quiz in lectura %}
+          <a href="{% url 'icfesapp:prueba' quiz.slug quiz.pk %}" class="border-2 border-blue-700 rounded-full bg-blue-500 text-gray-300 block px-4 py-2 text-center text-sm hover:bg-blue-400 hover:text-white">{{ quiz.titulo }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+
+
+</section>
+{% endblock %}

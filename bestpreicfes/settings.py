@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'icfesapp.apps.IcfesappConfig',
     'blog.apps.BlogConfig',
     'saber11.apps.Saber11Config',
     'preicfesapp.apps.PreicfesappConfig',

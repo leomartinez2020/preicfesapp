@@ -1,0 +1,145 @@
+{% extends 'icfesapp/base.html' %}
+
+{% load mytags %}
+
+{% block content %}
+<header class="w-4/5 mx-auto mt-6 flex justify-between">
+  <h1 class="text-xl text-center font-bold">{{ quiz.titulo | title }}</h1>
+  <a class="p-2 border-2 border-slate-400 rounded-lg bg-slate-300 hover:bg-slate-500 hover:text-white hover:underline" href="{% url 'icfesapp:main' %}">Salir</a>
+</header>
+
+<div class="w-4/5 mx-auto pt-8">
+<form action="{% url 'icfesapp:revisar' quiz.id %}" method="post">
+{% csrf_token %}
+{% for seccion in secciones %}
+<!-- Seccion tipo 1 -->
+  {% if seccion.tipo == 'tipouno' %}
+    <p class="font-bold text-xl text-yellow-700 text-center">{{ seccion.titulo }}</p>
+    <p class="font-bold text-xl text-yellow-700 text-center">{{ seccion.texto }}</p>
+    {% if seccion.descripcion %}
+      <div>{{ seccion.descripcion }}</div>
+    {% endif %}
+    <p class="font-bold text-2xl text-yellow-700 text-center">{{ seccion.tema }}</p>
+    <p><span class="px-2 bg-blue-300 font-bold text-yellow-700 rounded-md">Ejemplo</span></p>
+    <p><span class="font-bold">0.</span> {{ seccion.ejemplo.pregunta }}</p>
+    {% include 'icfesapp/snippet_ejemplo.html' %}
+    <section class="my-10 grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="sm:border-r-4 border-yellow-700 col-span-2">
+        <h3 class="text-xl text-amber-700 font-bold border-b-4 border-yellow-700 mr-4">Descripciones</h3>
+        {% for pregunta in seccion.get_preguntas %}
+          <!-- Cuadro de opciones -->
+          <div class="pb-4">
+            <p class=""><span class="font-bold">{{ forloop.counter }}.</span> {{ pregunta.texto }}</p>
+            {% include 'icfesapp/cuadro_respuestas.html' %}
+          </div>
+          <!-- Fin cuadro de opciones -->
+        {% endfor %}
+      </div>
+      <div class="">
+        <h3 class="text-xl text-amber-700 font-bold border-b-4 border-yellow-700">Palabras</h3>
+        {% for key, value in seccion.palabras.items %}
+          {% if key == 'H' %}
+            <span class="mt-2 p-1 inline-block text-lg font-bold text-yellow-700 rounded-md border-blue-300 bg-blue-300"><span class="font-bold">{{ key }}.</span> {{value}}</span>
+          {% else %}
+            <p class="text-lg py-3"><span class="font-bold">{{ key }}.</span> {{value}}</p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+<!-- Fin seccion tipo 1 -->
+
+<!-- Seccion tipo 2 lectura -->
+  {% if seccion.tipo == 'tipolectura' %}
+    <p class="font-bold text-xl text-yellow-700 text-center">{{ seccion.titulo }}</p>
+    <p class="font-bold text-xl text-yellow-700 text-center">{{ seccion.texto }}</p>
+    {% if seccion.descripcion %}
+      <div>{{ seccion.descripcion }}</div>
+    {% endif %}
+    {% if seccion.lectura %}
+      <div>{{ seccion.lectura }}</div>
+    {% endif %}
+    {% if seccion.imagen %}
+      <span class="px-2 bg-blue-300 font-bold text-yellow-700 rounded-md">Ejemplo:</span>
+      <img class="mx-auto" src="{{ seccion.imagen.url }}" alt="{{ seccion.titulo }}">
+    {% endif %}
+    {% for pregunta in seccion.get_preguntas %}
+      <!-- Definir las columnas -->
+      {% if seccion.columnas == 1 %}
+      <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+      {% elif seccion.columnas == 4 %}
+      <section class="">
+      {% else %}
+      <section class="flex justify-between mt-10">
+      {% endif %}
+      <!-- Fin definir las columnas -->
+      {% if seccion.columnas == 4 %}
+        <div class="mt-10 flex gap-4">
+        <span class="font-bold mr-2">{{ forloop.counter }}.</span>
+      {% else %}
+        <p class="{% if seccion.columnas == 2 %}mt-1{% else %}mt-10{% endif %}">
+          <span class="font-bold">{{ forloop.counter }}.</span>
+          {{ pregunta.texto }}
+        </p>
+        <div>
+      {% endif %}
+        {% for opcion in pregunta.get_opciones %}
+          <div class="mr-4">
+            <input type="radio" id="opcion{{ opcion.pk }}" name="lectura{{ pregunta.pk }}" value="{{ opcion.texto }}-{{ pregunta.pk }}">
+            <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto | safe }}</label>
+          </div>
+        {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  {% endif %}
+<!-- Fin seccion tipo 2 lectura -->
+
+<!-- Seccion tipo 3 estándar -->
+  {% if seccion.tipo == 'tipoestandar' %}
+    <div class="w-4/5 mx-auto pt-8">
+      {% for pregunta in seccion.get_preguntas %}
+        <section class="mt-6 pb-2 px-2 border-b-4 border-r-4 border-slate-300 shadow-md">
+          <span class="text-lg font-bold">{{ forloop.counter }}.</span>
+          {% if pregunta.preambulo %}
+            {% autoescape off %}
+              <p class="text-xl">{{ pregunta.preambulo | safe }}</p>
+            {% endautoescape %}
+          {% endif %}
+          {% if pregunta.imagen %}
+            <img src="{{ pregunta.imagen.url }}"/>
+          {% endif %}
+          {% autoescape off %}
+            <p class="text-xl">{{ pregunta.texto | safe }}</p>
+          {% endautoescape %}
+          <div {% if pregunta.respuestas_tienen_imagen %}class="flex flex-wrap gap-1"{% endif %}>
+          {% for opcion in pregunta.get_opciones %}
+            <div {% if opcion.imagen %}class="flex border-2 border-gray-200"{% endif %}>
+              <input type="radio" id="opcion{{ opcion.pk }}" name="estandar-{{ pregunta.pk }}" value="{{ pregunta.pk}}-{{ opcion.pk }}">
+              {% if opcion.imagen %}
+              <label for="opcion{{ opcion.pk }}"></label>
+              <img class="mr-6" src="{{ opcion.imagen.url }}" alt=""/>
+              {% else %}
+                {% autoescape off %}
+                <label class="mr-6" for="opcion{{ opcion.pk }}">{{ opcion.texto | safe }}</label>
+                {% endautoescape %}
+              {% endif %}
+            </div>
+
+          {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  {% endif %}
+<!-- Fin seccion tipo 3 estándar -->
+
+{% endfor %}
+   <!-- Botón enviar -->
+   <div class="text-center my-6">
+     <input type="submit" value="Enviar" class="cursor-pointer mt-4 text-white bg-slate-600 hover:bg-slate-800 text-lg font-medium rounded-lg px-5 focus:ring-4 focus:ring-blue-300 px-4"/>
+   </div>
+</form>
+</div>
+
+{% endblock %}
